@@ -3,12 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- ETIQUETAS ANTI-CACHÉ (Obligan a mostrar siempre la versión más reciente) -->
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
-    <!-- ====================================================================== -->
 
     <title>Dashboard conectividad Ártimo</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
@@ -110,7 +107,6 @@
         .font-bold { font-weight: 700; color: var(--text-main); }
         .text-sub { color: var(--text-sub); font-size: 12px; }
 
-        /* Modal Overlay */
         .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.6); z-index: 1000; align-items: center; justify-content: center; backdrop-filter: blur(3px); }
         .modal-content { background: var(--modal-bg); padding: 24px; border-radius: 12px; max-width: 450px; width: 90%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid var(--border-color); position: relative; }
         .close-modal { position: absolute; top: 12px; right: 15px; font-size: 22px; cursor: pointer; border: none; background: none; color: var(--text-sub); }
@@ -139,7 +135,6 @@
         </div>
     </div>
 
-    <!-- Modal HTML -->
     <div id="info_modal" class="modal-overlay">
         <div class="modal-content">
             <button class="close-modal" onclick="closeModal()">&times;</button>
@@ -222,6 +217,7 @@
                             <th>Generador</th>
                             <th>Cliente</th>
                             <th>Modelo / Script</th>
+                            <th>Horómetro</th> <!-- SE AGREGÓ LA COLUMNA -->
                             <th>Estado</th>
                             <th>Última Conexión</th>
                             <th style="text-align: center;">Días Offline</th>
@@ -248,7 +244,6 @@
     </div>
 
     <script>
-        // VARIABLE GLOBAL VACÍA QUE AHORA SE LLENARÁ SOLA
         let rawData = [];
         
         const historyData = [
@@ -269,51 +264,96 @@
         let currentPage = 1;
         const rowsPerPage = 20;
 
+        // Función para limpiar coordenadas (soluciona comas en vez de puntos en excel)
+        function parseCoord(val) {
+            if (!val || String(val).toLowerCase() === 'nan' || String(val).trim() === '') return null;
+            let num = parseFloat(String(val).replace(',', '.'));
+            if (isNaN(num) || num === 0) return null;
+            return num;
+        }
+
+        // Función para leer las fechas DD/MM/YY HH:MM del Excel de forma segura
+        function parseDateCustom(dateStr) {
+            if (!dateStr || String(dateStr).toLowerCase() === 'nan') return null;
+            let dStr = String(dateStr).split(' ')[0]; // Toma solo la fecha, ignorando la hora
+            let parts = dStr.split('/');
+            if (parts.length === 3) {
+                let d = parseInt(parts[0], 10);
+                let m = parseInt(parts[1], 10) - 1;
+                let y = parseInt(parts[2], 10);
+                if (y < 100) y += 2000;
+                return new Date(y, m, d);
+            }
+            return null;
+        }
+
         // ==========================================
-        // NUEVA FUNCIÓN PARA EXTRAER JSON DINÁMICO
+        // Carga y cálculo inteligente de datos
         // ==========================================
         async function cargarDatosDinamicos() {
             try {
                 const response = await fetch('consolidado_general.json');
                 const jsonData = await response.json();
                 
-                // Mapeamos dinámicamente los datos que generó Python hacia la estructura que el Dashboard necesita
                 rawData = jsonData.map(item => {
-                    // Adaptamos variables por si el script usó diferentes nombres
+                    let fUltima = parseDateCustom(item.ultima_conexion);
+                    let diasOff = 0;
+                    let estadoStr = "Operando";
+                    let gravedadStr = "Conectado";
+                    let planStr = "✅ Monitoreo continuo. Equipo estable.";
+
+                    // Matemáticas para calcular los días offline respecto a HOY
+                    if (fUltima) {
+                        let diffTime = new Date().getTime() - fUltima.getTime();
+                        diasOff = Math.floor(diffTime / (1000 * 3600 * 24));
+                        if (diasOff < 0) diasOff = 0;
+                        
+                        if (diasOff > 0) {
+                            estadoStr = "Fuera de cobertura";
+                            if (diasOff <= 3) { gravedadStr = "1 a 3 días"; planStr = "🔍 Validar intermitencia de red."; }
+                            else if (diasOff <= 7) { gravedadStr = "4 a 7 días"; planStr = "🛠️ Validar dispositivo y señal GPRS."; }
+                            else { gravedadStr = "Más de 7 días"; planStr = "🚨 Visita técnica urgente."; }
+                        }
+                    } else {
+                        estadoStr = "Fuera de cobertura";
+                        gravedadStr = "Sin registro previo";
+                        planStr = "Verificar conexión inicial.";
+                    }
+
                     return {
-                        dealer: item.dealer || item.canal || "SIN DEALER",
-                        generador: item.generador || item.identificacion || "SIN ID",
+                        dealer: item.canal || "SIN DEALER",
+                        generador: item.identificacion || "SIN ID",
                         cliente: item.cliente || "SIN CLIENTE",
-                        tecnologia: item.tecnologia || item.Type || "Desconocida",
-                        modelo: item.modelo || item.Script || "Desconocido",
-                        fecha: item.fecha || item.ultima_conexion || "Sin registro",
-                        estado: item.estado || (item.horas_recientes > 0 ? "Operando" : "Fuera de cobertura"),
-                        gravedad: item.gravedad || "Conectado",
-                        dias_offline: item.dias_offline || 0,
-                        plan_accion: item.plan_accion || "Verificar estado del equipo.",
-                        lat: parseFloat(item.lat) || parseFloat(item.latitud) || 0,
-                        lon: parseFloat(item.lon) || parseFloat(item.longitud) || 0
+                        tecnologia: item.tecnologia || "Desconocida",
+                        modelo: item.modelo || "Desconocido",
+                        fecha: item.ultima_conexion ? String(item.ultima_conexion).split(' ')[0] : "Sin registro",
+                        estado: estadoStr,
+                        gravedad: gravedadStr,
+                        dias_offline: diasOff,
+                        plan_accion: planStr,
+                        lat: parseCoord(item.latitud),
+                        lon: parseCoord(item.longitud), 
+                        horometro: parseFloat(item.horometro_total) || 0
                     };
                 });
                 
-                // Inicializamos los componentes
                 populateDropdowns(); 
                 renderTrendChart(); 
                 updateDashboard();
 
             } catch (error) {
-                console.error("Error al cargar los datos desde consolidado_general.json", error);
+                console.error("Error al cargar los datos", error);
                 document.getElementById('no_data_message').style.display = 'block';
-                document.getElementById('no_data_message').innerText = 'No se pudo cargar el archivo JSON. Verifica que GitHub Actions haya terminado correctamente.';
+                document.getElementById('no_data_message').innerText = 'No se pudo cargar el archivo JSON. Verifica que GitHub Actions terminó su trabajo.';
             }
         }
 
         window.addEventListener('DOMContentLoaded', () => { 
-            cargarDatosDinamicos(); // Inicia la carga automática de datos
+            cargarDatosDinamicos(); 
         });
 
         // ======================================================================
-        // CÓDIGO ORIGINAL DEL DASHBOARD (Sin alteraciones visuales)
+        // CÓDIGO VISUAL DEL DASHBOARD
         // ======================================================================
 
         function toggleDarkMode() { document.body.classList.toggle('dark-mode'); updateDashboard(); renderTrendChart(); }
@@ -419,7 +459,7 @@
                 renderTopClientsChart(filteredData);
                 renderTopModelsChart(filteredData); 
             } catch (error) {
-                console.error("Aviso: Error silencioso al renderizar un gráfico de Plotly:", error);
+                console.error("Aviso: Error silencioso al renderizar un gráfico:", error);
             }
             
             renderTableOnly(filteredData);
@@ -530,12 +570,8 @@
             Plotly.react('chart_dona', [{ values: [op, off], labels: ['Operando', 'Fuera de cobertura'], type: 'pie', hole: 0.5, marker: { colors: ['#10B981', '#BC1818'] }, textinfo: 'value+percent' }], layout, { responsive: true, displayModeBar: false });
             
             const elDona = document.getElementById('chart_dona');
-            if (elDona && typeof elDona.removeAllListeners === 'function') {
-                elDona.removeAllListeners('plotly_click');
-            }
-            if (elDona) {
-                elDona.on('plotly_click', d => { currentFilters.estado = (currentFilters.estado === d.points[0].label) ? null : d.points[0].label; updateDashboard(); });
-            }
+            if (elDona && typeof elDona.removeAllListeners === 'function') { elDona.removeAllListeners('plotly_click'); }
+            if (elDona) { elDona.on('plotly_click', d => { currentFilters.estado = (currentFilters.estado === d.points[0].label) ? null : d.points[0].label; updateDashboard(); }); }
         }
 
         function renderTechChart(data) {
@@ -545,12 +581,8 @@
             Plotly.react('chart_tech', [ { x: x, y: x.map(k=>map[k].op), name: 'Operando', type: 'bar', marker: { color: '#10B981' } }, { x: x, y: x.map(k=>map[k].off), name: 'Offline', type: 'bar', marker: { color: '#BC1818' } } ], layout, { responsive: true, displayModeBar: false });
             
             const elTech = document.getElementById('chart_tech');
-            if (elTech && typeof elTech.removeAllListeners === 'function') {
-                elTech.removeAllListeners('plotly_click');
-            }
-            if (elTech) {
-                elTech.on('plotly_click', d => { currentFilters.tecnologia = (currentFilters.tecnologia === d.points[0].x) ? null : d.points[0].x; updateDashboard(); });
-            }
+            if (elTech && typeof elTech.removeAllListeners === 'function') { elTech.removeAllListeners('plotly_click'); }
+            if (elTech) { elTech.on('plotly_click', d => { currentFilters.tecnologia = (currentFilters.tecnologia === d.points[0].x) ? null : d.points[0].x; updateDashboard(); }); }
         }
 
         function renderGravityChart(data) {
@@ -561,12 +593,8 @@
             Plotly.react('chart_gravity', [{ x: x, y: x.map(k=>map[k]), type: 'bar', marker: { color: ['#F59E0B', '#E84C22', '#BC1818', '#5A5A59'] } }], layout, { responsive: true, displayModeBar: false });
             
             const elGrav = document.getElementById('chart_gravity');
-            if (elGrav && typeof elGrav.removeAllListeners === 'function') {
-                elGrav.removeAllListeners('plotly_click');
-            }
-            if (elGrav) {
-                elGrav.on('plotly_click', d => { currentFilters.gravedad = (currentFilters.gravedad === d.points[0].x) ? null : d.points[0].x; updateDashboard(); });
-            }
+            if (elGrav && typeof elGrav.removeAllListeners === 'function') { elGrav.removeAllListeners('plotly_click'); }
+            if (elGrav) { elGrav.on('plotly_click', d => { currentFilters.gravedad = (currentFilters.gravedad === d.points[0].x) ? null : d.points[0].x; updateDashboard(); }); }
         }
 
         function renderTopDealersChart(data) {
@@ -576,12 +604,8 @@
             Plotly.react('chart_top_dealers', [{ y: sorted.map(i=>truncateLabel(i[0], 25)), x: sorted.map(i=>i[1]), type: 'bar', orientation: 'h', marker: { color: '#BC1818' }, text: sorted.map(i=>i[0]), textposition: 'none', hoverinfo: 'text+x' }], layout, { responsive: true, displayModeBar: false });
             
             const elDeal = document.getElementById('chart_top_dealers');
-            if (elDeal && typeof elDeal.removeAllListeners === 'function') {
-                elDeal.removeAllListeners('plotly_click');
-            }
-            if (elDeal) {
-                elDeal.on('plotly_click', d => { filterByDropdown('dealer', (currentFilters.dealer === d.points[0].text) ? 'TODOS' : d.points[0].text); });
-            }
+            if (elDeal && typeof elDeal.removeAllListeners === 'function') { elDeal.removeAllListeners('plotly_click'); }
+            if (elDeal) { elDeal.on('plotly_click', d => { filterByDropdown('dealer', (currentFilters.dealer === d.points[0].text) ? 'TODOS' : d.points[0].text); }); }
         }
 
         function renderTopClientsChart(data) {
@@ -591,12 +615,8 @@
             Plotly.react('chart_top_clients', [{ y: sorted.map(i=>truncateLabel(i[0], 25)), x: sorted.map(i=>i[1]), type: 'bar', orientation: 'h', marker: { color: '#E84C22' }, text: sorted.map(i=>i[0]), textposition: 'none', hoverinfo: 'text+x' }], layout, { responsive: true, displayModeBar: false });
             
             const elClient = document.getElementById('chart_top_clients');
-            if (elClient && typeof elClient.removeAllListeners === 'function') {
-                elClient.removeAllListeners('plotly_click');
-            }
-            if (elClient) {
-                elClient.on('plotly_click', d => { filterByDropdown('cliente', (currentFilters.cliente === d.points[0].text) ? 'TODOS' : d.points[0].text); });
-            }
+            if (elClient && typeof elClient.removeAllListeners === 'function') { elClient.removeAllListeners('plotly_click'); }
+            if (elClient) { elClient.on('plotly_click', d => { filterByDropdown('cliente', (currentFilters.cliente === d.points[0].text) ? 'TODOS' : d.points[0].text); }); }
         }
 
         function renderTopModelsChart(data) {
@@ -606,12 +626,8 @@
             Plotly.react('chart_top_models', [{ y: sorted.map(i=>truncateLabel(i[0], 25)), x: sorted.map(i=>i[1]), type: 'bar', orientation: 'h', marker: { color: '#F59E0B' }, text: sorted.map(i=>i[0]), textposition: 'none', hoverinfo: 'text+x' }], layout, { responsive: true, displayModeBar: false });
             
             const elModel = document.getElementById('chart_top_models');
-            if (elModel && typeof elModel.removeAllListeners === 'function') {
-                elModel.removeAllListeners('plotly_click');
-            }
-            if (elModel) {
-                elModel.on('plotly_click', d => { currentFilters.modelo = (currentFilters.modelo === d.points[0].text) ? null : d.points[0].text; updateDashboard(); });
-            }
+            if (elModel && typeof elModel.removeAllListeners === 'function') { elModel.removeAllListeners('plotly_click'); }
+            if (elModel) { elModel.on('plotly_click', d => { currentFilters.modelo = (currentFilters.modelo === d.points[0].text) ? null : d.points[0].text; updateDashboard(); }); }
         }
 
         function changePage(direction) {
@@ -637,7 +653,6 @@
             msg.style.display = 'none';
             paginationCtr.style.display = 'flex';
 
-            // Lógica de Paginación
             const totalPages = Math.ceil(finalData.length / rowsPerPage);
             if (currentPage > totalPages) currentPage = totalPages;
             if (currentPage < 1) currentPage = 1;
@@ -662,6 +677,7 @@
                     <td class="font-bold">${r.generador}</td>
                     <td class="text-sub">${r.cliente}</td>
                     <td class="text-sub">${r.modelo}</td>
+                    <td class="font-bold">${Number(r.horometro).toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1})}</td>
                     <td>${statusBadge}</td>
                     <td class="text-sub">${r.fecha}</td>
                     <td class="font-bold" style="text-align:center;">${diasStr}</td>
@@ -671,7 +687,6 @@
             });
             tbody.innerHTML = tableHTML;
 
-            // Actualizar interfaz de paginación
             document.getElementById('pagination_info').innerText = `Mostrando ${startIndex + 1} a ${Math.min(endIndex, finalData.length)} de ${finalData.length} registros`;
             
             const btnPrev = document.getElementById('btn_prev');
@@ -690,11 +705,11 @@
         function exportToCSV() {
             const dataToExport = getFilteredData().filter(d => d.generador.toLowerCase().includes(searchTerm));
             if (dataToExport.length === 0) return alert("No hay datos para exportar.");
-            const headers = ["Dealer", "Generador", "Cliente", "Tecnologia", "Modelo_Script", "Estado", "Ultima_Conexion", "Severidad", "Dias_Desconectado", "Latitud", "Longitud", "Plan_de_Accion"];
+            const headers = ["Dealer", "Generador", "Cliente", "Tecnologia", "Modelo_Script", "Horometro", "Estado", "Ultima_Conexion", "Severidad", "Dias_Desconectado", "Latitud", "Longitud", "Plan_de_Accion"];
             const csvRows = [headers.join(',')];
             dataToExport.forEach(r => {
                 const latStr = r.lat !== null ? r.lat : ''; const lonStr = r.lon !== null ? r.lon : '';
-                const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, `"${r.estado}"`, `"${r.fecha}"`, `"${r.gravedad}"`, r.dias_offline, latStr, lonStr, `"${r.plan_accion}"` ];
+                const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, r.horometro, `"${r.estado}"`, `"${r.fecha}"`, `"${r.gravedad}"`, r.dias_offline, latStr, lonStr, `"${r.plan_accion}"` ];
                 csvRows.push(values.join(','));
             });
             const blob = new Blob(["\uFEFF" + csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
