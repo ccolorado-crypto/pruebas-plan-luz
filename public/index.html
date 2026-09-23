@@ -111,6 +111,9 @@
         .modal-content { background: var(--modal-bg); padding: 24px; border-radius: 12px; max-width: 450px; width: 90%; box-shadow: 0 10px 25px rgba(0,0,0,0.3); border: 1px solid var(--border-color); position: relative; }
         .close-modal { position: absolute; top: 12px; right: 15px; font-size: 22px; cursor: pointer; border: none; background: none; color: var(--text-sub); }
         .close-modal:hover { color: var(--artimo-rojo-oscuro); }
+
+        .date-range-container { display: flex; align-items: center; gap: 5px; background: #2a2a2a; padding: 2px 8px; border-radius: 6px; border: 1px solid #4B5563; }
+        .date-input { background: transparent; color: white; border: none; outline: none; font-family: 'Open Sans'; font-size: 12px; padding: 4px; color-scheme: dark; }
     </style>
 </head>
 <body>
@@ -124,9 +127,15 @@
         </div>
         <div class="topbar-right">
             <button onclick="toggleDarkMode()" class="btn-action btn-dark">🌙 Tema</button>
-            <select id="month_select" class="filter-select" onchange="filterByDropdown('mes', this.value)">
-                <option value="TODOS">-- HISTÓRICO COMPLETO --</option>
-            </select>
+            
+            <!-- NUEVO FILTRO DE FECHAS -->
+            <div class="date-range-container">
+                <label style="color:#9CA3AF; font-size:11px;">Desde:</label>
+                <input type="date" id="date_start" class="date-input" onchange="filterByDate()">
+                <label style="color:#9CA3AF; font-size:11px;">Hasta:</label>
+                <input type="date" id="date_end" class="date-input" onchange="filterByDate()">
+            </div>
+
             <select id="dealer_select" class="filter-select" onchange="filterByDropdown('dealer', this.value)">
                 <option value="TODOS">-- TODOS LOS DEALERS --</option>
             </select>
@@ -206,7 +215,7 @@
             <div class="table-header">
                 <div>
                     <h2 id="table_title" style="margin:0;font-size:18px;">Detalle de Equipos</h2>
-                    <span class="text-sub">El filtro de mes actualiza la columna "Horas Operadas".</span>
+                    <span class="text-sub">El filtro de fechas calcula las "Horas Operadas" en ese rango exacto.</span>
                 </div>
                 <div data-html2canvas-ignore="true">
                     <input type="text" id="table_search" class="search-input" placeholder="Buscar por generador..." oninput="onSearchTable(this.value)">
@@ -250,7 +259,7 @@
         let rawData = [];
         let trendDataGlobal = {}; 
         
-        let currentFilters = { mes: 'TODOS', dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null };
+        let currentFilters = { dateStart: '', dateEnd: '', dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null };
         let searchTerm = '';
         let isHeatmapMode = false;
         let currentPage = 1;
@@ -290,18 +299,20 @@
             return "Semana " + weekNo;
         }
 
-        // LÓGICA MATEMÁTICA: Restar horómetro inicial del final según el mes seleccionado
-        function calcularHorasOperadas(lecturas, filtroMes) {
+        // LÓGICA MATEMÁTICA: Filtrar por fechas Desde / Hasta
+        function calcularHorasOperadas(lecturas) {
             if (!lecturas || Object.keys(lecturas).length === 0) return "-";
             
             let fechas = Object.keys(lecturas).sort(); // Ordenar fechas de antigua a reciente
             
-            if (filtroMes !== 'TODOS') {
-                fechas = fechas.filter(f => f.startsWith(filtroMes)); 
-            }
+            let dStart = currentFilters.dateStart;
+            let dEnd = currentFilters.dateEnd;
+            
+            if (dStart) fechas = fechas.filter(f => f >= dStart);
+            if (dEnd) fechas = fechas.filter(f => f <= dEnd);
             
             if (fechas.length === 0) return "-";
-            if (fechas.length === 1) return 0.0; // Solo un registro en el mes, no hay diferencia
+            if (fechas.length === 1) return 0.0; // Si solo abarca 1 día, no hay una resta válida para el rango.
             
             let hMin = lecturas[fechas[0]];
             let hMax = lecturas[fechas[fechas.length - 1]];
@@ -373,7 +384,7 @@
                         lat: parseCoord(item.latitud),
                         lon: parseCoord(item.longitud),
                         horometro_visual: horoFinal,
-                        lecturas: item.lecturas_historicas || {} // El libro contable de la máquina
+                        lecturas: item.lecturas_historicas || {}
                     };
                 });
                 
@@ -402,22 +413,8 @@
         function truncateLabel(str, maxLen = 22) { if (!str) return ''; return str.length > maxLen ? str.substring(0, maxLen - 2) + '..' : str; }
 
         function populateDropdowns() {
-            const monthSelect = document.getElementById('month_select');
             const dealerSelect = document.getElementById('dealer_select');
             const clientSelect = document.getElementById('client_select');
-            
-            // Llenar meses dinámicamente desde el historial
-            let monthSet = new Set();
-            rawData.forEach(d => {
-                if(d.lecturas) { Object.keys(d.lecturas).forEach(f => monthSet.add(f.substring(0, 7))); }
-            });
-            let uniqueMonths = [...monthSet].sort().reverse();
-            
-            monthSelect.innerHTML = '<option value="TODOS">-- HISTÓRICO COMPLETO --</option>';
-            uniqueMonths.forEach(m => {
-                const opt = document.createElement('option'); opt.value = m; opt.textContent = "Mes: " + m;
-                if(currentFilters.mes === m) opt.selected = true; monthSelect.appendChild(opt);
-            });
 
             dealerSelect.innerHTML = '<option value="TODOS">-- TODOS LOS DEALERS --</option>';
             clientSelect.innerHTML = '<option value="TODOS">-- TODOS LOS CLIENTES --</option>';
@@ -439,11 +436,38 @@
             if (uniqueDealers.length <= 1) { dealerSelect.style.display = 'none'; }
         }
 
+        // Nueva función para filtrar por los calendarios
+        function filterByDate() {
+            currentFilters.dateStart = document.getElementById('date_start').value;
+            currentFilters.dateEnd = document.getElementById('date_end').value;
+            updateDashboard();
+        }
+
+        function clearDate(key) {
+            currentFilters[key] = '';
+            if (key === 'dateStart') document.getElementById('date_start').value = '';
+            if (key === 'dateEnd') document.getElementById('date_end').value = '';
+            updateDashboard();
+        }
+
         function filterByDropdown(key, val) { currentFilters[key] = val; if(key === 'dealer') currentFilters.cliente = 'TODOS'; populateDropdowns(); updateDashboard(); }
-        function applyQuickWins() { currentFilters = { mes: currentFilters.mes, dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: '1 a 3 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
-        function applyDangerSLA() { currentFilters = { mes: currentFilters.mes, dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: 'Más de 7 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
-        function clearFilter(key) { if(key === 'dealer' || key === 'cliente' || key === 'mes') currentFilters[key] = 'TODOS'; else currentFilters[key] = null; populateDropdowns(); updateDashboard(); }
-        function clearAllFilters() { currentFilters = { mes: 'TODOS', dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null }; document.getElementById('table_search').value = ''; searchTerm = ''; populateDropdowns(); updateDashboard(); }
+        function applyQuickWins() { currentFilters = { dateStart: currentFilters.dateStart, dateEnd: currentFilters.dateEnd, dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: '1 a 3 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
+        function applyDangerSLA() { currentFilters = { dateStart: currentFilters.dateStart, dateEnd: currentFilters.dateEnd, dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: 'Más de 7 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
+        
+        function clearFilter(key) { 
+            if(key === 'dealer' || key === 'cliente') currentFilters[key] = 'TODOS'; 
+            else currentFilters[key] = null; 
+            populateDropdowns(); 
+            updateDashboard(); 
+        }
+
+        function clearAllFilters() { 
+            currentFilters = { dateStart: '', dateEnd: '', dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null }; 
+            document.getElementById('table_search').value = ''; searchTerm = ''; 
+            document.getElementById('date_start').value = ''; document.getElementById('date_end').value = '';
+            populateDropdowns(); updateDashboard(); 
+        }
+
         function onSearchTable(val) { searchTerm = val.toLowerCase().trim(); currentPage = 1; renderTableOnly(); }
         function toggleHeatmap() { isHeatmapMode = !isHeatmapMode; updateDashboard(); }
         function closeModal() { document.getElementById('info_modal').style.display = 'none'; }
@@ -453,7 +477,6 @@
             if (event.target == modal) { modal.style.display = 'none'; }
         }
 
-        // El filtro de Mes NO elimina máquinas, solo afecta el cálculo de horas operadas
         function getFilteredData() {
             return rawData.filter(d => 
                 (currentFilters.dealer === 'TODOS' || d.dealer === currentFilters.dealer) &&
@@ -503,11 +526,17 @@
 
         function renderActiveFilterTags() {
             const container = document.getElementById('active_filters'); container.innerHTML = ''; let has = false;
+            
+            if(currentFilters.dateStart) { has = true; container.innerHTML += `<div class="tag">Desde: ${currentFilters.dateStart} <button onclick="clearDate('dateStart')">×</button></div>`; }
+            if(currentFilters.dateEnd) { has = true; container.innerHTML += `<div class="tag">Hasta: ${currentFilters.dateEnd} <button onclick="clearDate('dateEnd')">×</button></div>`; }
+
             Object.keys(currentFilters).forEach(key => {
+                if (key === 'dateStart' || key === 'dateEnd') return;
                 if(currentFilters[key] && currentFilters[key] !== 'TODOS') {
                     has = true; container.innerHTML += `<div class="tag">${key}: ${currentFilters[key]} <button onclick="clearFilter('${key}')">×</button></div>`;
                 }
             });
+
             if(has) container.innerHTML += `<button class="btn-clear" onclick="clearAllFilters()">Limpiar Filtros</button>`;
             else container.innerHTML = `<span class="text-sub">Usa los menús superiores o haz clic en gráficas y mapa para filtrar.</span>`;
         }
@@ -603,8 +632,7 @@
                                 <p style="margin:8px 0;"><b>🔴 Estado:</b> ${maquina.estado} ${maquina.dias_offline > 0 ? `(${maquina.dias_offline} días offline)` : ''}</p>
                                 <div style="margin-top: 15px; padding: 12px; background: rgba(188,24,24,0.08); border-left: 3px solid var(--artimo-rojo-oscuro); border-radius: 6px;">
                                     <b>🛠️ PLAN DE ACCIÓN:</b><br>${maquina.plan_accion}
-                                </div>
-                            `;
+                                </div>`;
                             document.getElementById('info_modal').style.display = 'flex';
                             document.getElementById('table_search').value = clickedGen; 
                             onSearchTable(clickedGen); 
@@ -724,8 +752,8 @@
                     else gravBadge = `<span class="badge-mid">${r.gravedad}</span>`;
                 }
 
-                // Cálculo de horas según el filtro de mes
-                let horasCalc = calcularHorasOperadas(r.lecturas, currentFilters.mes);
+                // Ahora calculamos usando las fechas exactas seleccionadas en los calendarios
+                let horasCalc = calcularHorasOperadas(r.lecturas);
                 let horasVisual = horasCalc === "-" ? "-" : Number(horasCalc).toLocaleString('es-CO', {minimumFractionDigits: 1, maximumFractionDigits: 1}) + ' h';
 
                 tableHTML += `<tr>
@@ -758,10 +786,10 @@
         function exportToCSV() {
             const dataToExport = getFilteredData().filter(d => d.generador.toLowerCase().includes(searchTerm));
             if (dataToExport.length === 0) return alert("No hay datos para exportar.");
-            const headers = ["Dealer", "Generador", "Cliente", "Tecnologia", "Modelo", "Horometro_Total", "Horas_Operadas", "Estado", "Ultima_Conexion", "Plan_de_Accion"];
+            const headers = ["Dealer", "Generador", "Cliente", "Tecnologia", "Modelo_Script", "Horometro_Total", "Horas_Operadas_En_Rango", "Estado", "Ultima_Conexion", "Plan_de_Accion"];
             const csvRows = [headers.join(',')];
             dataToExport.forEach(r => {
-                let horasCalc = calcularHorasOperadas(r.lecturas, currentFilters.mes);
+                let horasCalc = calcularHorasOperadas(r.lecturas);
                 const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, `"${r.horometro_visual}"`, `"${horasCalc}"`, `"${r.estado}"`, `"${r.fecha}"`, `"${r.plan_accion}"` ];
                 csvRows.push(values.join(','));
             });
