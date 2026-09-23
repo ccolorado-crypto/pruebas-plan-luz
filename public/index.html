@@ -260,11 +260,10 @@
         let currentFilters = { dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null };
         let searchTerm = '';
         let isHeatmapMode = false;
-        
         let currentPage = 1;
         const rowsPerPage = 20;
 
-        // Limpieza de coordenadas para mapa
+        // Limpieza de coordenadas para que el mapa no falle
         function parseCoord(val) {
             if (!val || String(val).toLowerCase() === 'nan' || String(val).trim() === '') return null;
             let num = parseFloat(String(val).replace(',', '.'));
@@ -272,24 +271,21 @@
             return num;
         }
 
-        // Extracción infalible de fechas (Soporta YYYY-MM-DD y DD/MM/YYYY)
+        // Reconocimiento universal de fechas (Guiones o Slach)
         function parseDateCustom(dateStr) {
             if (!dateStr || String(dateStr).toLowerCase() === 'nan' || dateStr === 'NaT') return null;
             let dStr = String(dateStr).trim().split(' ')[0];
-            
-            if (dStr.includes('-')) {
-                let parts = dStr.split('-');
-                if (parts.length >= 3) {
-                    return new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
-                }
-            }
             if (dStr.includes('/')) {
                 let parts = dStr.split('/');
-                if (parts.length >= 3) {
-                    let y = parseInt(parts[2]);
-                    if (y < 100) y += 2000;
-                    return new Date(y, parseInt(parts[1]) - 1, parseInt(parts[0]));
-                }
+                if(parts.length < 3) return null;
+                let y = parseInt(parts[2]);
+                if (y < 100) y += 2000;
+                return new Date(y, parseInt(parts[1]) - 1, parseInt(parts[0]));
+            }
+            if (dStr.includes('-')) {
+                let parts = dStr.split('-');
+                if(parts.length < 3) return null;
+                return new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
             }
             return null;
         }
@@ -299,6 +295,17 @@
                 const response = await fetch('consolidado_general.json');
                 const jsonData = await response.json();
                 
+                // MÁQUINA DEL TIEMPO: Buscar la fecha máxima de tu Excel (2026) para que la resta de días funcione
+                let maxDate = new Date(0);
+                jsonData.forEach(item => {
+                    let d = parseDateCustom(item.ultima_conexion);
+                    if (d && d > maxDate) maxDate = d;
+                });
+                
+                let hoyReal = new Date();
+                let hoy = maxDate > hoyReal ? maxDate : hoyReal;
+                hoy.setHours(0,0,0,0);
+                
                 rawData = jsonData.map(item => {
                     let fUltima = parseDateCustom(item.ultima_conexion);
                     let diasOff = 0;
@@ -307,10 +314,7 @@
                     let planStr = "✅ Monitoreo continuo. Equipo estable.";
 
                     if (fUltima) {
-                        let hoy = new Date();
-                        hoy.setHours(0,0,0,0);
                         fUltima.setHours(0,0,0,0);
-                        
                         let diffTime = hoy - fUltima;
                         diasOff = Math.floor(diffTime / (1000 * 3600 * 24));
                         if (diasOff < 0) diasOff = 0;
@@ -327,9 +331,9 @@
                         planStr = "Verificar conexión inicial.";
                     }
 
-                    // Limpieza de Horómetro loco
+                    // Limpieza del Horómetro loco
                     let horo = parseFloat(item.horometro_total) || 0;
-                    let horoFinal = horo > 999999 ? "Error Sensor" : Number(horo).toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1});
+                    let horoFinal = horo > 999999 ? "Error Sensor" : Number(horo).toLocaleString('es-CO', {minimumFractionDigits: 1, maximumFractionDigits: 1});
 
                     return {
                         dealer: item.dealer || item.canal || "SIN DEALER",
@@ -353,9 +357,9 @@
                 updateDashboard();
 
             } catch (error) {
-                console.error("Error al cargar los datos desde consolidado_general.json", error);
+                console.error("Error al cargar los datos", error);
                 document.getElementById('no_data_message').style.display = 'block';
-                document.getElementById('no_data_message').innerText = 'No se pudo cargar el archivo JSON. Verifica que GitHub Actions haya terminado correctamente.';
+                document.getElementById('no_data_message').innerText = 'No se pudo cargar el archivo JSON. Asegúrate de ejecutar el workflow en GitHub.';
             }
         }
 
@@ -466,7 +470,7 @@
                 renderTopClientsChart(filteredData);
                 renderTopModelsChart(filteredData); 
             } catch (error) {
-                console.error("Aviso: Error silencioso al renderizar un gráfico de Plotly:", error);
+                console.error("Aviso: Error silencioso al renderizar un gráfico:", error);
             }
             
             renderTableOnly(filteredData);
@@ -526,18 +530,25 @@
                 const groups = [...new Set(validData.map(d => d.gravedad))];
                 groups.forEach(g => {
                     const groupData = validData.filter(d => d.gravedad === g);
-                    traces.push({ 
-                        type: 'scattermapbox', 
-                        lat: groupData.map(d => d.lat), 
-                        lon: groupData.map(d => d.lon), 
-                        mode: 'markers', 
-                        marker: { size: 10, color: colorMap[g] || '#5A5A59' }, 
-                        name: g, 
-                        customdata: groupData.map(d => d.generador), 
-                        text: groupData.map(d => `Cliente: ${d.cliente}<br><i>Clic para detalles</i>`), 
-                        hovertemplate: '<b>Generador: %{customdata}</b><br>%{text}<extra></extra>' 
-                    });
+                    if (groupData.length > 0) {
+                        traces.push({ 
+                            type: 'scattermapbox', 
+                            lat: groupData.map(d => d.lat), 
+                            lon: groupData.map(d => d.lon), 
+                            mode: 'markers', 
+                            marker: { size: 10, color: colorMap[g] || '#5A5A59' }, 
+                            name: g, 
+                            customdata: groupData.map(d => d.generador), 
+                            text: groupData.map(d => `Cliente: ${d.cliente}<br><i>Clic para detalles</i>`), 
+                            hovertemplate: '<b>Generador: %{customdata}</b><br>%{text}<extra></extra>' 
+                        });
+                    }
                 });
+            }
+
+            // SEGURO PARA MAPA VACÍO: Si no hay coordenadas en absoluto, forzamos que al menos muestre el mapa.
+            if (traces.length === 0) {
+                traces.push({ type: 'scattermapbox', lat: [], lon: [], mode: 'markers' });
             }
 
             Plotly.react('chart_map', traces, layout, { responsive: true, displayModeBar: false });
@@ -549,6 +560,7 @@
                 }
                 if (elMap) {
                     elMap.on('plotly_click', d => { 
+                        if (!d || !d.points || d.points.length === 0) return;
                         const clickedGen = d.points[0].customdata; 
                         const maquina = rawData.find(m => m.generador === clickedGen);
                         if(maquina) {
