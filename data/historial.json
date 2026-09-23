@@ -793,2498 +793,4332 @@
     ],
     "RENTAL-P500-909K": {
         "ultimo_horometro": 7173.5,
-        "ultima_fecha": "2026-09-05 15:09:54"
+        "ultima_fecha": "2026-09-05 15:09:54",
+        "lecturas": {
+            "2026-08-05": 7173.5
+        }
     },
     "RENTAL-P500-925K": {
         "ultimo_horometro": 7576.7,
-        "ultima_fecha": "2026-09-23 13:09:33"
+        "ultima_fecha": "2026-09-23 13:09:33",
+        "lecturas": {
+            "2026-08-23": 7576.7
+        }
     },
     "RENTAL-P500-944K": {
         "ultimo_horometro": 994.4,
-        "ultima_fecha": "2026-09-23 13:09:25"
+        "ultima_fecha": "2026-09-23 13:09:25",
+        "lecturas": {
+            "2026-08-23": 994.4
+        }
     },
     "RENTAL-P500-957K": {
         "ultimo_horometro": 2820.9,
-        "ultima_fecha": "2026-09-16 19:45:11"
+        "ultima_fecha": "2026-09-16 19:45:11",
+        "lecturas": {
+            "2026-08-16": 2820.9
+        }
     },
     "AGENCIA SANTA ROSA DE LIMA": {
         "ultimo_horometro": 226.3,
-        "ultima_fecha": "2026-06-24 09:13:08"
+        "ultima_fecha": "2026-06-24 09:13:08",
+        "lecturas": {
+            "2026-05-24": 226.3
+        }
     },
     "PV. SERVICES CAPELLA GEN01": {
         "ultimo_horometro": 851.5,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 851.5
+        }
     },
     "PV. SERVICES CAPELLA GEN02": {
         "ultimo_horometro": 177.98,
-        "ultima_fecha": "2026-09-23 12:47:07"
+        "ultima_fecha": "2026-09-23 12:47:07",
+        "lecturas": {
+            "2026-08-23": 177.98
+        }
     },
     "TSK-ANTARES-000313346": {
         "ultimo_horometro": 1388.8,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 1388.8
+        }
     },
     "TSK-SPICA-000324652": {
         "ultimo_horometro": 652.7,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 652.7
+        }
     },
     "PARQUE LA RESERVA MALL": {
         "ultimo_horometro": 175.5,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 175.5
+        }
     },
     "AECSA SA - CUMMINS NTA855 KW300": {
         "ultimo_horometro": 415.6,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 415.6
+        }
     },
     "AVIATUR": {
         "ultimo_horometro": 410.8,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 410.8
+        }
     },
     "AGRO AVICOLA SAN MARINO GEN 2": {
         "ultimo_horometro": 1148.1,
-        "ultima_fecha": "2024-06-21 14:43:44"
+        "ultima_fecha": "2024-06-21 14:43:44",
+        "lecturas": {
+            "2024-05-21": 1148.1
+        }
     },
     "AGRODEX GALAPA": {
         "ultimo_horometro": 550.8,
-        "ultima_fecha": "2023-07-04 03:10:49"
+        "ultima_fecha": "2023-07-04 03:10:49",
+        "lecturas": {
+            "2023-06-04": 550.8
+        }
     },
     "ALTOS DE BELLAVISTA TORRE 2 GEN01": {
         "ultimo_horometro": 289.8,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 289.8
+        }
     },
     "ALTOS DE BELLAVISTA TORRE 4 GEN01": {
         "ultimo_horometro": 329.1,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 329.1
+        }
     },
     "ACEROS TURIA DE COLOMBIA SAS - PLAN LUZ": {
         "ultimo_horometro": 71.9,
-        "ultima_fecha": "2026-09-23 13:10:01"
+        "ultima_fecha": "2026-09-23 13:10:01",
+        "lecturas": {
+            "2026-08-23": 71.9
+        }
     },
     "ANDERCOL - PLAN LUZ": {
         "ultimo_horometro": 251.5,
-        "ultima_fecha": "2023-12-12 16:32:42"
+        "ultima_fecha": "2023-12-12 16:32:42",
+        "lecturas": {
+            "2023-11-12": 251.5
+        }
     },
     "ANTIOQUIA GOLD LTD - PLAN LUZ": {
         "ultimo_horometro": 337.95,
-        "ultima_fecha": "2025-05-20 15:46:41"
+        "ultima_fecha": "2025-05-20 15:46:41",
+        "lecturas": {
+            "2025-04-20": 337.95
+        }
     },
     "ART HOTEL BOUTIQUE MEDELLIN - PLAN LUZ": {
         "ultimo_horometro": 72.89,
-        "ultima_fecha": "2026-09-23 13:09:43"
+        "ultima_fecha": "2026-09-23 13:09:43",
+        "lecturas": {
+            "2026-08-23": 72.89
+        }
     },
     "BIOAGRO G1 - PLAN LUZ": {
         "ultimo_horometro": 1807.1,
-        "ultima_fecha": "2026-09-23 13:10:27"
+        "ultima_fecha": "2026-09-23 13:10:27",
+        "lecturas": {
+            "2026-08-23": 1807.1
+        }
     },
     "BIOAGRO G2 - PLAN LUZ": {
         "ultimo_horometro": 4858.3,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 4858.3
+        }
     },
     "CARIBE AVENTURA - PLAN LUZ": {
         "ultimo_horometro": 6476.35,
-        "ultima_fecha": "2025-01-25 09:47:32"
+        "ultima_fecha": "2025-01-25 09:47:32",
+        "lecturas": {}
     },
     "CC GRAN MANZANA GEN01 - PLAN LUZ": {
         "ultimo_horometro": 971.35,
-        "ultima_fecha": "2026-08-24 13:04:08"
+        "ultima_fecha": "2026-08-24 13:04:08",
+        "lecturas": {
+            "2026-07-24": 971.35
+        }
     },
     "CC GRAN MANZANA GEN02 - PLAN LUZ": {
         "ultimo_horometro": 145.6,
-        "ultima_fecha": "2026-09-18 07:12:08"
+        "ultima_fecha": "2026-09-18 07:12:08",
+        "lecturas": {
+            "2026-08-18": 145.6
+        }
     },
     "CC GRAN MANZANA GEN03 - PLAN LUZ": {
         "ultimo_horometro": 147.7,
-        "ultima_fecha": "2026-09-23 13:09:35"
+        "ultima_fecha": "2026-09-23 13:09:35",
+        "lecturas": {
+            "2026-08-23": 147.7
+        }
     },
     "CC GRAN PLAZA DEL SOL - PLAN LUZ": {
         "ultimo_horometro": 626.1,
-        "ultima_fecha": "2026-08-26 02:39:45"
+        "ultima_fecha": "2026-08-26 02:39:45",
+        "lecturas": {
+            "2026-07-26": 626.1
+        }
     },
     "CDC BUGA BUS A - PLAN LUZ": {
         "ultimo_horometro": 103.9,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 103.9
+        }
     },
     "CDC BUGA BUS B - PLAN LUZ": {
         "ultimo_horometro": 130.0,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 130.0
+        }
     },
     "CELPA - PLAN LUZ": {
         "ultimo_horometro": 760.07,
-        "ultima_fecha": "2026-06-19 20:29:47"
+        "ultima_fecha": "2026-06-19 20:29:47",
+        "lecturas": {
+            "2026-05-19": 760.07
+        }
     },
     "CENTRO DE TECNOLOGIA OFTALMICA - PLAN LUZ": {
         "ultimo_horometro": 83.7,
-        "ultima_fecha": "2026-08-26 08:43:05"
+        "ultima_fecha": "2026-08-26 08:43:05",
+        "lecturas": {
+            "2026-07-26": 83.7
+        }
     },
     "COLCERAMICA GIRARDOTA - PLAN LUZ": {
         "ultimo_horometro": 88.65,
-        "ultima_fecha": "2026-06-09 19:26:36"
+        "ultima_fecha": "2026-06-09 19:26:36",
+        "lecturas": {
+            "2026-05-09": 88.65
+        }
     },
     "COLCERAMICA LA ESTRELLA - PLAN LUZ": {
         "ultimo_horometro": 173.7,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 173.7
+        }
     },
     "COLISEO LIVE 800kW - PLAN LUZ": {
         "ultimo_horometro": 2311.2,
-        "ultima_fecha": "2026-09-23 13:09:34"
+        "ultima_fecha": "2026-09-23 13:09:34",
+        "lecturas": {
+            "2026-08-23": 2311.2
+        }
     },
     "COMERCIALIZADORA SANTANDER - PLAN LUZ": {
         "ultimo_horometro": 68.7,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 68.7
+        }
     },
     "CONDOMINIO BRISAS DEL MAR - PLAN LUZ": {
         "ultimo_horometro": 7561.3,
-        "ultima_fecha": "2026-06-24 09:02:20"
+        "ultima_fecha": "2026-06-24 09:02:20",
+        "lecturas": {
+            "2026-05-24": 7561.3
+        }
     },
     "CONDOMINIO EL PINO - PLAN LUZ": {
         "ultimo_horometro": 164.6,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 164.6
+        }
     },
     "CONDOMINIO KARIBANA - PLAN LUZ": {
         "ultimo_horometro": 156.2,
-        "ultima_fecha": "2024-01-03 19:05:06"
+        "ultima_fecha": "2024-01-03 19:05:06",
+        "lecturas": {}
     },
     "EDIFICIO ICONO 60 - PLAN LUZ": {
         "ultimo_horometro": 78.34,
-        "ultima_fecha": "2026-09-23 13:08:51"
+        "ultima_fecha": "2026-09-23 13:08:51",
+        "lecturas": {
+            "2026-08-23": 78.34
+        }
     },
     "EL CELELE - PLAN LUZ": {
         "ultimo_horometro": 297.12,
-        "ultima_fecha": "2026-03-23 20:41:18"
+        "ultima_fecha": "2026-03-23 20:41:18",
+        "lecturas": {
+            "2026-02-23": 297.12
+        }
     },
     "EQUITEL SEDE MOSQUERA - PLAN LUZ": {
         "ultimo_horometro": 1194.6,
-        "ultima_fecha": "2026-09-23 13:09:26"
+        "ultima_fecha": "2026-09-23 13:09:26",
+        "lecturas": {
+            "2026-08-23": 1194.6
+        }
     },
     "ESCUELA DE INGENIERIA DE ANTIOQUIA - PLAN LUZ": {
         "ultimo_horometro": 812.26,
-        "ultima_fecha": "2026-09-23 13:09:41"
+        "ultima_fecha": "2026-09-23 13:09:41",
+        "lecturas": {
+            "2026-08-23": 812.26
+        }
     },
     "ESCUELA DE INGENIERIA DE ANTIOQUIA (EIA) FASE II": {
         "ultimo_horometro": 365.9,
-        "ultima_fecha": "2026-09-23 13:10:23"
+        "ultima_fecha": "2026-09-23 13:10:23",
+        "lecturas": {
+            "2026-08-23": 365.9
+        }
     },
     "ESTE ES MI BUS - PLAN LUZ": {
         "ultimo_horometro": 12.25,
-        "ultima_fecha": "2026-09-23 13:09:26"
+        "ultima_fecha": "2026-09-23 13:09:26",
+        "lecturas": {
+            "2026-08-23": 12.25
+        }
     },
     "F&P TRADING - PLAN LUZ": {
         "ultimo_horometro": 1778.7,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 1778.7
+        }
     },
     "FRUTY GREEN - PLAN LUZ": {
         "ultimo_horometro": 626.1,
-        "ultima_fecha": "2026-08-20 14:31:09"
+        "ultima_fecha": "2026-08-20 14:31:09",
+        "lecturas": {
+            "2026-07-20": 626.1
+        }
     },
     "GRAN AMERICAS GEN 01 - PLAN LUZ": {
         "ultimo_horometro": 89.2,
-        "ultima_fecha": "2026-09-23 13:09:17"
+        "ultima_fecha": "2026-09-23 13:09:17",
+        "lecturas": {
+            "2026-08-23": 89.2
+        }
     },
     "HOSPICLEAN - PLAN LUZ": {
         "ultimo_horometro": 382.2,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 382.2
+        }
     },
     "HOSPITAL SAN JOSE DE BUGA - PLAN LUZ": {
         "ultimo_horometro": 42.63,
-        "ultima_fecha": "2026-09-23 13:09:10"
+        "ultima_fecha": "2026-09-23 13:09:10",
+        "lecturas": {
+            "2026-08-23": 42.63
+        }
     },
     "IPS CEDIMA - PLAN LUZ": {
         "ultimo_horometro": 49.38,
-        "ultima_fecha": "2026-09-23 13:09:04"
+        "ultima_fecha": "2026-09-23 13:09:04",
+        "lecturas": {
+            "2026-08-23": 49.38
+        }
     },
     "JUANCAMOLE - PLAN LUZ": {
         "ultimo_horometro": 375.4,
-        "ultima_fecha": "2026-08-10 07:42:38"
+        "ultima_fecha": "2026-08-10 07:42:38",
+        "lecturas": {
+            "2026-07-10": 375.4
+        }
     },
     "LABORATORIO HORMONAL - PLAN LUZ": {
         "ultimo_horometro": 70.6,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 70.6
+        }
     },
     "LOCERIA COLOMBIANA GEN02 - PLAN LUZ": {
         "ultimo_horometro": 221.4,
-        "ultima_fecha": "2026-09-23 13:09:34"
+        "ultima_fecha": "2026-09-23 13:09:34",
+        "lecturas": {
+            "2026-08-23": 221.4
+        }
     },
     "MEGASERV - PLAN LUZ": {
         "ultimo_horometro": 91.6,
-        "ultima_fecha": "2026-08-05 15:37:35"
+        "ultima_fecha": "2026-08-05 15:37:35",
+        "lecturas": {
+            "2026-07-05": 91.6
+        }
     },
     "MERCADOLIBRE - PLAN LUZ": {
         "ultimo_horometro": 149.4,
-        "ultima_fecha": "2026-09-23 13:09:22"
+        "ultima_fecha": "2026-09-23 13:09:22",
+        "lecturas": {
+            "2026-08-23": 149.4
+        }
     },
     "MUTUAL SER EPS - PLAN LUZ": {
         "ultimo_horometro": 475.2,
-        "ultima_fecha": "2026-06-24 09:13:13"
+        "ultima_fecha": "2026-06-24 09:13:13",
+        "lecturas": {
+            "2026-05-24": 475.2
+        }
     },
     "NOVA YUMBO EPSA BUS A - PLAN LUZ": {
         "ultimo_horometro": 116.4,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 116.4
+        }
     },
     "NOVA YUMBO EPSA BUS B - PLAN LUZ": {
         "ultimo_horometro": 125.5,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 125.5
+        }
     },
     "NUTRESA GC FOODS GEN01 - PLAN LUZ": {
         "ultimo_horometro": 671.7,
-        "ultima_fecha": "2026-07-06 08:29:03"
+        "ultima_fecha": "2026-07-06 08:29:03",
+        "lecturas": {
+            "2026-06-06": 671.7
+        }
     },
     "NUTRESA GC FOODS GEN02 - PLAN LUZ": {
         "ultimo_horometro": 677.7,
-        "ultima_fecha": "2026-09-23 13:10:08"
+        "ultima_fecha": "2026-09-23 13:10:08",
+        "lecturas": {
+            "2026-08-23": 677.7
+        }
     },
     "SOBERANA - PLAN LUZ": {
         "ultimo_horometro": 3855.8,
-        "ultima_fecha": "2026-06-24 09:13:13"
+        "ultima_fecha": "2026-06-24 09:13:13",
+        "lecturas": {
+            "2026-05-24": 3855.8
+        }
     },
     "STILH SAS - PLAN LUZ": {
         "ultimo_horometro": 79.55,
-        "ultima_fecha": "2026-09-22 10:48:04"
+        "ultima_fecha": "2026-09-22 10:48:04",
+        "lecturas": {
+            "2026-08-22": 79.55
+        }
     },
     "SUMICOL - PLAN LUZ": {
         "ultimo_horometro": 625.1,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 625.1
+        }
     },
     "TECNOGRANJAS - PLAN LUZ": {
         "ultimo_horometro": 908.8,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 908.8
+        }
     },
     "TECNOGRANJAS SANTA MARIA - PLAN LUZ": {
         "ultimo_horometro": 546.9,
-        "ultima_fecha": "2024-11-07 12:14:53"
+        "ultima_fecha": "2024-11-07 12:14:53",
+        "lecturas": {
+            "2024-10-07": 546.9
+        }
     },
     "TORRES DEL SURCO - PLAN LUZ": {
         "ultimo_horometro": 70.3,
-        "ultima_fecha": "2023-12-21 13:35:20"
+        "ultima_fecha": "2023-12-21 13:35:20",
+        "lecturas": {
+            "2023-11-21": 70.3
+        }
     },
     "UNIPHOS GEN01 - PLAN LUZ": {
         "ultimo_horometro": 860.1,
-        "ultima_fecha": "2026-07-08 08:43:26"
+        "ultima_fecha": "2026-07-08 08:43:26",
+        "lecturas": {
+            "2026-06-08": 860.1
+        }
     },
     "UNIPHOS GEN02 - PLAN LUZ": {
         "ultimo_horometro": 343.1,
-        "ultima_fecha": "2026-07-11 22:06:59"
+        "ultima_fecha": "2026-07-11 22:06:59",
+        "lecturas": {
+            "2026-06-11": 343.1
+        }
     },
     "UNIPHOS GEN03 - PLAN LUZ": {
         "ultimo_horometro": 719.4,
-        "ultima_fecha": "2026-06-24 09:13:16"
+        "ultima_fecha": "2026-06-24 09:13:16",
+        "lecturas": {
+            "2026-05-24": 719.4
+        }
     },
     "UNIPHOS GEN04 - PLAN LUZ": {
         "ultimo_horometro": 747.2,
-        "ultima_fecha": "2026-06-24 09:13:16"
+        "ultima_fecha": "2026-06-24 09:13:16",
+        "lecturas": {
+            "2026-05-24": 747.2
+        }
     },
     "UNIVERSIDAD CENTRAL SEDE 616 Y 624 - PLAN LUZ": {
         "ultimo_horometro": 158.48,
-        "ultima_fecha": "2026-09-23 13:09:22"
+        "ultima_fecha": "2026-09-23 13:09:22",
+        "lecturas": {
+            "2026-08-23": 158.48
+        }
     },
     "UNIVERSIDAD CENTRAL SEDE FULLER - PLAN LUZ": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:10:04"
+        "ultima_fecha": "2026-09-23 13:10:04",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "UTB 300KW LA MANGA - PLAN LUZ": {
         "ultimo_horometro": 177.3,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 177.3
+        }
     },
     "UTB TURBACO 450KW EDIFICIO A3-PLAN LUZ": {
         "ultimo_horometro": 2636.7,
-        "ultima_fecha": "2026-06-24 09:13:16"
+        "ultima_fecha": "2026-06-24 09:13:16",
+        "lecturas": {
+            "2026-05-24": 2636.7
+        }
     },
     "UTB TURBACO 800KW TERNERA ALCATRAZ - PLAN LUZ": {
         "ultimo_horometro": 324.95,
-        "ultima_fecha": "2024-04-20 09:16:56"
+        "ultima_fecha": "2024-04-20 09:16:56",
+        "lecturas": {
+            "2024-03-20": 324.95
+        }
     },
     "ALTO TESORO ACEIS": {
         "ultimo_horometro": 126.2,
-        "ultima_fecha": "2026-09-03 02:21:34"
+        "ultima_fecha": "2026-09-03 02:21:34",
+        "lecturas": {
+            "2026-08-03": 126.2
+        }
     },
     "APUESTAS LAS MARGARITAS": {
         "ultimo_horometro": 1953.9,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 1953.9
+        }
     },
     "B BRAUN SURGICAL S.A.S": {
         "ultimo_horometro": 510.65,
-        "ultima_fecha": "2026-09-23 13:00:37"
+        "ultima_fecha": "2026-09-23 13:00:37",
+        "lecturas": {
+            "2026-08-23": 510.65
+        }
     },
     "BANCO DE LA REPUBLICA ANEXO A PEM01 (Test)": {
         "ultimo_horometro": 311.2,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 311.2
+        }
     },
     "BANCO DE LA REPUBLICA BOGOTA ED PRINCIPAL PEM10 (Test)": {
         "ultimo_horometro": 172.8,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 172.8
+        }
     },
     "BANCO DE LA REPUBLICA CENTRAL DE EFECTIVO PEM 19": {
         "ultimo_horometro": 285.6,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 285.6
+        }
     },
     "BANCO DE LA REPUBLICA CENTRAL DE EFECTIVO PEM 20": {
         "ultimo_horometro": 112.6,
-        "ultima_fecha": "2026-09-23 12:52:43"
+        "ultima_fecha": "2026-09-23 12:52:43",
+        "lecturas": {
+            "2026-08-23": 112.6
+        }
     },
     "BANCO DE LA REPUBLICA CENTRAL DE EFECTIVO PEM 21": {
         "ultimo_horometro": 203.6,
-        "ultima_fecha": "2026-09-23 13:10:39"
+        "ultima_fecha": "2026-09-23 13:10:39",
+        "lecturas": {
+            "2026-08-23": 203.6
+        }
     },
     "BANCO DE LA REPUBLICA CLUB CHOQUENZA PEM 13 (test)": {
         "ultimo_horometro": 151.8,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 151.8
+        }
     },
     "BANCO DE LA REPUBLICA ED PRINCIPAL PEM09": {
         "ultimo_horometro": 553.3,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 553.3
+        }
     },
     "BANCO DE LA REPUBLICA ED PRINCIPAL PEM11 (Test)": {
         "ultimo_horometro": 314.7,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 314.7
+        }
     },
     "BANCO DE LA REPUBLICA FLORENCIA GEN 1 (Test)": {
         "ultimo_horometro": 617.2,
-        "ultima_fecha": "2026-07-15 10:17:15"
+        "ultima_fecha": "2026-07-15 10:17:15",
+        "lecturas": {
+            "2026-06-15": 617.2
+        }
     },
     "BANCO DE LA REPUBLICA FLORENCIA GEN 2 (Test)": {
         "ultimo_horometro": 2313.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 2313.1
+        }
     },
     "BANCO DE LA REPUBLICA GIRARDOT": {
         "ultimo_horometro": 214.8,
-        "ultima_fecha": "2026-09-23 13:10:38"
+        "ultima_fecha": "2026-09-23 13:10:38",
+        "lecturas": {
+            "2026-08-23": 214.8
+        }
     },
     "BANCO DE LA REPUBLICA IBAGUE CASA DE LA MONEDA PEM03": {
         "ultimo_horometro": 401.5,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 401.5
+        }
     },
     "BANCO DE LA REPUBLICA IBAGUE CASA DE LA MONEDA PEM06": {
         "ultimo_horometro": 458.4,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 458.4
+        }
     },
     "BANCO DE LA REPUBLICA IBAGUE CASA DE LA MONEDA PEM08 (Test)": {
         "ultimo_horometro": 1773.0,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 1773.0
+        }
     },
     "BANCO DE LA REPUBLICA IBAGUE CASA DE LA MONEDA PEM09 (Test)": {
         "ultimo_horometro": 604.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 604.1
+        }
     },
     "BANCO DE LA REPUBLICA MUSEO DE ARTE PEM17 (test)": {
         "ultimo_horometro": 396.5,
-        "ultima_fecha": "2026-09-23 12:53:46"
+        "ultima_fecha": "2026-09-23 12:53:46",
+        "lecturas": {
+            "2026-08-23": 396.5
+        }
     },
     "BANCO DE LA REPUBLICA MUSEO DE ARTE PEM18 (test)": {
         "ultimo_horometro": 240.0,
-        "ultima_fecha": "2026-09-23 09:00:54"
+        "ultima_fecha": "2026-09-23 09:00:54",
+        "lecturas": {
+            "2026-08-23": 240.0
+        }
     },
     "BANCO DE LA REPUBLICA MUSEO DEL ORO PEM15 (Test)": {
         "ultimo_horometro": 568.6,
-        "ultima_fecha": "2026-09-23 12:58:11"
+        "ultima_fecha": "2026-09-23 12:58:11",
+        "lecturas": {
+            "2026-08-23": 568.6
+        }
     },
     "BANCO DE LA REPUBLICA NEIVA BIBLIOTECA (Test)": {
         "ultimo_horometro": 298.0,
-        "ultima_fecha": "2026-09-23 13:05:23"
+        "ultima_fecha": "2026-09-23 13:05:23",
+        "lecturas": {
+            "2026-08-23": 298.0
+        }
     },
     "BANCO DE LA REPUBLICA PEREIRA AGENCIA CULTURAL (Test)": {
         "ultimo_horometro": 1871.0,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 1871.0
+        }
     },
     "BANCO DE LA REPUBLICA SINCELEJO PEM01 (test)": {
         "ultimo_horometro": 547.4,
-        "ultima_fecha": "2026-09-23 13:10:38"
+        "ultima_fecha": "2026-09-23 13:10:38",
+        "lecturas": {
+            "2026-08-23": 547.4
+        }
     },
     "BANCO DE LA REPUBLICA SINCELEJO PEM02 (test)": {
         "ultimo_horometro": 168.4,
-        "ultima_fecha": "2026-09-23 13:10:37"
+        "ultima_fecha": "2026-09-23 13:10:37",
+        "lecturas": {
+            "2026-08-23": 168.4
+        }
     },
     "BANCO DE LA REPUBLICA TESORERIA BOGOTA PEM 06": {
         "ultimo_horometro": 194.3,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 194.3
+        }
     },
     "BANCO DE LA REPUBLICA TESORERIA BOGOTA PEM 12": {
         "ultimo_horometro": 272.6,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 272.6
+        }
     },
     "SUCURSAL IBAGUE PEM01": {
         "ultimo_horometro": 452.2,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 452.2
+        }
     },
     "SUCURSAL IBAGUE PEM02": {
         "ultimo_horometro": 36.6,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 36.6
+        }
     },
     "EDIFICIO BLUE TOWER": {
         "ultimo_horometro": 225.9,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 225.9
+        }
     },
     "ASOCELTA UNO GEN 1": {
         "ultimo_horometro": 122.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 122.1
+        }
     },
     "BOG HOTEL": {
         "ultimo_horometro": 131.4,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 131.4
+        }
     },
     "CENCAR": {
         "ultimo_horometro": 283.3,
-        "ultima_fecha": "2026-09-23 13:09:49"
+        "ultima_fecha": "2026-09-23 13:09:49",
+        "lecturas": {
+            "2026-08-23": 283.3
+        }
     },
     "CENTRO COMERCIAL AVES MARIA ACEIS": {
         "ultimo_horometro": 227.9,
-        "ultima_fecha": "2026-09-23 13:08:59"
+        "ultima_fecha": "2026-09-23 13:08:59",
+        "lecturas": {
+            "2026-08-23": 227.9
+        }
     },
     "CENTRO COMERCIAL PARQUE CENTRAL BARRANQUILLA": {
         "ultimo_horometro": 3847.5,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 3847.5
+        }
     },
     "CENTRO COMERCIAL PASEO DE LA CASTELLANA CARTAGENA": {
         "ultimo_horometro": 375.2,
-        "ultima_fecha": "2023-05-31 19:51:06"
+        "ultima_fecha": "2023-05-31 19:51:06",
+        "lecturas": {}
     },
     "CC PLAZA DE LAS AMÉRICAS PE #11 ETAPA 8": {
         "ultimo_horometro": 163.75,
-        "ultima_fecha": "2026-09-23 11:52:17"
+        "ultima_fecha": "2026-09-23 11:52:17",
+        "lecturas": {
+            "2026-08-23": 163.75
+        }
     },
     "CC PLAZA DE LAS AMÉRICAS PE #13 ETAPA 8": {
         "ultimo_horometro": 91.95,
-        "ultima_fecha": "2026-09-23 11:52:17"
+        "ultima_fecha": "2026-09-23 11:52:17",
+        "lecturas": {
+            "2026-08-23": 91.95
+        }
     },
     "CC PLAZA DE LAS AMÉRICAS PE #14 ETAPA 8": {
         "ultimo_horometro": 55.85,
-        "ultima_fecha": "2026-09-23 11:52:17"
+        "ultima_fecha": "2026-09-23 11:52:17",
+        "lecturas": {
+            "2026-08-23": 55.85
+        }
     },
     "CENTRO COMERCIAL SAN DIEGO TORRE NORTE": {
         "ultimo_horometro": 2274.2,
-        "ultima_fecha": "2026-09-23 13:10:02"
+        "ultima_fecha": "2026-09-23 13:10:02",
+        "lecturas": {
+            "2026-08-23": 2274.2
+        }
     },
     "CENTRO COMERCIAL SAN DIEGO TORRE SUR": {
         "ultimo_horometro": 217.0,
-        "ultima_fecha": "2026-08-10 03:40:26"
+        "ultima_fecha": "2026-08-10 03:40:26",
+        "lecturas": {
+            "2026-07-10": 217.0
+        }
     },
     "CC SANTAFE BRASIL GEN 03 ZONAS COMUNES": {
         "ultimo_horometro": 391.6,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 391.6
+        }
     },
     "CC SANTAFE BRASIL GEN02 LEÑOS Y MANGOS": {
         "ultimo_horometro": 360.1,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 360.1
+        }
     },
     "CC SANTAFE BRASIL GEN1 PISOS Y LOCALES": {
         "ultimo_horometro": 356.9,
-        "ultima_fecha": "2026-09-06 07:20:19"
+        "ultima_fecha": "2026-09-06 07:20:19",
+        "lecturas": {
+            "2026-08-06": 356.9
+        }
     },
     "CC SANTAFE FRANCIA GEN01 SUB02": {
         "ultimo_horometro": 425.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 425.5
+        }
     },
     "CC SANTAFE FRANCIA GEN02 SUB02": {
         "ultimo_horometro": 386.2,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 386.2
+        }
     },
     "CC SANTAFE FRANCIA GEN03 SUB02": {
         "ultimo_horometro": 359.7,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 359.7
+        }
     },
     "CC SANTAFE ITALIA": {
         "ultimo_horometro": 388.8,
-        "ultima_fecha": "2026-09-23 12:47:47"
+        "ultima_fecha": "2026-09-23 12:47:47",
+        "lecturas": {
+            "2026-08-23": 388.8
+        }
     },
     "CC SANTAFE PERU GEN01 SUB03": {
         "ultimo_horometro": 345.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 345.5
+        }
     },
     "CC SANTAFE PERU GEN02 SUB03": {
         "ultimo_horometro": 349.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 349.5
+        }
     },
     "CC SANTAFE VENEZUELA GEN01 SUB01": {
         "ultimo_horometro": 325.6,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 325.6
+        }
     },
     "CC SANTAFE VENEZUELA GEN02 SUB01": {
         "ultimo_horometro": 329.1,
-        "ultima_fecha": "2026-08-31 16:34:13"
+        "ultima_fecha": "2026-08-31 16:34:13",
+        "lecturas": {
+            "2026-07-31": 329.1
+        }
     },
     "CC SANTAFE VENEZUELA GEN03 SUB01": {
         "ultimo_horometro": 345.4,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 345.4
+        }
     },
     "GENERADOR FIC": {
         "ultimo_horometro": 52.95,
-        "ultima_fecha": "2026-09-23 13:08:48"
+        "ultima_fecha": "2026-09-23 13:08:48",
+        "lecturas": {
+            "2026-08-23": 52.95
+        }
     },
     "CENTRO EMPRESARIAL DANN FINANCIERA HOTEL DANN CARLTON P.H.": {
         "ultimo_horometro": 1057.9,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 1057.9
+        }
     },
     "CENTRO COMERCIAL POTOSI": {
         "ultimo_horometro": 2072.8,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 2072.8
+        }
     },
     "CENTRO LOGISTICO DE OCCIDENTE MTS": {
         "ultimo_horometro": 445.3,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 445.3
+        }
     },
     "PARQUE EMPRESARIAL LA ESTANCIA MTS": {
         "ultimo_horometro": 209953.5,
-        "ultima_fecha": "2026-09-23 12:14:02"
+        "ultima_fecha": "2026-09-23 12:14:02",
+        "lecturas": {
+            "2026-08-23": 209953.5
+        }
     },
     "CERAMICA SAN LORENZO BOMBA CONTRA INCENDIOS": {
         "ultimo_horometro": 281.4,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 281.4
+        }
     },
     "CERAMICA SAN LORENZO GEN01": {
         "ultimo_horometro": 1196.9,
-        "ultima_fecha": "2026-09-23 13:10:35"
+        "ultima_fecha": "2026-09-23 13:10:35",
+        "lecturas": {
+            "2026-08-23": 1196.9
+        }
     },
     "CERAMICA SAN LORENZO GEN02": {
         "ultimo_horometro": 454.5,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 454.5
+        }
     },
     "CERAMICA SAN LORENZO HORNO 3": {
         "ultimo_horometro": 207.4,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 207.4
+        }
     },
     "CERAMICA SAN LORENZO HORNO 4": {
         "ultimo_horometro": 173.3,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 173.3
+        }
     },
     "CERAMICA SAN LORENZO HORNO BICANAL": {
         "ultimo_horometro": 355.9,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 355.9
+        }
     },
     "CC ARKADIA COMERCIO 1 GEN01": {
         "ultimo_horometro": 213.0,
-        "ultima_fecha": "2026-09-23 13:10:13"
+        "ultima_fecha": "2026-09-23 13:10:13",
+        "lecturas": {
+            "2026-08-23": 213.0
+        }
     },
     "CC ARKADIA COMERCIO 1 GEN02": {
         "ultimo_horometro": 223.6,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 223.6
+        }
     },
     "CC ARKADIA COMERCIO 2 GEN01": {
         "ultimo_horometro": 155.8,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 155.8
+        }
     },
     "CC ARKADIA COMERCIO 2 GEN02": {
         "ultimo_horometro": 156.5,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 156.5
+        }
     },
     "CC ARKADIA SERVICIOS COMUNES GEN01": {
         "ultimo_horometro": 48.5,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 48.5
+        }
     },
     "CC ARKADIA SERVICIOS COMUNES GEN02": {
         "ultimo_horometro": 51.6,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 51.6
+        }
     },
     "CLINICA DE LA COSTA GEN01 400kW": {
         "ultimo_horometro": 2.4,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 2.4
+        }
     },
     "CLINICA DE LA COSTA GEN02 600kW": {
         "ultimo_horometro": 24.7,
-        "ultima_fecha": "2023-04-14 18:23:35"
+        "ultima_fecha": "2023-04-14 18:23:35",
+        "lecturas": {
+            "2023-03-14": 24.7
+        }
     },
     "CLINICA DE LA COSTA GEN03 500kW": {
         "ultimo_horometro": 7765.3,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 7765.3
+        }
     },
     "CLINICA MARLY GEN 01": {
         "ultimo_horometro": 266.8,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 266.8
+        }
     },
     "CLINICA MARLY CHIA JORGE CAVELIER GAVIRIA GEN 01": {
         "ultimo_horometro": 1925.5,
-        "ultima_fecha": "2026-09-23 13:10:57"
+        "ultima_fecha": "2026-09-23 13:10:57",
+        "lecturas": {
+            "2026-08-23": 1925.5
+        }
     },
     "CLINICA MARLY CHIA JORGE CAVELIER GAVIRIA GEN 02": {
         "ultimo_horometro": 2155.0,
-        "ultima_fecha": "2026-09-23 13:10:57"
+        "ultima_fecha": "2026-09-23 13:10:57",
+        "lecturas": {
+            "2026-08-23": 2155.0
+        }
     },
     "CLINICA OFTALMOLOGICA SAN DIEGO": {
         "ultimo_horometro": 135.9,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 135.9
+        }
     },
     "CLINICA VIDA PLENA": {
         "ultimo_horometro": 525.8,
-        "ultima_fecha": "2026-09-01 12:56:13"
+        "ultima_fecha": "2026-09-01 12:56:13",
+        "lecturas": {
+            "2026-08-01": 525.8
+        }
     },
     "EDIFICIO FIC92 11 - CUMMINS KTA38G14 KW 1000 SN 24435461": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:09:41"
+        "ultima_fecha": "2026-09-23 13:09:41",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "EDIFICIO FIC92 11 - CUMMINS QSX15G9 KW 500 SN 80075596": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:09:21"
+        "ultima_fecha": "2026-09-23 13:09:21",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "HELADOS POPSY 900 KW": {
         "ultimo_horometro": 67.8,
-        "ultima_fecha": "2025-10-04 01:20:33"
+        "ultima_fecha": "2025-10-04 01:20:33",
+        "lecturas": {
+            "2025-09-04": 67.8
+        }
     },
     "COMPAS": {
         "ultimo_horometro": 901.0,
-        "ultima_fecha": "2023-01-28 03:10:35"
+        "ultima_fecha": "2023-01-28 03:10:35",
+        "lecturas": {}
     },
     "HOTEL HILTON GEN01 1000kW": {
         "ultimo_horometro": 9270.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 9270.1
+        }
     },
     "HOTEL HILTON GEN02 800kW": {
         "ultimo_horometro": 424.1,
-        "ultima_fecha": "2026-06-24 09:13:13"
+        "ultima_fecha": "2026-06-24 09:13:13",
+        "lecturas": {
+            "2026-05-24": 424.1
+        }
     },
     "COMPLEJO COMERCIAL PIAZZA BELLA ACEIS": {
         "ultimo_horometro": 190.9,
-        "ultima_fecha": "2026-06-24 09:13:11"
+        "ultima_fecha": "2026-06-24 09:13:11",
+        "lecturas": {
+            "2026-05-24": 190.9
+        }
     },
     "COMPLEJO COMERCIAL ZONA 2 SUR PH ACEIS": {
         "ultimo_horometro": 981.0,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 981.0
+        }
     },
     "COMPLEJO PORTO AZUL TORRE SABBAG": {
         "ultimo_horometro": 828.6,
-        "ultima_fecha": "2024-03-16 10:29:23"
+        "ultima_fecha": "2024-03-16 10:29:23",
+        "lecturas": {
+            "2024-02-16": 828.6
+        }
     },
     "COMPLEJO PORTO AZUL UNIDAD MEDICA": {
         "ultimo_horometro": 53116.6,
-        "ultima_fecha": "2023-07-28 14:09:48"
+        "ultima_fecha": "2023-07-28 14:09:48",
+        "lecturas": {
+            "2023-06-28": 53116.6
+        }
     },
     "COMWARE 97": {
         "ultimo_horometro": 238.7,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 238.7
+        }
     },
     "CONJUNTO CONTINENTAL BOGOTA PH 135kW": {
         "ultimo_horometro": 94.9,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 94.9
+        }
     },
     "CONJUNTO INMOBILIARIO SAO PAULO PLAZA TORRE 2 ACEIS": {
         "ultimo_horometro": 246.4,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 246.4
+        }
     },
     "CONJUNTO RESIDENCIAL CATALEJO ALFA": {
         "ultimo_horometro": 3816.7,
-        "ultima_fecha": "2026-09-23 13:10:20"
+        "ultima_fecha": "2026-09-23 13:10:20",
+        "lecturas": {
+            "2026-08-23": 3816.7
+        }
     },
     "CONJUNTO RESIDENCIAL LOS ROBLES": {
         "ultimo_horometro": 966.5,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 966.5
+        }
     },
     "CONJUNTO RESIDENCIAL LUCCA PH": {
         "ultimo_horometro": 29.8,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 29.8
+        }
     },
     "UF1 - GENERADOR SUBESTACIÓN DE GALERIA 2 TÚNEL 1": {
         "ultimo_horometro": 657.7,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 657.7
+        }
     },
     "UF1 - GENERADOR SUBESTACIÓN DE SALIDA TÚNEL 1": {
         "ultimo_horometro": 1080.9,
-        "ultima_fecha": "2026-06-24 09:13:15"
+        "ultima_fecha": "2026-06-24 09:13:15",
+        "lecturas": {
+            "2026-05-24": 1080.9
+        }
     },
     "UF4 - GENERADOR SUBESTACIÓN PEAJE PIPIRAL": {
         "ultimo_horometro": 1272.8,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1272.8
+        }
     },
     "CONTENTO BPS 800kW": {
         "ultimo_horometro": 93.2,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 93.2
+        }
     },
     "ZONA FRANCA PARQUE CENTRAL GEN01": {
         "ultimo_horometro": 1617.3,
-        "ultima_fecha": "2023-12-12 06:13:33"
+        "ultima_fecha": "2023-12-12 06:13:33",
+        "lecturas": {
+            "2023-11-12": 1617.3
+        }
     },
     "HOSPITAL UNIVERSITARIO NACIONAL GEN 1": {
         "ultimo_horometro": 212.2,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 212.2
+        }
     },
     "HOSPITAL UNIVERSITARIO NACIONAL GEN 2": {
         "ultimo_horometro": 213.6,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 213.6
+        }
     },
     "HOSPITAL UNIVERSITARIO NACIONAL GEN 3": {
         "ultimo_horometro": 189.3,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 189.3
+        }
     },
     "UF2 - GENERADOR SEBESTACION ENTRADA TÚNEL 2": {
         "ultimo_horometro": 1614.8,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1614.8
+        }
     },
     "UF3 - GENERADOR SUBESTACIÓN DE ENTRADA DE TÚNEL 3 GEN 1": {
         "ultimo_horometro": 1427.5,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 1427.5
+        }
     },
     "UF3 - GENERADOR SUBESTACIÓN DE ENTRADA DE TÚNEL 3 GEN 2": {
         "ultimo_horometro": 1470.3,
-        "ultima_fecha": "2026-09-13 15:21:15"
+        "ultima_fecha": "2026-09-13 15:21:15",
+        "lecturas": {
+            "2026-08-13": 1470.3
+        }
     },
     "UF3 - GENERADOR SUBESTACIÓN DE ENTRADA DE TÚNEL 5 GEN 1": {
         "ultimo_horometro": 598.4,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 598.4
+        }
     },
     "UF3 - GENERADOR SUBESTACIÓN DE ENTRADA DE TÚNEL 5 GEN 2": {
         "ultimo_horometro": 195.8,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 195.8
+        }
     },
     "UF3 - GENERADOR SUBESTACIÓN DE SALIDA DE TÚNEL 5 GEN 1": {
         "ultimo_horometro": 936.6,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 936.6
+        }
     },
     "UF3 - GENERADOR SUBESTACIÓN DE SALIDA DE TÚNEL 5 GEN 2": {
         "ultimo_horometro": 969.1,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 969.1
+        }
     },
     "UF6 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 7 GEN 1": {
         "ultimo_horometro": 331.7,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 331.7
+        }
     },
     "UF6 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 7 GEN 2": {
         "ultimo_horometro": 257.3,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 257.3
+        }
     },
     "UF6 - GENERADOR SUBESTACIÓN DE SALIDA TÚNEL 7 GEN 1": {
         "ultimo_horometro": 76.8,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 76.8
+        }
     },
     "UF6 - GENERADOR SUBESTACIÓN DE SALIDA TÚNEL 7 GEN 2": {
         "ultimo_horometro": 33.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 33.5
+        }
     },
     "CREMHELADO": {
         "ultimo_horometro": 642.2,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 642.2
+        }
     },
     "D1 ZOL FUNZA": {
         "ultimo_horometro": 152.6,
-        "ultima_fecha": "2026-09-20 06:43:46"
+        "ultima_fecha": "2026-09-20 06:43:46",
+        "lecturas": {
+            "2026-08-20": 152.6
+        }
     },
     "DATACENTER ZETTA GEN 01": {
         "ultimo_horometro": 464.9,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 464.9
+        }
     },
     "DATACENTER ZETTA GEN 02": {
         "ultimo_horometro": 471.7,
-        "ultima_fecha": "2026-09-03 01:02:32"
+        "ultima_fecha": "2026-09-03 01:02:32",
+        "lecturas": {
+            "2026-08-03": 471.7
+        }
     },
     "DATACENTER ZETTA GEN 03": {
         "ultimo_horometro": 222.2,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 222.2
+        }
     },
     "DELIPAVO": {
         "ultimo_horometro": 450.8,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 450.8
+        }
     },
     "CENTRO COMERCIAL FONTANAR GEN01": {
         "ultimo_horometro": 439.7,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 439.7
+        }
     },
     "CENTRO COMERCIAL FONTANAR GEN02": {
         "ultimo_horometro": 583.7,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 583.7
+        }
     },
     "CENTRO COMERCIAL FONTANAR GEN03": {
         "ultimo_horometro": 663.1,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 663.1
+        }
     },
     "CENTRO COMERCIAL FONTANAR GEN04": {
         "ultimo_horometro": 525.8,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 525.8
+        }
     },
     "CENTRO COMERCIAL FONTANAR GEN05": {
         "ultimo_horometro": 677.4,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 677.4
+        }
     },
     "CENTRO COMERCIAL FONTANAR GEN06": {
         "ultimo_horometro": 610.0,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 610.0
+        }
     },
     "HOTEL DIPLOMAT GEN TRYP": {
         "ultimo_horometro": 202.8,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 202.8
+        }
     },
     "HOTEL DIPLOMAT GEN WYNDHAM": {
         "ultimo_horometro": 153.2,
-        "ultima_fecha": "2026-09-23 13:07:39"
+        "ultima_fecha": "2026-09-23 13:07:39",
+        "lecturas": {
+            "2026-08-23": 153.2
+        }
     },
     "PALACIO DE JUSTICIA DE IBAGUE": {
         "ultimo_horometro": 698.5,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 698.5
+        }
     },
     "UF0 - GENERADOR BUNKER DE SALIDA TÚNEL 11 GEN 1": {
         "ultimo_horometro": 2099.1,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 2099.1
+        }
     },
     "UF0 - GENERADOR BUNKER DE SALIDA TÚNEL 11 GEN 2": {
         "ultimo_horometro": 1939.0,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1939.0
+        }
     },
     "UF0 - GENERADOR BUNKER DE SALIDA TÚNEL 13": {
         "ultimo_horometro": 1084.1,
-        "ultima_fecha": "2021-03-08 06:03:54"
+        "ultima_fecha": "2021-03-08 06:03:54",
+        "lecturas": {
+            "2021-02-08": 1084.1
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA 2 TÚNEL 6A": {
         "ultimo_horometro": 1104.9,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 1104.9
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 1": {
         "ultimo_horometro": 573.4,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 573.4
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 16": {
         "ultimo_horometro": 3447.4,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 3447.4
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 3": {
         "ultimo_horometro": 562.9,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 562.9
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 5": {
         "ultimo_horometro": 1209.8,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 1209.8
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 7": {
         "ultimo_horometro": 1578.1,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1578.1
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 8 GEN 1": {
         "ultimo_horometro": 1354.8,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1354.8
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE ENTRADA TÚNEL 8 GEN 2": {
         "ultimo_horometro": 1508.6,
-        "ultima_fecha": "2024-11-16 13:37:37"
+        "ultima_fecha": "2024-11-16 13:37:37",
+        "lecturas": {
+            "2024-10-16": 1508.6
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE GALERIA DE TÚNEL 3A": {
         "ultimo_horometro": 1081.3,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1081.3
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE GALERIA DE TÚNEL 6A": {
         "ultimo_horometro": 1178.0,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1178.0
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE SALIDA TÚNEL 16": {
         "ultimo_horometro": 2363.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 2363.5
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN DE SALIDA TÚNEL 6": {
         "ultimo_horometro": 1287.9,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 1287.9
+        }
     },
     "UF0 - GENERADOR SUBESTACIÓN PEAJE NARANJAL": {
         "ultimo_horometro": 1973.5,
-        "ultima_fecha": "2026-09-23 09:08:46"
+        "ultima_fecha": "2026-09-23 09:08:46",
+        "lecturas": {
+            "2026-08-23": 1973.5
+        }
     },
     "DISPAPELES CLL 100 CATERPILLAR": {
         "ultimo_horometro": 954.2,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 954.2
+        }
     },
     "DISPAPELES CLL 100 KOHLER": {
         "ultimo_horometro": 2055.3,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 2055.3
+        }
     },
     "35 PALMS BUSINESS TOWER MTS": {
         "ultimo_horometro": 104.0,
-        "ultima_fecha": "2026-09-23 13:10:35"
+        "ultima_fecha": "2026-09-23 13:10:35",
+        "lecturas": {
+            "2026-08-23": 104.0
+        }
     },
     "EDIFICIO ALTOS DE KARON": {
         "ultimo_horometro": 786.1,
-        "ultima_fecha": "2024-03-27 13:33:20"
+        "ultima_fecha": "2024-03-27 13:33:20",
+        "lecturas": {
+            "2024-02-27": 786.1
+        }
     },
     "EDIFICIO ALTOS DEL REFUGIO": {
         "ultimo_horometro": 234.4,
-        "ultima_fecha": "2026-09-23 13:10:39"
+        "ultima_fecha": "2026-09-23 13:10:39",
+        "lecturas": {
+            "2026-08-23": 234.4
+        }
     },
     "EDIFICIO AVANT GARDE ACEIS": {
         "ultimo_horometro": 193.8,
-        "ultima_fecha": "2026-09-08 09:24:55"
+        "ultima_fecha": "2026-09-08 09:24:55",
+        "lecturas": {
+            "2026-08-08": 193.8
+        }
     },
     "AVIANCA": {
         "ultimo_horometro": 88.2,
-        "ultima_fecha": "2026-09-23 13:10:22"
+        "ultima_fecha": "2026-09-23 13:10:22",
+        "lecturas": {
+            "2026-08-23": 88.2
+        }
     },
     "EDIFICIO BANCO DE OCCIDENTE POBLADO ACEIS": {
         "ultimo_horometro": 333.9,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 333.9
+        }
     },
     "EDIFICIO BANCOLOMBIA LA PLAYA P.H. ACEIS": {
         "ultimo_horometro": 1142.0,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 1142.0
+        }
     },
     "EDIFICIO BBVA EL POBLADO ACEIS": {
         "ultimo_horometro": 57.2,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 57.2
+        }
     },
     "EDIFICIO BLUE TOWER KPMG": {
         "ultimo_horometro": 7092.0,
-        "ultima_fecha": "2026-09-23 13:10:40"
+        "ultima_fecha": "2026-09-23 13:10:40",
+        "lecturas": {
+            "2026-08-23": 7092.0
+        }
     },
     "BOGOTA CORPORATE CENTER GEN01": {
         "ultimo_horometro": 478.6,
-        "ultima_fecha": "2026-09-23 13:10:06"
+        "ultima_fecha": "2026-09-23 13:10:06",
+        "lecturas": {
+            "2026-08-23": 478.6
+        }
     },
     "BOGOTA CORPORATE CENTER GEN02": {
         "ultimo_horometro": 503.8,
-        "ultima_fecha": "2026-09-23 13:10:19"
+        "ultima_fecha": "2026-09-23 13:10:19",
+        "lecturas": {
+            "2026-08-23": 503.8
+        }
     },
     "BOGOTA CORPORATE CENTER GEN03": {
         "ultimo_horometro": 335.8,
-        "ultima_fecha": "2026-08-01 10:22:57"
+        "ultima_fecha": "2026-08-01 10:22:57",
+        "lecturas": {
+            "2026-07-01": 335.8
+        }
     },
     "EDIFICIO C75": {
         "ultimo_horometro": 851.6,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 851.6
+        }
     },
     "EDIFICIO 120": {
         "ultimo_horometro": 137.3,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 137.3
+        }
     },
     "TORRE CENTRAL GEN 1 MTS": {
         "ultimo_horometro": 525.3,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 525.3
+        }
     },
     "TORRE CENTRAL GEN 2 MTS": {
         "ultimo_horometro": 531.6,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 531.6
+        }
     },
     "TORRE CENTRAL GEN 3 MTS": {
         "ultimo_horometro": 496.8,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 496.8
+        }
     },
     "TORRE CENTRAL GEN 4 MTS": {
         "ultimo_horometro": 523.0,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 523.0
+        }
     },
     "MTS PARALELO 26 GEN 1 900 KW": {
         "ultimo_horometro": 211.8,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 211.8
+        }
     },
     "MTS PARALELO 26 GEN 2 750 KW": {
         "ultimo_horometro": 90.0,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 90.0
+        }
     },
     "MTS PARALELO 26 GEN 3 500 KW": {
         "ultimo_horometro": 280.2,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 280.2
+        }
     },
     "BOCACOLINA 100 GEN01": {
         "ultimo_horometro": 70.73,
-        "ultima_fecha": "2026-09-23 13:09:19"
+        "ultima_fecha": "2026-09-23 13:09:19",
+        "lecturas": {
+            "2026-08-23": 70.73
+        }
     },
     "BOCACOLINA 100 GEN02": {
         "ultimo_horometro": 70.41,
-        "ultima_fecha": "2026-09-23 13:09:40"
+        "ultima_fecha": "2026-09-23 13:09:40",
+        "lecturas": {
+            "2026-08-23": 70.41
+        }
     },
     "BOCACOLINA 100 GEN03": {
         "ultimo_horometro": 65.16,
-        "ultima_fecha": "2026-09-23 13:09:40"
+        "ultima_fecha": "2026-09-23 13:09:40",
+        "lecturas": {
+            "2026-08-23": 65.16
+        }
     },
     "CITY MEDICA": {
         "ultimo_horometro": 232.7,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 232.7
+        }
     },
     "EDIFICIO CLINICA COA ACEIS": {
         "ultimo_horometro": 301.0,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 301.0
+        }
     },
     "CLINICA MEDELLIN EL POBLADO PH GEN CLINICA ACEIS": {
         "ultimo_horometro": 426.8,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 426.8
+        }
     },
     "CLINICA MEDELLIN EL POBLADO PH GEN EDIFICIO ACEIS": {
         "ultimo_horometro": 317.8,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 317.8
+        }
     },
     "EDIFICIO CORFINSURA ZONAS COMUNES ACEIS": {
         "ultimo_horometro": 597.4,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 597.4
+        }
     },
     "EDIFICIO CORFINSURA ZONAS PRIVADAS ACEIS": {
         "ultimo_horometro": 5338.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 5338.1
+        }
     },
     "EDIFICIO ECOTOWER MTS": {
         "ultimo_horometro": 264.3,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 264.3
+        }
     },
     "EDIFICIO FUTURA": {
         "ultimo_horometro": 69.5,
-        "ultima_fecha": "2026-09-23 13:10:39"
+        "ultima_fecha": "2026-09-23 13:10:39",
+        "lecturas": {
+            "2026-08-23": 69.5
+        }
     },
     "EDIFICIO CENTRO GRANAHORRAR ACEIS": {
         "ultimo_horometro": 592.0,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 592.0
+        }
     },
     "EDIFICIO GREEN OFFICE TORRE A MTS": {
         "ultimo_horometro": 192.4,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 192.4
+        }
     },
     "EDIFICIO GREEN OFFICE TORRE B MTS": {
         "ultimo_horometro": 187.9,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 187.9
+        }
     },
     "EDIFICIO GREEN OFFICE ZONAS COMUNES MTS": {
         "ultimo_horometro": 150.6,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 150.6
+        }
     },
     "MTS ASOBANCARIA 500KW (TEST)": {
         "ultimo_horometro": 10.2,
-        "ultima_fecha": "2026-07-09 15:53:00"
+        "ultima_fecha": "2026-07-09 15:53:00",
+        "lecturas": {
+            "2026-06-09": 10.2
+        }
     },
     "EDIFICIO LAS VILLAS": {
         "ultimo_horometro": 103.9,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 103.9
+        }
     },
     "EDIFICIO MARA": {
         "ultimo_horometro": 1245.2,
-        "ultima_fecha": "2026-07-29 10:48:53"
+        "ultima_fecha": "2026-07-29 10:48:53",
+        "lecturas": {
+            "2026-06-29": 1245.2
+        }
     },
     "EDIFICIO MIXTO MEDICAL ACEIS": {
         "ultimo_horometro": 210.0,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 210.0
+        }
     },
     "EDIFICIO MORROS 3": {
         "ultimo_horometro": 1633.5,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 1633.5
+        }
     },
     "EDIFICIO MORROS EPIC GEN 01": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2020-12-08 15:00:15"
+        "ultima_fecha": "2020-12-08 15:00:15",
+        "lecturas": {
+            "2020-11-08": 0.0
+        }
     },
     "EDIFICIO NEXSO": {
         "ultimo_horometro": 108.3,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 108.3
+        }
     },
     "EDIFICIO PALMA REAL": {
         "ultimo_horometro": 192.1,
-        "ultima_fecha": "2026-08-12 17:13:07"
+        "ultima_fecha": "2026-08-12 17:13:07",
+        "lecturas": {
+            "2026-07-12": 192.1
+        }
     },
     "EDIFICIO PORTA 100 MTS": {
         "ultimo_horometro": 127.8,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 127.8
+        }
     },
     "EDIFICIO PORTO 100 GEN1": {
         "ultimo_horometro": 275.3,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 275.3
+        }
     },
     "EDIFICIO PORTO 100 GEN2": {
         "ultimo_horometro": 233.0,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 233.0
+        }
     },
     "EDIFICIO PORVENIR ACEIS": {
         "ultimo_horometro": 244.6,
-        "ultima_fecha": "2026-06-24 09:13:11"
+        "ultima_fecha": "2026-06-24 09:13:11",
+        "lecturas": {
+            "2026-05-24": 244.6
+        }
     },
     "EDIFICIO PROYECTO PARQUE 86": {
         "ultimo_horometro": 250.3,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 250.3
+        }
     },
     "EDIFICIO QBO MTS": {
         "ultimo_horometro": 371.2,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 371.2
+        }
     },
     "TELEPORT TORRE A GEN 208 MTS": {
         "ultimo_horometro": 7047.6,
-        "ultima_fecha": "2026-09-23 13:10:23"
+        "ultima_fecha": "2026-09-23 13:10:23",
+        "lecturas": {
+            "2026-08-23": 7047.6
+        }
     },
     "TELEPORT TORRE A GEN 440 MTS": {
         "ultimo_horometro": 888.5,
-        "ultima_fecha": "2026-06-24 09:13:10"
+        "ultima_fecha": "2026-06-24 09:13:10",
+        "lecturas": {
+            "2026-05-24": 888.5
+        }
     },
     "TELEPORT TORRE B GEN 208 MTS": {
         "ultimo_horometro": 831.1,
-        "ultima_fecha": "2026-06-24 09:02:06"
+        "ultima_fecha": "2026-06-24 09:02:06",
+        "lecturas": {
+            "2026-05-24": 831.1
+        }
     },
     "EDIFICIO TERPEL": {
         "ultimo_horometro": 20149.0,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 20149.0
+        }
     },
     "EDIFICIO TORRE ALMAGRAN ACEIS": {
         "ultimo_horometro": 437.4,
-        "ultima_fecha": "2026-07-25 15:21:19"
+        "ultima_fecha": "2026-07-25 15:21:19",
+        "lecturas": {
+            "2026-06-25": 437.4
+        }
     },
     "EDIFICIO TORRE CONCASA PH ACEIS": {
         "ultimo_horometro": 1087.2,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 1087.2
+        }
     },
     "EDIFICIO TORRE INTERMEDICA ACEIS": {
         "ultimo_horometro": 469.6,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 469.6
+        }
     },
     "EDIFICIO WBC GEN01 MTS": {
         "ultimo_horometro": 170.8,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 170.8
+        }
     },
     "EDIFICIO WBC GEN02 MTS": {
         "ultimo_horometro": 714.2,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 714.2
+        }
     },
     "HOTEL SANTA CLARA (test)": {
         "ultimo_horometro": 502.9,
-        "ultima_fecha": "2026-09-23 13:09:42"
+        "ultima_fecha": "2026-09-23 13:09:42",
+        "lecturas": {
+            "2026-08-23": 502.9
+        }
     },
     "SERENA DEL MAR- DISTRITO TÉRMICO GEN 750 KW": {
         "ultimo_horometro": 6637.3,
-        "ultima_fecha": "2026-06-24 09:13:03"
+        "ultima_fecha": "2026-06-24 09:13:03",
+        "lecturas": {
+            "2026-05-24": 6637.3
+        }
     },
     "FALABELLA SAN DIEGO": {
         "ultimo_horometro": 519.8,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 519.8
+        }
     },
     "INMOVAL": {
         "ultimo_horometro": 346.0,
-        "ultima_fecha": "2026-08-20 06:57:03"
+        "ultima_fecha": "2026-08-20 06:57:03",
+        "lecturas": {
+            "2026-07-20": 346.0
+        }
     },
     "FRIGORIFICO METROPOLITANO S.A.S BOGOTA": {
         "ultimo_horometro": 461.4,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 461.4
+        }
     },
     "FUNDACION CLINICA DEL NORTE": {
         "ultimo_horometro": 178.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 178.5
+        }
     },
     "HOSPITAL INFANTIL NAPOLEON FRANCO": {
         "ultimo_horometro": 327.2,
-        "ultima_fecha": "2026-06-24 09:02:12"
+        "ultima_fecha": "2026-06-24 09:02:12",
+        "lecturas": {
+            "2026-05-24": 327.2
+        }
     },
     "HOSPITAL INFANTIL SAN JOSE GEN01": {
         "ultimo_horometro": 127.8,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 127.8
+        }
     },
     "HOSPITAL INFANTIL SAN JOSE GEN02": {
         "ultimo_horometro": 139.2,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 139.2
+        }
     },
     "FUNDACION POLICLINICA DE CIENAGA": {
         "ultimo_horometro": 905.37,
-        "ultima_fecha": "2026-09-23 13:09:22"
+        "ultima_fecha": "2026-09-23 13:09:22",
+        "lecturas": {
+            "2026-08-23": 905.37
+        }
     },
     "FUNDACION SANTA FE - EDI AMBULATORIO": {
         "ultimo_horometro": 677.0,
-        "ultima_fecha": "2026-09-23 13:10:22"
+        "ultima_fecha": "2026-09-23 13:10:22",
+        "lecturas": {
+            "2026-08-23": 677.0
+        }
     },
     "FUNDACION SANTA FE - EDI JARDIN": {
         "ultimo_horometro": 24.4,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 24.4
+        }
     },
     "FUNDACION SANTA FE ADMINISTRACION": {
         "ultimo_horometro": 454.0,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 454.0
+        }
     },
     "FUNDACION SANTA FE CATERPILLAR": {
         "ultimo_horometro": 547.4,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 547.4
+        }
     },
     "FUNDACION SANTA FE COSME & DAMIAN": {
         "ultimo_horometro": 256.2,
-        "ultima_fecha": "2026-09-23 13:10:20"
+        "ultima_fecha": "2026-09-23 13:10:20",
+        "lecturas": {
+            "2026-08-23": 256.2
+        }
     },
     "FUNDACION SANTA FE EXPANSION": {
         "ultimo_horometro": 309.2,
-        "ultima_fecha": "2026-09-07 10:57:33"
+        "ultima_fecha": "2026-09-07 10:57:33",
+        "lecturas": {
+            "2026-08-07": 309.2
+        }
     },
     "FUNDACION SANTA FE ICAL": {
         "ultimo_horometro": 212.6,
-        "ultima_fecha": "2026-09-23 13:10:27"
+        "ultima_fecha": "2026-09-23 13:10:27",
+        "lecturas": {
+            "2026-08-23": 212.6
+        }
     },
     "FUNDACION SANTA FE MATERNO FETAL": {
         "ultimo_horometro": 210.3,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 210.3
+        }
     },
     "FUNDACION SANTA FE UNIDAD RENAL": {
         "ultimo_horometro": 364.2,
-        "ultima_fecha": "2026-09-12 05:42:31"
+        "ultima_fecha": "2026-09-12 05:42:31",
+        "lecturas": {
+            "2026-08-12": 364.2
+        }
     },
     "FUNDACION SANTA FE VERDE": {
         "ultimo_horometro": 219.4,
-        "ultima_fecha": "2023-05-04 13:23:30"
+        "ultima_fecha": "2023-05-04 13:23:30",
+        "lecturas": {
+            "2023-04-04": 219.4
+        }
     },
     "FUNDACION SANTAFE RADIOLOGIA NUEVA": {
         "ultimo_horometro": 71.4,
-        "ultima_fecha": "2026-06-24 09:13:08"
+        "ultima_fecha": "2026-06-24 09:13:08",
+        "lecturas": {
+            "2026-05-24": 71.4
+        }
     },
     "FUNDACION SANTAFE VERDE NUEVA": {
         "ultimo_horometro": 50.7,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 50.7
+        }
     },
     "RCI EDIF-AMBULATORIO": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-08-01 10:01:59"
+        "ultima_fecha": "2026-08-01 10:01:59",
+        "lecturas": {
+            "2026-07-01": 0.0
+        }
     },
     "FUNDACION WWB COLOMBIA GEN01": {
         "ultimo_horometro": 237.7,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 237.7
+        }
     },
     "GASEOSAS LUX S.A.S. CEDI ADN VILLAVICENCIO": {
         "ultimo_horometro": 63.95,
-        "ultima_fecha": "2024-10-12 18:55:47"
+        "ultima_fecha": "2024-10-12 18:55:47",
+        "lecturas": {
+            "2024-09-12": 63.95
+        }
     },
     "GENCELL PHARMA GEN 01": {
         "ultimo_horometro": 64.1,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 64.1
+        }
     },
     "GENCELL PHARMA GEN 02": {
         "ultimo_horometro": 46.3,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 46.3
+        }
     },
     "ECOTOWER 100 MTS": {
         "ultimo_horometro": 396.6,
-        "ultima_fecha": "2026-09-01 01:45:39"
+        "ultima_fecha": "2026-09-01 01:45:39",
+        "lecturas": {
+            "2026-08-01": 396.6
+        }
     },
     "EDIFICIO ECOTOWER CHICO CLL100 MTS": {
         "ultimo_horometro": 141.5,
-        "ultima_fecha": "2026-07-09 17:49:20"
+        "ultima_fecha": "2026-07-09 17:49:20",
+        "lecturas": {
+            "2026-06-09": 141.5
+        }
     },
     "MTS PRIME TOWER GENERADOR OFICINAS": {
         "ultimo_horometro": 331.2,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 331.2
+        }
     },
     "GIROS Y FINANZAS GEN01": {
         "ultimo_horometro": 253.0,
-        "ultima_fecha": "2026-09-23 13:10:38"
+        "ultima_fecha": "2026-09-23 13:10:38",
+        "lecturas": {
+            "2026-08-23": 253.0
+        }
     },
     "AEROPUERTO DE BARRANQUILLA GEN01": {
         "ultimo_horometro": 2247.5,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 2247.5
+        }
     },
     "AEROPUERTO DE BARRANQUILLA GEN02": {
         "ultimo_horometro": 553.0,
-        "ultima_fecha": "2026-06-24 09:13:11"
+        "ultima_fecha": "2026-06-24 09:13:11",
+        "lecturas": {
+            "2026-05-24": 553.0
+        }
     },
     "HOSPITAL UNIVERSIDAD DEL NORTE GEN01": {
         "ultimo_horometro": 1072.7,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 1072.7
+        }
     },
     "HOSPITAL UNIVERSIDAD DEL NORTE GEN02": {
         "ultimo_horometro": 959.6,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 959.6
+        }
     },
     "HOSPITAL UNIVERSIDAD DEL NORTE GEN03": {
         "ultimo_horometro": 695.1,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 695.1
+        }
     },
     "SAN RAFAEL NTA 855-G2": {
         "ultimo_horometro": 23.2,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 23.2
+        }
     },
     "SAN RAFAEL QSX15 CALDERA": {
         "ultimo_horometro": 448.0,
-        "ultima_fecha": "2026-09-23 13:09:58"
+        "ultima_fecha": "2026-09-23 13:09:58",
+        "lecturas": {
+            "2026-08-23": 448.0
+        }
     },
     "HOTEL ALOFT": {
         "ultimo_horometro": 147.6,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 147.6
+        }
     },
     "HOTEL ANANDA": {
         "ultimo_horometro": 695.4,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 695.4
+        }
     },
     "HOTEL CHARLEE": {
         "ultimo_horometro": 85.8,
-        "ultima_fecha": "2024-09-07 18:09:57"
+        "ultima_fecha": "2024-09-07 18:09:57",
+        "lecturas": {
+            "2024-08-07": 85.8
+        }
     },
     "HOTEL CHARLESTON SANTA TERESA": {
         "ultimo_horometro": 344.9,
-        "ultima_fecha": "2023-10-08 14:09:28"
+        "ultima_fecha": "2023-10-08 14:09:28",
+        "lecturas": {
+            "2023-09-08": 344.9
+        }
     },
     "HOTEL DANN CARLTON BOGOTA GEN01": {
         "ultimo_horometro": 172.2,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 172.2
+        }
     },
     "HOTEL DANN CARLTON BOGOTA GEN02": {
         "ultimo_horometro": 156.7,
-        "ultima_fecha": "2026-09-23 13:10:37"
+        "ultima_fecha": "2026-09-23 13:10:37",
+        "lecturas": {
+            "2026-08-23": 156.7
+        }
     },
     "HOTEL HYATT GEN 1": {
         "ultimo_horometro": 529.9,
-        "ultima_fecha": "2026-06-24 09:13:08"
+        "ultima_fecha": "2026-06-24 09:13:08",
+        "lecturas": {
+            "2026-05-24": 529.9
+        }
     },
     "HOTEL HYATT GEN 2": {
         "ultimo_horometro": 195.7,
-        "ultima_fecha": "2023-06-12 14:39:06"
+        "ultima_fecha": "2023-06-12 14:39:06",
+        "lecturas": {
+            "2023-05-12": 195.7
+        }
     },
     "HOTEL SABANETA": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:09:25"
+        "ultima_fecha": "2026-09-23 13:09:25",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "CONJUNTO INMOBILIARIO 43 AVENIDA APARTAMENTOS": {
         "ultimo_horometro": 1601.3,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 1601.3
+        }
     },
     "CONJUNTO INMOBILIARIO 43 AVENIDA GEN OFICINAS": {
         "ultimo_horometro": 138.3,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 138.3
+        }
     },
     "EDIFICIO ALTO PRADO GEN01": {
         "ultimo_horometro": 242.1,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 242.1
+        }
     },
     "HOTEL ESTELAR ALTAMIRA (test)": {
         "ultimo_horometro": 49.8,
-        "ultima_fecha": "2024-11-12 12:42:53"
+        "ultima_fecha": "2024-11-12 12:42:53",
+        "lecturas": {
+            "2024-10-12": 49.8
+        }
     },
     "HOTEL ESTELAR BLUE": {
         "ultimo_horometro": 81.3,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 81.3
+        }
     },
     "HOTEL ESTELAR CALLE 100": {
         "ultimo_horometro": 242.4,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 242.4
+        }
     },
     "HOTEL ESTELAR CARTAGENA BOCAGRANDE GEN 1020 KW": {
         "ultimo_horometro": 656.5,
-        "ultima_fecha": "2026-07-08 08:43:25"
+        "ultima_fecha": "2026-07-08 08:43:25",
+        "lecturas": {
+            "2026-06-08": 656.5
+        }
     },
     "HOTEL ESTELAR CARTAGENA BOCAGRANDE GEN 136 KW": {
         "ultimo_horometro": 317.4,
-        "ultima_fecha": "2024-09-28 11:37:51"
+        "ultima_fecha": "2024-09-28 11:37:51",
+        "lecturas": {
+            "2024-08-28": 317.4
+        }
     },
     "HOTEL ESTELAR CARTAGENA BOCAGRANDE GEN 800 KW": {
         "ultimo_horometro": 464.0,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 464.0
+        }
     },
     "HOTEL ESTELAR LA FONTANA": {
         "ultimo_horometro": 229.8,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 229.8
+        }
     },
     "HOTEL ESTELAR MANZANILLO": {
         "ultimo_horometro": 1338.2,
-        "ultima_fecha": "2023-01-28 03:10:35"
+        "ultima_fecha": "2023-01-28 03:10:35",
+        "lecturas": {}
     },
     "HOTEL ESTELAR MILLA DE ORO GEN HOTEL": {
         "ultimo_horometro": 2562.0,
-        "ultima_fecha": "2026-09-23 13:10:19"
+        "ultima_fecha": "2026-09-23 13:10:19",
+        "lecturas": {
+            "2026-08-23": 2562.0
+        }
     },
     "HOTEL ESTELAR PAIPA": {
         "ultimo_horometro": 20.0,
-        "ultima_fecha": "2026-09-23 13:09:36"
+        "ultima_fecha": "2026-09-23 13:09:36",
+        "lecturas": {
+            "2026-08-23": 20.0
+        }
     },
     "HOTEL ESTELAR PARQUE 93": {
         "ultimo_horometro": 255.1,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 255.1
+        }
     },
     "HOTEL ESTELAR SANTAMAR GEN 300kW": {
         "ultimo_horometro": 930.8,
-        "ultima_fecha": "2026-09-23 12:19:18"
+        "ultima_fecha": "2026-09-23 12:19:18",
+        "lecturas": {
+            "2026-08-23": 930.8
+        }
     },
     "HOTEL ESTELAR SANTAMAR GEN 500kW": {
         "ultimo_horometro": 937.2,
-        "ultima_fecha": "2026-08-27 10:25:41"
+        "ultima_fecha": "2026-08-27 10:25:41",
+        "lecturas": {
+            "2026-07-27": 937.2
+        }
     },
     "HOTEL ESTELAR SUITES JONES": {
         "ultimo_horometro": 603.8,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 603.8
+        }
     },
     "HOTEL ESTELAR TORRE OVIEDO APTOS": {
         "ultimo_horometro": 95.6,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 95.6
+        }
     },
     "HOTEL ESTELAR VILLAVICENCIO": {
         "ultimo_horometro": 343.3,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 343.3
+        }
     },
     "HOTEL ESTELAR YOPAL": {
         "ultimo_horometro": 344.0,
-        "ultima_fecha": "2023-05-25 17:05:54"
+        "ultima_fecha": "2023-05-25 17:05:54",
+        "lecturas": {
+            "2023-04-25": 344.0
+        }
     },
     "HOTEL MELIA KARMAIRI": {
         "ultimo_horometro": 71.2,
-        "ultima_fecha": "2024-02-18 12:17:09"
+        "ultima_fecha": "2024-02-18 12:17:09",
+        "lecturas": {
+            "2024-01-18": 71.2
+        }
     },
     "HOTEL OXO WAYA GUAJIRA": {
         "ultimo_horometro": 2281.4,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 2281.4
+        }
     },
     "ARCHROMA COLOMBIA S.A.S": {
         "ultimo_horometro": 1222.5,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 1222.5
+        }
     },
     "ICOLTRANS BARRANQUILLA": {
         "ultimo_horometro": 5306.1,
-        "ultima_fecha": "2026-07-02 16:53:57"
+        "ultima_fecha": "2026-07-02 16:53:57",
+        "lecturas": {
+            "2026-06-02": 5306.1
+        }
     },
     "ICOLTRANS COTA": {
         "ultimo_horometro": 3199.6,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 3199.6
+        }
     },
     "ICOLTRANS IBAGUE": {
         "ultimo_horometro": 154.7,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 154.7
+        }
     },
     "ICOLTRANS MEDELLIN": {
         "ultimo_horometro": 615.0,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 615.0
+        }
     },
     "IQ OUTSOURCING MEDELLIN": {
         "ultimo_horometro": 66.9,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 66.9
+        }
     },
     "EDIFICIO ISO": {
         "ultimo_horometro": 210.0,
-        "ultima_fecha": "2026-09-21 22:23:11"
+        "ultima_fecha": "2026-09-21 22:23:11",
+        "lecturas": {
+            "2026-08-21": 210.0
+        }
     },
     "COLCAFE BOGOTÁ": {
         "ultimo_horometro": 6634.3,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 6634.3
+        }
     },
     "INGRAM MICRO": {
         "ultimo_horometro": 643.2,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 643.2
+        }
     },
     "IPS SURGIFAST": {
         "ultimo_horometro": 273.7,
-        "ultima_fecha": "2026-07-23 13:39:58"
+        "ultima_fecha": "2026-07-23 13:39:58",
+        "lecturas": {
+            "2026-06-23": 273.7
+        }
     },
     "LA RECETTA COTA": {
         "ultimo_horometro": 257.6,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 257.6
+        }
     },
     "LABORATORIOS BUSSIE": {
         "ultimo_horometro": 128.6,
-        "ultima_fecha": "2026-09-09 17:14:10"
+        "ultima_fecha": "2026-09-09 17:14:10",
+        "lecturas": {
+            "2026-08-09": 128.6
+        }
     },
     "LABORATORIO CLINICO BERNARDO ESPINOSA": {
         "ultimo_horometro": 321.7,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 321.7
+        }
     },
     "LABORATORIO Y CENTRO ADMIN CORPAUL GUARNE 50kW": {
         "ultimo_horometro": 1291.8,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 1291.8
+        }
     },
     "LAYCOM": {
         "ultimo_horometro": 226.8,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 226.8
+        }
     },
     "EDIFICIO LOCATEL PH": {
         "ultimo_horometro": 521.1,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 521.1
+        }
     },
     "CREPES & WAFFLES - PALMETTO": {
         "ultimo_horometro": 15.2,
-        "ultima_fecha": "2026-09-23 11:33:49"
+        "ultima_fecha": "2026-09-23 11:33:49",
+        "lecturas": {
+            "2026-08-23": 15.2
+        }
     },
     "MESSER AGAFANO GEN01 SDMO": {
         "ultimo_horometro": 306.0,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 306.0
+        }
     },
     "MESSER AGAFANO GEN02 CUMMINS": {
         "ultimo_horometro": 259.1,
-        "ultima_fecha": "2026-09-23 10:09:49"
+        "ultima_fecha": "2026-09-23 10:09:49",
+        "lecturas": {
+            "2026-08-23": 259.1
+        }
     },
     "MESSER BARRANQUILLA GEN1": {
         "ultimo_horometro": 353.2,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 353.2
+        }
     },
     "MESSER BARRANQUILLA GEN2": {
         "ultimo_horometro": 13247.2,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 13247.2
+        }
     },
     "MESSER BUCARAMANGA": {
         "ultimo_horometro": 130.8,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 130.8
+        }
     },
     "MESSER CALI": {
         "ultimo_horometro": 413.2,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 413.2
+        }
     },
     "MESSER CARTAGENA": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2021-02-27 12:43:22"
+        "ultima_fecha": "2021-02-27 12:43:22",
+        "lecturas": {
+            "2021-01-27": 0.0
+        }
     },
     "MESSER MEDELLIN": {
         "ultimo_horometro": 281.3,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 281.3
+        }
     },
     "MESSER REMEO TEUSAQUILLO": {
         "ultimo_horometro": 204.1,
-        "ultima_fecha": "2026-08-06 18:46:10"
+        "ultima_fecha": "2026-08-06 18:46:10",
+        "lecturas": {
+            "2026-07-06": 204.1
+        }
     },
     "CENTRO COMERCIAL MILLENIUM": {
         "ultimo_horometro": 181.1,
-        "ultima_fecha": "2026-06-24 09:13:02"
+        "ultima_fecha": "2026-06-24 09:13:02",
+        "lecturas": {
+            "2026-05-24": 181.1
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN01": {
         "ultimo_horometro": 104.0,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 104.0
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN02": {
         "ultimo_horometro": 96.5,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 96.5
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN03": {
         "ultimo_horometro": 3087.5,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 3087.5
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN04": {
         "ultimo_horometro": 83.7,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 83.7
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN05": {
         "ultimo_horometro": 116.5,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 116.5
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN06": {
         "ultimo_horometro": 128.0,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 128.0
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN07": {
         "ultimo_horometro": 111.9,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 111.9
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN08": {
         "ultimo_horometro": 1338.2,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 1338.2
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN09": {
         "ultimo_horometro": 4633.7,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 4633.7
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN10": {
         "ultimo_horometro": 1974.7,
-        "ultima_fecha": "2026-09-23 13:10:12"
+        "ultima_fecha": "2026-09-23 13:10:12",
+        "lecturas": {
+            "2026-08-23": 1974.7
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN11": {
         "ultimo_horometro": 713.7,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 713.7
+        }
     },
     "EDIFICIO MTS ELEMENTO GEN12": {
         "ultimo_horometro": 5101.8,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 5101.8
+        }
     },
     "MEGAPORT CENTRO DE NEGOCIOS": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:08:52"
+        "ultima_fecha": "2026-09-23 13:08:52",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "PARQUE INDUSTRIAL QUADRATTO MTS": {
         "ultimo_horometro": 305.5,
-        "ultima_fecha": "2026-09-23 13:10:35"
+        "ultima_fecha": "2026-09-23 13:10:35",
+        "lecturas": {
+            "2026-08-23": 305.5
+        }
     },
     "JAMAR CENDIS GALAPA": {
         "ultimo_horometro": 1005.8,
-        "ultima_fecha": "2023-09-04 10:44:51"
+        "ultima_fecha": "2023-09-04 10:44:51",
+        "lecturas": {
+            "2023-08-04": 1005.8
+        }
     },
     "NATIONAL CLINICS CENTENARIO": {
         "ultimo_horometro": 579.5,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 579.5
+        }
     },
     "NOVALENE ZONA FRANCA": {
         "ultimo_horometro": 5759.05,
-        "ultima_fecha": "2026-08-20 11:54:18"
+        "ultima_fecha": "2026-08-20 11:54:18",
+        "lecturas": {
+            "2026-07-20": 5759.05
+        }
     },
     "NOVA SALUD": {
         "ultimo_horometro": 490.9,
-        "ultima_fecha": "2023-08-16 10:46:18"
+        "ultima_fecha": "2023-08-16 10:46:18",
+        "lecturas": {
+            "2023-07-16": 490.9
+        }
     },
     "PALMA GRANDE MALL COMERCIAL PH": {
         "ultimo_horometro": 197.4,
-        "ultima_fecha": "2026-09-14 11:21:59"
+        "ultima_fecha": "2026-09-14 11:21:59",
+        "lecturas": {
+            "2026-08-14": 197.4
+        }
     },
     "PALMS AVENUE": {
         "ultimo_horometro": 317.4,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 317.4
+        }
     },
     "PARQUE COMERCIAL GUACARI GEN01": {
         "ultimo_horometro": 288.6,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 288.6
+        }
     },
     "PARQUE COMERCIAL GUACARI GEN02": {
         "ultimo_horometro": 281.2,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 281.2
+        }
     },
     "PARQUE COMERCIAL GUACARI GEN03": {
         "ultimo_horometro": 348.4,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 348.4
+        }
     },
     "PARQUE COMERCIAL GUACARI GEN04 PROCINAL": {
         "ultimo_horometro": 291.3,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 291.3
+        }
     },
     "EDIFICIO PARQUE EMPRESARIAL ACEIS": {
         "ultimo_horometro": 242.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 242.1
+        }
     },
     "PDC VINOS Y LICORES": {
         "ultimo_horometro": 521.7,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 521.7
+        }
     },
     "PERFECT BODY SANTAMARTA": {
         "ultimo_horometro": 796.9,
-        "ultima_fecha": "2026-09-23 13:09:51"
+        "ultima_fecha": "2026-09-23 13:09:51",
+        "lecturas": {
+            "2026-08-23": 796.9
+        }
     },
     "CONJUNTO PLATINUM SUPERIOR PH ACEIS": {
         "ultimo_horometro": 749.2,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 749.2
+        }
     },
     "PLAZA MAYOR GEN CUMMINS": {
         "ultimo_horometro": 217.2,
-        "ultima_fecha": "2026-09-23 06:04:10"
+        "ultima_fecha": "2026-09-23 06:04:10",
+        "lecturas": {
+            "2026-08-23": 217.2
+        }
     },
     "PLAZA MAYOR GEN DOOSAN": {
         "ultimo_horometro": 28.7,
-        "ultima_fecha": "2026-09-23 13:09:40"
+        "ultima_fecha": "2026-09-23 13:09:40",
+        "lecturas": {
+            "2026-08-23": 28.7
+        }
     },
     "POLLOS JA GEN 100kW": {
         "ultimo_horometro": 9995.9,
-        "ultima_fecha": "2024-03-17 20:12:30"
+        "ultima_fecha": "2024-03-17 20:12:30",
+        "lecturas": {
+            "2024-02-17": 9995.9
+        }
     },
     "POLLOS JA GEN 130kW": {
         "ultimo_horometro": 286.2,
-        "ultima_fecha": "2024-11-21 10:22:06"
+        "ultima_fecha": "2024-11-21 10:22:06",
+        "lecturas": {
+            "2024-10-21": 286.2
+        }
     },
     "OBRA: CEDI (CENTRO DE DISTRIBUCION) RIONEGRO": {
         "ultimo_horometro": 26.6,
-        "ultima_fecha": "2026-09-23 13:08:59"
+        "ultima_fecha": "2026-09-23 13:08:59",
+        "lecturas": {
+            "2026-08-23": 26.6
+        }
     },
     "PRICESMART BARRANQUILLA": {
         "ultimo_horometro": 105.85,
-        "ultima_fecha": "2026-09-23 13:08:46"
+        "ultima_fecha": "2026-09-23 13:08:46",
+        "lecturas": {
+            "2026-08-23": 105.85
+        }
     },
     "PRICESMART COLOMBIA": {
         "ultimo_horometro": 3241.2,
-        "ultima_fecha": "2026-06-24 09:13:22"
+        "ultima_fecha": "2026-06-24 09:13:22",
+        "lecturas": {
+            "2026-05-24": 3241.2
+        }
     },
     "PRIMAX GEN01": {
         "ultimo_horometro": 568.1,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 568.1
+        }
     },
     "PROYECTO OPTIMUS GEN OFICINAS LOCALES 450kW": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "PROYECTO OPTIMUS GEN OFICINAS LOCALES 750kW": {
         "ultimo_horometro": 81.1,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 81.1
+        }
     },
     "PROYECTO OPTIMUS GEN ZONAS COMUNES 750kW": {
         "ultimo_horometro": 184.3,
-        "ultima_fecha": "2026-09-23 13:10:14"
+        "ultima_fecha": "2026-09-23 13:10:14",
+        "lecturas": {
+            "2026-08-23": 184.3
+        }
     },
     "RUTA N ACEIS": {
         "ultimo_horometro": 269.0,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 269.0
+        }
     },
     "CC SALITRE PLAZA SUB 1 GEN 1": {
         "ultimo_horometro": 679.3,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 679.3
+        }
     },
     "CC SALITRE PLAZA SUB 1 GEN 2": {
         "ultimo_horometro": 644.5,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 644.5
+        }
     },
     "CC SALITRE PLAZA SUB 1 GEN 3": {
         "ultimo_horometro": 324.4,
-        "ultima_fecha": "2026-09-23 13:10:16"
+        "ultima_fecha": "2026-09-23 13:10:16",
+        "lecturas": {
+            "2026-08-23": 324.4
+        }
     },
     "CC SALITRE PLAZA SUB 2 GEN 1": {
         "ultimo_horometro": 652.7,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 652.7
+        }
     },
     "CC SALITRE PLAZA SUB 2 GEN 2": {
         "ultimo_horometro": 640.3,
-        "ultima_fecha": "2026-09-23 13:10:15"
+        "ultima_fecha": "2026-09-23 13:10:15",
+        "lecturas": {
+            "2026-08-23": 640.3
+        }
     },
     "EDIFICIO SALUD Y SERVICIO ACEIS": {
         "ultimo_horometro": 7989.2,
-        "ultima_fecha": "2026-09-23 13:10:23"
+        "ultima_fecha": "2026-09-23 13:10:23",
+        "lecturas": {
+            "2026-08-23": 7989.2
+        }
     },
     "SEMPERTEX": {
         "ultimo_horometro": 3270.4,
-        "ultima_fecha": "2023-08-11 09:08:48"
+        "ultima_fecha": "2023-08-11 09:08:48",
+        "lecturas": {
+            "2023-07-11": 3270.4
+        }
     },
     "SERVIENTREGA DIRECCION GENERAL": {
         "ultimo_horometro": 251.3,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 251.3
+        }
     },
     "SERVIENTREGA DIRECCION GENERAL GEN02": {
         "ultimo_horometro": 59.5,
-        "ultima_fecha": "2026-07-31 18:56:15"
+        "ultima_fecha": "2026-07-31 18:56:15",
+        "lecturas": {}
     },
     "SOCIEDAD MEDICA SANTA MARTA GEN 1": {
         "ultimo_horometro": 472.3,
-        "ultima_fecha": "2026-09-23 13:09:45"
+        "ultima_fecha": "2026-09-23 13:09:45",
+        "lecturas": {
+            "2026-08-23": 472.3
+        }
     },
     "SOCIEDAD MEDICA SANTA MARTA GEN 2": {
         "ultimo_horometro": 259.5,
-        "ultima_fecha": "2026-09-23 13:09:58"
+        "ultima_fecha": "2026-09-23 13:09:58",
+        "lecturas": {
+            "2026-08-23": 259.5
+        }
     },
     "CRUZ ROJA SECCIONAL NACIONAL": {
         "ultimo_horometro": 976.6,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 976.6
+        }
     },
     "GRUA RTG AGUADULCE QSZ": {
         "ultimo_horometro": 7595.75,
-        "ultima_fecha": "2026-05-01 16:57:04"
+        "ultima_fecha": "2026-05-01 16:57:04",
+        "lecturas": {
+            "2026-04-01": 7595.75
+        }
     },
     "HOMECENTER ARMENIA": {
         "ultimo_horometro": 424.9,
-        "ultima_fecha": "2025-11-04 07:06:12"
+        "ultima_fecha": "2025-11-04 07:06:12",
+        "lecturas": {
+            "2025-10-04": 424.9
+        }
     },
     "HOMECENTER BARRANQUILLA CENTRO - SUR": {
         "ultimo_horometro": 260.0,
-        "ultima_fecha": "2023-11-29 06:18:17"
+        "ultima_fecha": "2023-11-29 06:18:17",
+        "lecturas": {
+            "2023-10-29": 260.0
+        }
     },
     "HOMECENTER BARRANQUILLA NORTE GEN02": {
         "ultimo_horometro": 155.0,
-        "ultima_fecha": "2023-11-05 07:59:30"
+        "ultima_fecha": "2023-11-05 07:59:30",
+        "lecturas": {
+            "2023-10-05": 155.0
+        }
     },
     "HOMECENTER CALLE 26 DORADO GEN01 (test)": {
         "ultimo_horometro": 194.6,
-        "ultima_fecha": "2026-09-23 13:10:17"
+        "ultima_fecha": "2026-09-23 13:10:17",
+        "lecturas": {
+            "2026-08-23": 194.6
+        }
     },
     "HOMECENTER CALLE 26 DORADO GEN02 (test)": {
         "ultimo_horometro": 490.7,
-        "ultima_fecha": "2026-09-23 13:10:18"
+        "ultima_fecha": "2026-09-23 13:10:18",
+        "lecturas": {
+            "2026-08-23": 490.7
+        }
     },
     "HOMECENTER CALLE 30": {
         "ultimo_horometro": 683.2,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 683.2
+        }
     },
     "HOMECENTER CC CARIBE PLAZA GEN 1": {
         "ultimo_horometro": 487.2,
-        "ultima_fecha": "2024-04-08 07:49:36"
+        "ultima_fecha": "2024-04-08 07:49:36",
+        "lecturas": {
+            "2024-03-08": 487.2
+        }
     },
     "HOMECENTER CC CARIBE PLAZA GEN 2": {
         "ultimo_horometro": 440.9,
-        "ultima_fecha": "2024-04-08 07:50:07"
+        "ultima_fecha": "2024-04-08 07:50:07",
+        "lecturas": {
+            "2024-03-08": 440.9
+        }
     },
     "HOMECENTER CEDIS CAPLAN": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:09:40"
+        "ultima_fecha": "2026-09-23 13:09:40",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "HOMECENTER CHIA - CAJICA": {
         "ultimo_horometro": 1861.2,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 1861.2
+        }
     },
     "HOMECENTER CUCUTA GEN01": {
         "ultimo_horometro": 179.56,
-        "ultima_fecha": "2026-09-23 13:09:33"
+        "ultima_fecha": "2026-09-23 13:09:33",
+        "lecturas": {
+            "2026-08-23": 179.56
+        }
     },
     "HOMECENTER CUCUTA GEN02": {
         "ultimo_horometro": 374.1,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 374.1
+        }
     },
     "HOMECENTER ENVIGADO": {
         "ultimo_horometro": 343.9,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 343.9
+        }
     },
     "HOMECENTER GIRARDOT": {
         "ultimo_horometro": 614.2,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 614.2
+        }
     },
     "HOMECENTER IBAGUE GEN01": {
         "ultimo_horometro": 216.9,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 216.9
+        }
     },
     "HOMECENTER IBAGUE GEN02": {
         "ultimo_horometro": 538.5,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 538.5
+        }
     },
     "HOMECENTER INDUSTRIALES GEN01": {
         "ultimo_horometro": 584.0,
-        "ultima_fecha": "2024-04-15 00:23:58"
+        "ultima_fecha": "2024-04-15 00:23:58",
+        "lecturas": {
+            "2024-03-15": 584.0
+        }
     },
     "HOMECENTER INDUSTRIALES GEN02": {
         "ultimo_horometro": 1150.2,
-        "ultima_fecha": "2026-06-24 09:13:11"
+        "ultima_fecha": "2026-06-24 09:13:11",
+        "lecturas": {
+            "2026-05-24": 1150.2
+        }
     },
     "HOMECENTER MALL PLAZA (test)": {
         "ultimo_horometro": 3108.8,
-        "ultima_fecha": "2025-11-18 19:15:08"
+        "ultima_fecha": "2025-11-18 19:15:08",
+        "lecturas": {
+            "2025-10-18": 3108.8
+        }
     },
     "HOMECENTER MONTERIA": {
         "ultimo_horometro": 10857.3,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 10857.3
+        }
     },
     "HOMECENTER MOSQUERA": {
         "ultimo_horometro": 2114.5,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 2114.5
+        }
     },
     "HOMECENTER PALMIRA": {
         "ultimo_horometro": 250.7,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 250.7
+        }
     },
     "HOMECENTER PEREIRA GEN01": {
         "ultimo_horometro": 735.3,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 735.3
+        }
     },
     "HOMECENTER PEREIRA GEN02": {
         "ultimo_horometro": 861.4,
-        "ultima_fecha": "2026-06-24 09:13:11"
+        "ultima_fecha": "2026-06-24 09:13:11",
+        "lecturas": {
+            "2026-05-24": 861.4
+        }
     },
     "HOMECENTER RIONEGRO": {
         "ultimo_horometro": 323.0,
-        "ultima_fecha": "2026-09-23 13:10:40"
+        "ultima_fecha": "2026-09-23 13:10:40",
+        "lecturas": {
+            "2026-08-23": 323.0
+        }
     },
     "HOMECENTER SAN FERNANDO CARTAGENA": {
         "ultimo_horometro": 333.1,
-        "ultima_fecha": "2021-06-12 14:38:25"
+        "ultima_fecha": "2021-06-12 14:38:25",
+        "lecturas": {
+            "2021-05-12": 333.1
+        }
     },
     "HOMECENTER SAN JUAN GEN01": {
         "ultimo_horometro": 404.7,
-        "ultima_fecha": "2026-09-23 09:14:32"
+        "ultima_fecha": "2026-09-23 09:14:32",
+        "lecturas": {
+            "2026-08-23": 404.7
+        }
     },
     "HOMECENTER SANTA MARTA": {
         "ultimo_horometro": 650.6,
-        "ultima_fecha": "2023-08-24 11:06:23"
+        "ultima_fecha": "2023-08-24 11:06:23",
+        "lecturas": {
+            "2023-07-24": 650.6
+        }
     },
     "HOMECENTER TINTAL": {
         "ultimo_horometro": 360.7,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 360.7
+        }
     },
     "HOMECENTER TULUA": {
         "ultimo_horometro": 402.9,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 402.9
+        }
     },
     "HOMECENTER TUNJA": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-05-20 19:05:42"
+        "ultima_fecha": "2026-05-20 19:05:42",
+        "lecturas": {
+            "2026-04-20": 0.0
+        }
     },
     "HOMECENTER VALLEDUPAR": {
         "ultimo_horometro": 204.3,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 204.3
+        }
     },
     "HOMECENTER VILLAVICENCIO GEN01": {
         "ultimo_horometro": 580.53,
-        "ultima_fecha": "2022-03-31 16:58:56"
+        "ultima_fecha": "2022-03-31 16:58:56",
+        "lecturas": {}
     },
     "HOMECENTER VILLAVICENCIO GEN02": {
         "ultimo_horometro": 530.74,
-        "ultima_fecha": "2023-02-01 09:50:39"
+        "ultima_fecha": "2023-02-01 09:50:39",
+        "lecturas": {
+            "2023-01-01": 530.74
+        }
     },
     "HOMECENTER YOPAL": {
         "ultimo_horometro": 749.9,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 749.9
+        }
     },
     "SQUARE APARTAMENTOS ACEIS": {
         "ultimo_horometro": 37.6,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 37.6
+        }
     },
     "SQUARE OFICINAS MTS": {
         "ultimo_horometro": 49.6,
-        "ultima_fecha": "2026-09-23 13:10:37"
+        "ultima_fecha": "2026-09-23 13:10:37",
+        "lecturas": {
+            "2026-08-23": 49.6
+        }
     },
     "STEPAN LA MANUELA": {
         "ultimo_horometro": 208.8,
-        "ultima_fecha": "2026-09-23 13:09:29"
+        "ultima_fecha": "2026-09-23 13:09:29",
+        "lecturas": {
+            "2026-08-23": 208.8
+        }
     },
     "SUMICOL 250KW": {
         "ultimo_horometro": 1650.2,
-        "ultima_fecha": "2026-06-24 09:13:03"
+        "ultima_fecha": "2026-06-24 09:13:03",
+        "lecturas": {
+            "2026-05-24": 1650.2
+        }
     },
     "SURTIGAS MONTERIA": {
         "ultimo_horometro": 211.7,
-        "ultima_fecha": "2023-07-31 08:53:03"
+        "ultima_fecha": "2023-07-31 08:53:03",
+        "lecturas": {}
     },
     "SURTIGAS SINCELEJO": {
         "ultimo_horometro": 393.7,
-        "ultima_fecha": "2026-09-23 13:10:36"
+        "ultima_fecha": "2026-09-23 13:10:36",
+        "lecturas": {
+            "2026-08-23": 393.7
+        }
     },
     "TECNOGLASS GEN 20 kW": {
         "ultimo_horometro": 106.2,
-        "ultima_fecha": "2026-09-23 13:10:39"
+        "ultima_fecha": "2026-09-23 13:10:39",
+        "lecturas": {
+            "2026-08-23": 106.2
+        }
     },
     "TECNOGLASS GEN 60 kW": {
         "ultimo_horometro": 77.5,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 77.5
+        }
     },
     "TELEPERFORMANCE HSB-S01-SGE-GE01": {
         "ultimo_horometro": 111.1,
-        "ultima_fecha": "2026-09-23 13:09:16"
+        "ultima_fecha": "2026-09-23 13:09:16",
+        "lecturas": {
+            "2026-08-23": 111.1
+        }
     },
     "TELEPERFORMANCE PUERTA DEL SOL": {
         "ultimo_horometro": 255.8,
-        "ultima_fecha": "2026-09-23 13:10:39"
+        "ultima_fecha": "2026-09-23 13:10:39",
+        "lecturas": {
+            "2026-08-23": 255.8
+        }
     },
     "TERMINAL DE TRANSPORTE DE BARRANQUILLA": {
         "ultimo_horometro": 3155.2,
-        "ultima_fecha": "2024-05-01 09:24:51"
+        "ultima_fecha": "2024-05-01 09:24:51",
+        "lecturas": {
+            "2024-04-01": 3155.2
+        }
     },
     "TERRACINA PLAZA PH ACEIS": {
         "ultimo_horometro": 136.0,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 136.0
+        }
     },
     "EDIFICIO EMPRESARIAL CORTEZZA LAS PALMAS ZONAS COMUNES": {
         "ultimo_horometro": 164.4,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 164.4
+        }
     },
     "EDIFICIO EMPRESARIAL CORTEZZA LAS PALMAS ZONAS PRIVADAS": {
         "ultimo_horometro": 196.9,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 196.9
+        }
     },
     "EDIFICIO TORRE EMPRESARIAL DAVIVIENDA ACEIS": {
         "ultimo_horometro": 1290.2,
-        "ultima_fecha": "2026-09-23 13:10:34"
+        "ultima_fecha": "2026-09-23 13:10:34",
+        "lecturas": {
+            "2026-08-23": 1290.2
+        }
     },
     "BARCELONA DE INDIAS SARRIA": {
         "ultimo_horometro": 1046.0,
-        "ultima_fecha": "2026-06-24 09:13:12"
+        "ultima_fecha": "2026-06-24 09:13:12",
+        "lecturas": {
+            "2026-05-24": 1046.0
+        }
     },
     "UIC BARCELONA DE INDIAS": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 0.0
+        }
     },
     "UNINORTE BIBLIOTECA": {
         "ultimo_horometro": 33.3,
-        "ultima_fecha": "2026-09-19 03:46:08"
+        "ultima_fecha": "2026-09-19 03:46:08",
+        "lecturas": {
+            "2026-08-19": 33.3
+        }
     },
     "UNINORTE BLOQUE J": {
         "ultimo_horometro": 953.3,
-        "ultima_fecha": "2026-06-24 09:02:08"
+        "ultima_fecha": "2026-06-24 09:02:08",
+        "lecturas": {
+            "2026-05-24": 953.3
+        }
     },
     "UNINORTE CAFE DUNORT": {
         "ultimo_horometro": 2248.4,
-        "ultima_fecha": "2024-05-01 09:24:51"
+        "ultima_fecha": "2024-05-01 09:24:51",
+        "lecturas": {
+            "2024-04-01": 2248.4
+        }
     },
     "UNINORTE CAMPO DEPORTIVO": {
         "ultimo_horometro": 725.2,
-        "ultima_fecha": "2026-06-28 10:11:56"
+        "ultima_fecha": "2026-06-28 10:11:56",
+        "lecturas": {
+            "2026-05-28": 725.2
+        }
     },
     "UNINORTE EDIFICIO ADMINISTRATIVO": {
         "ultimo_horometro": 764.0,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 764.0
+        }
     },
     "UNINORTE EDIFICIO MULTIPROPOSITO GEN01": {
         "ultimo_horometro": 319.1,
-        "ultima_fecha": "2026-06-24 09:02:14"
+        "ultima_fecha": "2026-06-24 09:02:14",
+        "lecturas": {
+            "2026-05-24": 319.1
+        }
     },
     "UNINORTE EDIFICIO MULTIPROPOSITO GEN02": {
         "ultimo_horometro": 291.5,
-        "ultima_fecha": "2026-06-24 09:13:08"
+        "ultima_fecha": "2026-06-24 09:13:08",
+        "lecturas": {
+            "2026-05-24": 291.5
+        }
     },
     "UNINORTE EMISORA RADIO ENLACE": {
         "ultimo_horometro": 36077.3,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 36077.3
+        }
     },
     "UNINORTE FOOD TRUCK": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2020-12-08 15:00:15"
+        "ultima_fecha": "2020-12-08 15:00:15",
+        "lecturas": {
+            "2020-11-08": 0.0
+        }
     },
     "UNINORTE PLANTA MOVIL": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2021-02-27 12:43:22"
+        "ultima_fecha": "2021-02-27 12:43:22",
+        "lecturas": {
+            "2021-01-27": 0.0
+        }
     },
     "UNINORTE SANTAMARTA": {
         "ultimo_horometro": 970.2,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 970.2
+        }
     },
     "CUMMINS-AC125 EDIFICIO B23": {
         "ultimo_horometro": 35.0,
-        "ultima_fecha": "2026-09-23 13:10:21"
+        "ultima_fecha": "2026-09-23 13:10:21",
+        "lecturas": {
+            "2026-08-23": 35.0
+        }
     },
     "UNIVALLE CATERPILLAR CASETA 2": {
         "ultimo_horometro": 784.15,
-        "ultima_fecha": "2026-09-23 13:09:40"
+        "ultima_fecha": "2026-09-23 13:09:40",
+        "lecturas": {
+            "2026-08-23": 784.15
+        }
     },
     "UNIVALLE CUMMINS 120-MICROBIOLOGIA": {
         "ultimo_horometro": 796.1,
-        "ultima_fecha": "2026-09-23 13:10:33"
+        "ultima_fecha": "2026-09-23 13:10:33",
+        "lecturas": {
+            "2026-08-23": 796.1
+        }
     },
     "UNIVALLE CUMMINS E10-FAI": {
         "ultimo_horometro": 2.4,
-        "ultima_fecha": "2022-05-31 12:59:47"
+        "ultima_fecha": "2022-05-31 12:59:47",
+        "lecturas": {}
     },
     "UNIVALLE CUMMINS E20 NORTE": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-02-15 08:02:41"
+        "ultima_fecha": "2026-02-15 08:02:41",
+        "lecturas": {
+            "2026-01-15": 0.0
+        }
     },
     "UNIVALLE CUMMINS E20 SUR": {
         "ultimo_horometro": 765.4,
-        "ultima_fecha": "2026-07-08 09:14:48"
+        "ultima_fecha": "2026-07-08 09:14:48",
+        "lecturas": {
+            "2026-06-08": 765.4
+        }
     },
     "UNIVALLE DEUTZ A7 SERVICIO MEDICO": {
         "ultimo_horometro": 10.6,
-        "ultima_fecha": "2026-09-23 13:09:28"
+        "ultima_fecha": "2026-09-23 13:09:28",
+        "lecturas": {
+            "2026-08-23": 10.6
+        }
     },
     "UNIVALLE DOOSAN B13": {
         "ultimo_horometro": 425.3,
-        "ultima_fecha": "2026-09-23 13:09:36"
+        "ultima_fecha": "2026-09-23 13:09:36",
+        "lecturas": {
+            "2026-08-23": 425.3
+        }
     },
     "UNIVALLE HINO 116-SAN FERNANDO": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-04-16 14:19:16"
+        "ultima_fecha": "2026-04-16 14:19:16",
+        "lecturas": {
+            "2026-03-16": 0.0
+        }
     },
     "UNIVALLE MM FIRE - RCI (test)": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 08:26:49"
+        "ultima_fecha": "2026-09-23 08:26:49",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "UNIVALLE PERKINS 35KVA": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:09:23"
+        "ultima_fecha": "2026-09-23 13:09:23",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "UNIVALLE PERKINS 50KVA OITEL": {
         "ultimo_horometro": 920.7,
-        "ultima_fecha": "2026-09-23 13:10:35"
+        "ultima_fecha": "2026-09-23 13:10:35",
+        "lecturas": {
+            "2026-08-23": 920.7
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 13": {
         "ultimo_horometro": 532.0,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 532.0
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 18 TERRAZA": {
         "ultimo_horometro": 1599.6,
-        "ultima_fecha": "2026-09-23 13:10:39"
+        "ultima_fecha": "2026-09-23 13:10:39",
+        "lecturas": {
+            "2026-08-23": 1599.6
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 19 SOTANO": {
         "ultimo_horometro": 2176.5,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 2176.5
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 3": {
         "ultimo_horometro": 220.5,
-        "ultima_fecha": "2026-09-23 13:10:30"
+        "ultima_fecha": "2026-09-23 13:10:30",
+        "lecturas": {
+            "2026-08-23": 220.5
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 30": {
         "ultimo_horometro": 248.7,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 248.7
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 32": {
         "ultimo_horometro": 331.7,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 331.7
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE 38": {
         "ultimo_horometro": 172.1,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 172.1
+        }
     },
     "UNIVERSIDAD EAFIT BLOQUE IDIOMAS": {
         "ultimo_horometro": 244.1,
-        "ultima_fecha": "2026-09-23 13:10:38"
+        "ultima_fecha": "2026-09-23 13:10:38",
+        "lecturas": {
+            "2026-08-23": 244.1
+        }
     },
     "UNIVERSIDAD EAFIT LLANO GRANDE": {
         "ultimo_horometro": 971.9,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 971.9
+        }
     },
     "UNIVERSIDAD LA GRAN COLOMBIA": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 0.0
+        }
     },
     "UNIVERSIDAD LA GRAN COLOMBIA G2 ING CIVIL": {
         "ultimo_horometro": 146.8,
-        "ultima_fecha": "2026-09-23 13:10:29"
+        "ultima_fecha": "2026-09-23 13:10:29",
+        "lecturas": {
+            "2026-08-23": 146.8
+        }
     },
     "UTB TURBACO PLANTA 200KW EDIFICIO A2": {
         "ultimo_horometro": 11651.9,
-        "ultima_fecha": "2026-09-23 10:59:20"
+        "ultima_fecha": "2026-09-23 10:59:20",
+        "lecturas": {
+            "2026-08-23": 11651.9
+        }
     },
     "NEXA MEDELLIN": {
         "ultimo_horometro": 87.4,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 87.4
+        }
     },
     "HOTEL HILTON SANTA MARTA": {
         "ultimo_horometro": 456.1,
-        "ultima_fecha": "2026-09-23 13:07:48"
+        "ultima_fecha": "2026-09-23 13:07:48",
+        "lecturas": {
+            "2026-08-23": 456.1
+        }
     },
     "YAZAKY CIEMEL GEN01": {
         "ultimo_horometro": 1232.1,
-        "ultima_fecha": "2026-09-23 13:10:28"
+        "ultima_fecha": "2026-09-23 13:10:28",
+        "lecturas": {
+            "2026-08-23": 1232.1
+        }
     },
     "ZUREK LEQUERICA ISLAS DEL ROSARIO GEN02 35 KW": {
         "ultimo_horometro": 2718.7,
-        "ultima_fecha": "2023-01-03 14:58:57"
+        "ultima_fecha": "2023-01-03 14:58:57",
+        "lecturas": {}
     },
     "CRAWFORD 170 (SWN261).": {
         "ultimo_horometro": 17041.97,
-        "ultima_fecha": "2026-09-21 09:53:45"
+        "ultima_fecha": "2026-09-21 09:53:45",
+        "lecturas": {
+            "2026-08-21": 17041.97
+        }
     },
     "CRAWFORD 170 VOLVO": {
         "ultimo_horometro": 11210.98,
-        "ultima_fecha": "2026-09-20 07:37:58"
+        "ultima_fecha": "2026-09-20 07:37:58",
+        "lecturas": {
+            "2026-08-20": 11210.98
+        }
     },
     "CUMMINS 130KW (WOU194)": {
         "ultimo_horometro": 2904.48,
-        "ultima_fecha": "2026-09-20 17:17:26"
+        "ultima_fecha": "2026-09-20 17:17:26",
+        "lecturas": {
+            "2026-08-20": 2904.48
+        }
     },
     "CUMMINS SJQ480": {
         "ultimo_horometro": 2355.59,
-        "ultima_fecha": "2026-09-15 13:06:46"
+        "ultima_fecha": "2026-09-15 13:06:46",
+        "lecturas": {
+            "2026-08-15": 2355.59
+        }
     },
     "LITEPOWER 140KW (USA884)": {
         "ultimo_horometro": 4796.54,
-        "ultima_fecha": "2026-09-20 19:11:38"
+        "ultima_fecha": "2026-09-20 19:11:38",
+        "lecturas": {
+            "2026-08-20": 4796.54
+        }
     },
     "LITEPOWER 140KW PL-494": {
         "ultimo_horometro": 1693.66,
-        "ultima_fecha": "2026-09-07 18:07:41"
+        "ultima_fecha": "2026-09-07 18:07:41",
+        "lecturas": {
+            "2026-08-07": 1693.66
+        }
     },
     "MODASA 125 (JVK675)": {
         "ultimo_horometro": 10797.72,
-        "ultima_fecha": "2026-09-17 15:49:20"
+        "ultima_fecha": "2026-09-17 15:49:20",
+        "lecturas": {
+            "2026-08-17": 10797.72
+        }
     },
     "PERKINS 60 (SML985)": {
         "ultimo_horometro": 8369.47,
-        "ultima_fecha": "2026-09-01 15:56:53"
+        "ultima_fecha": "2026-09-01 15:56:53",
+        "lecturas": {
+            "2026-08-01": 8369.47
+        }
     },
     "PLANTA AC240S (WOU193)": {
         "ultimo_horometro": 674.73,
-        "ultima_fecha": "2026-09-16 01:50:22"
+        "ultima_fecha": "2026-09-16 01:50:22",
+        "lecturas": {
+            "2026-08-16": 674.73
+        }
     },
     "PLANTA AC80S (USA885)": {
         "ultimo_horometro": 1913.04,
-        "ultima_fecha": "2026-09-22 16:52:32"
+        "ultima_fecha": "2026-09-22 16:52:32",
+        "lecturas": {
+            "2026-08-22": 1913.04
+        }
     },
     "PLANTA CUMMINS 120 (SON603)": {
         "ultimo_horometro": 11210.98,
-        "ultima_fecha": "2026-09-20 07:37:58"
+        "ultima_fecha": "2026-09-20 07:37:58",
+        "lecturas": {
+            "2026-08-20": 11210.98
+        }
     },
     "PRZ996": {
         "ultimo_horometro": 184.93,
-        "ultima_fecha": "2026-09-01 15:55:36"
+        "ultima_fecha": "2026-09-01 15:55:36",
+        "lecturas": {
+            "2026-08-01": 184.93
+        }
     },
     "PSX650": {
         "ultimo_horometro": 493.59,
-        "ultima_fecha": "2026-09-17 12:15:49"
+        "ultima_fecha": "2026-09-17 12:15:49",
+        "lecturas": {
+            "2026-08-17": 493.59
+        }
     },
     "HVAC CERREJON - GAF": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2024-09-16 11:08:19"
+        "ultima_fecha": "2024-09-16 11:08:19",
+        "lecturas": {
+            "2024-08-16": 0.0
+        }
     },
     "Turbina de vapor": {
         "ultimo_horometro": 8621.0,
-        "ultima_fecha": "2026-05-26 15:06:25"
+        "ultima_fecha": "2026-05-26 15:06:25",
+        "lecturas": {
+            "2026-04-26": 8621.0
+        }
     },
     "TECNOGLASS GEN1": {
         "ultimo_horometro": -1.0,
-        "ultima_fecha": "2026-03-02 12:42:15"
+        "ultima_fecha": "2026-03-02 12:42:15",
+        "lecturas": {
+            "2026-02-02": -1.0
+        }
     },
     "TECNOGLASS GEN2": {
         "ultimo_horometro": -27263.0,
-        "ultima_fecha": "2026-03-02 12:42:15"
+        "ultima_fecha": "2026-03-02 12:42:15",
+        "lecturas": {
+            "2026-02-02": -27263.0
+        }
     },
     "TECNOGLASS GEN3": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-03-02 12:42:15"
+        "ultima_fecha": "2026-03-02 12:42:15",
+        "lecturas": {
+            "2026-02-02": 0.0
+        }
     },
     "TECNOGLASS GEN7": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-03-02 12:42:15"
+        "ultima_fecha": "2026-03-02 12:42:15",
+        "lecturas": {
+            "2026-02-02": 0.0
+        }
     },
     "TECNOGLASS GEN8": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-03-02 12:42:15"
+        "ultima_fecha": "2026-03-02 12:42:15",
+        "lecturas": {
+            "2026-02-02": 0.0
+        }
     },
     "ADIELA PALMA - PLAN LUZ": {
         "ultimo_horometro": 169.95,
-        "ultima_fecha": "2026-01-11 16:12:36"
+        "ultima_fecha": "2026-01-11 16:12:36",
+        "lecturas": {}
     },
     "ALQUIMICO C80D6": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "ARENITAS RIVIERA - PLAN LUZ": {
         "ultimo_horometro": 27.0,
-        "ultima_fecha": "2026-08-11 05:21:59"
+        "ultima_fecha": "2026-08-11 05:21:59",
+        "lecturas": {
+            "2026-07-11": 27.0
+        }
     },
     "CALYPSO - PLAN LUZ": {
         "ultimo_horometro": 16001.0,
-        "ultima_fecha": "2026-09-23 13:10:32"
+        "ultima_fecha": "2026-09-23 13:10:32",
+        "lecturas": {
+            "2026-08-23": 16001.0
+        }
     },
     "CC PLAZA DE LAS AMÉRICAS PE #12 ETAPA 8": {
         "ultimo_horometro": 160.7,
-        "ultima_fecha": "2026-09-23 11:52:17"
+        "ultima_fecha": "2026-09-23 11:52:17",
+        "lecturas": {
+            "2026-08-23": 160.7
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 1": {
         "ultimo_horometro": 1355.7,
-        "ultima_fecha": "2026-09-02 07:05:43"
+        "ultima_fecha": "2026-09-02 07:05:43",
+        "lecturas": {
+            "2026-08-02": 1355.7
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 2": {
         "ultimo_horometro": 1374.4,
-        "ultima_fecha": "2026-09-02 07:05:46"
+        "ultima_fecha": "2026-09-02 07:05:46",
+        "lecturas": {
+            "2026-08-02": 1374.4
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 3": {
         "ultimo_horometro": 1339.6,
-        "ultima_fecha": "2026-09-02 07:05:46"
+        "ultima_fecha": "2026-09-02 07:05:46",
+        "lecturas": {
+            "2026-08-02": 1339.6
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 4": {
         "ultimo_horometro": 1277.2,
-        "ultima_fecha": "2026-09-02 07:05:43"
+        "ultima_fecha": "2026-09-02 07:05:43",
+        "lecturas": {
+            "2026-08-02": 1277.2
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 5": {
         "ultimo_horometro": 1465.0,
-        "ultima_fecha": "2026-09-02 07:05:46"
+        "ultima_fecha": "2026-09-02 07:05:46",
+        "lecturas": {
+            "2026-08-02": 1465.0
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 6": {
         "ultimo_horometro": 54.5,
-        "ultima_fecha": "2023-04-05 08:32:28"
+        "ultima_fecha": "2023-04-05 08:32:28",
+        "lecturas": {
+            "2023-03-05": 54.5
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 7": {
         "ultimo_horometro": 174.6,
-        "ultima_fecha": "2026-09-02 07:05:46"
+        "ultima_fecha": "2026-09-02 07:05:46",
+        "lecturas": {
+            "2026-08-02": 174.6
+        }
     },
     "CENTRO COMERCIAL VIVA GEN 8": {
         "ultimo_horometro": 1371.4,
-        "ultima_fecha": "2026-09-02 07:05:46"
+        "ultima_fecha": "2026-09-02 07:05:46",
+        "lecturas": {
+            "2026-08-02": 1371.4
+        }
     },
     "COLISEO LIVE 450kW - PLAN LUZ": {
         "ultimo_horometro": 1250.95,
-        "ultima_fecha": "2026-09-15 13:36:43"
+        "ultima_fecha": "2026-09-15 13:36:43",
+        "lecturas": {
+            "2026-08-15": 1250.95
+        }
     },
     "EDIFICIO DE USO MIXTO CONSULTORIOS 50": {
         "ultimo_horometro": 15.8,
-        "ultima_fecha": "2026-09-23 13:09:42"
+        "ultima_fecha": "2026-09-23 13:09:42",
+        "lecturas": {
+            "2026-08-23": 15.8
+        }
     },
     "EFIGAS NORMANDY (TEST)": {
         "ultimo_horometro": 1330.6,
-        "ultima_fecha": "2026-06-24 09:02:10"
+        "ultima_fecha": "2026-06-24 09:02:10",
+        "lecturas": {
+            "2026-05-24": 1330.6
+        }
     },
     "FRITOLAY CALI": {
         "ultimo_horometro": 164.82,
-        "ultima_fecha": "2026-09-23 13:09:38"
+        "ultima_fecha": "2026-09-23 13:09:38",
+        "lecturas": {
+            "2026-08-23": 164.82
+        }
     },
     "FRITOLAY IBAGUE": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-06-22 17:49:02"
+        "ultima_fecha": "2026-06-22 17:49:02",
+        "lecturas": {
+            "2026-05-22": 0.0
+        }
     },
     "FRITOLAY PEREIRA": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "HUEVOS KIKES 300KW - PLAN LUZ": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "LADRILLERA CI LAGO VERDE GEN01 - PLAN LUZ": {
         "ultimo_horometro": 153.6,
-        "ultima_fecha": "2024-09-25 14:59:47"
+        "ultima_fecha": "2024-09-25 14:59:47",
+        "lecturas": {
+            "2024-08-25": 153.6
+        }
     },
     "LADRILLERA CI LAGO VERDE GEN02 - PLAN LUZ": {
         "ultimo_horometro": 347.8,
-        "ultima_fecha": "2024-09-25 14:59:20"
+        "ultima_fecha": "2024-09-25 14:59:20",
+        "lecturas": {
+            "2024-08-25": 347.8
+        }
     },
     "MTS PRIME TOWER GENERADOR ZONAS COMUNES": {
         "ultimo_horometro": 352.7,
-        "ultima_fecha": "2026-09-23 13:10:31"
+        "ultima_fecha": "2026-09-23 13:10:31",
+        "lecturas": {
+            "2026-08-23": 352.7
+        }
     },
     "PATIO 191 CONSORCIO EXPRESS": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-10 18:42:59"
+        "ultima_fecha": "2026-09-10 18:42:59",
+        "lecturas": {
+            "2026-08-10": 0.0
+        }
     },
     "TEST TANDELTA CK2": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-06-09 16:40:45"
+        "ultima_fecha": "2026-06-09 16:40:45",
+        "lecturas": {
+            "2026-05-09": 0.0
+        }
     },
     "OPPERAR LA ESTANCIA": {
         "ultimo_horometro": 261.43,
-        "ultima_fecha": "2026-09-23 13:08:12"
+        "ultima_fecha": "2026-09-23 13:08:12",
+        "lecturas": {
+            "2026-08-23": 261.43
+        }
     },
     "CENTRO COMERCIAL SANTA ANA": {
         "ultimo_horometro": 36.96,
-        "ultima_fecha": "2026-09-23 13:08:42"
+        "ultima_fecha": "2026-09-23 13:08:42",
+        "lecturas": {
+            "2026-08-23": 36.96
+        }
     },
     "H161212318/C40D6 Stand by": {
         "ultimo_horometro": 152.3,
-        "ultima_fecha": "2026-08-13 03:34:39"
+        "ultima_fecha": "2026-08-13 03:34:39",
+        "lecturas": {
+            "2026-07-13": 152.3
+        }
     },
     "ARGICO SAS (RENTA) 1000KW": {
         "ultimo_horometro": 3.85,
-        "ultima_fecha": "2025-02-18 16:01:38"
+        "ultima_fecha": "2025-02-18 16:01:38",
+        "lecturas": {
+            "2025-01-18": 3.85
+        }
     },
     "ARGICO SAS (RENTA) 135KW": {
         "ultimo_horometro": 441.3,
-        "ultima_fecha": "2025-04-16 19:14:09"
+        "ultima_fecha": "2025-04-16 19:14:09",
+        "lecturas": {
+            "2025-03-16": 441.3
+        }
     },
     "ARGICO SAS (RENTA) 1500KW": {
         "ultimo_horometro": 2267.5,
-        "ultima_fecha": "2026-07-26 19:34:46"
+        "ultima_fecha": "2026-07-26 19:34:46",
+        "lecturas": {
+            "2026-06-26": 2267.5
+        }
     },
     "ARGICO SAS (RENTA) 200KW": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-09-22 16:55:11"
+        "ultima_fecha": "2026-09-22 16:55:11",
+        "lecturas": {
+            "2026-08-22": 0.0
+        }
     },
     "ARGICO SAS (RENTA) 230KW": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2024-06-04 19:00:00"
+        "ultima_fecha": "2024-06-04 19:00:00",
+        "lecturas": {
+            "2024-05-04": 0.0
+        }
     },
     "ARGICO SAS (RENTA) 600KW": {
         "ultimo_horometro": 1069.68,
-        "ultima_fecha": "2026-07-29 23:57:20"
+        "ultima_fecha": "2026-07-29 23:57:20",
+        "lecturas": {
+            "2026-06-29": 1069.68
+        }
     },
     "ARGICO SAS (RENTA) 60KW": {
         "ultimo_horometro": 2621.7,
-        "ultima_fecha": "2026-08-21 13:53:43"
+        "ultima_fecha": "2026-08-21 13:53:43",
+        "lecturas": {
+            "2026-07-21": 2621.7
+        }
     },
     "ARGICO-SPIRIT": {
         "ultimo_horometro": 2325.3,
-        "ultima_fecha": "2026-09-06 01:02:48"
+        "ultima_fecha": "2026-09-06 01:02:48",
+        "lecturas": {
+            "2026-08-06": 2325.3
+        }
     },
     "BANCALARI": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "BUTCHER SHOP": {
         "ultimo_horometro": 290.65,
-        "ultima_fecha": "2026-09-23 13:09:18"
+        "ultima_fecha": "2026-09-23 13:09:18",
+        "lecturas": {
+            "2026-08-23": 290.65
+        }
     },
     "CENTRO DE SERVICIOS ARGICO": {
         "ultimo_horometro": 1231.45,
-        "ultima_fecha": "2026-09-23 13:09:23"
+        "ultima_fecha": "2026-09-23 13:09:23",
+        "lecturas": {
+            "2026-08-23": 1231.45
+        }
     },
     "CENTRO MEDICO CAROLINA DE JESUS SRL GEN 01": {
         "ultimo_horometro": 414.6,
-        "ultima_fecha": "2026-09-23 13:09:38"
+        "ultima_fecha": "2026-09-23 13:09:38",
+        "lecturas": {
+            "2026-08-23": 414.6
+        }
     },
     "CHICAGO CUBS BASEBALL OPERATIONS DOMINICANA LLC": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "2026-06-08 19:34:34"
+        "ultima_fecha": "2026-06-08 19:34:34",
+        "lecturas": {
+            "2026-05-08": 0.0
+        }
     },
     "COLINAS CENTRO GEN01": {
         "ultimo_horometro": 991.95,
-        "ultima_fecha": "2026-09-23 13:09:15"
+        "ultima_fecha": "2026-09-23 13:09:15",
+        "lecturas": {
+            "2026-08-23": 991.95
+        }
     },
     "COLINAS CENTRO GEN02": {
         "ultimo_horometro": 627.65,
-        "ultima_fecha": "2026-09-23 13:09:01"
+        "ultima_fecha": "2026-09-23 13:09:01",
+        "lecturas": {
+            "2026-08-23": 627.65
+        }
     },
     "COLORADO ROKIES BASEBALL": {
         "ultimo_horometro": 1290.3,
-        "ultima_fecha": "2026-09-23 13:07:48"
+        "ultima_fecha": "2026-09-23 13:07:48",
+        "lecturas": {
+            "2026-08-23": 1290.3
+        }
     },
     "COMPAÑIA DE ELECTRICIDAD DE BAYAHIBE SAC": {
         "ultimo_horometro": 0.12,
-        "ultima_fecha": "2026-09-23 13:07:33"
+        "ultima_fecha": "2026-09-23 13:07:33",
+        "lecturas": {
+            "2026-08-23": 0.12
+        }
     },
     "CONSORCIO ENERGETICO PUNTA CANA MACAO GEN01": {
         "ultimo_horometro": 0.5,
-        "ultima_fecha": "2026-07-29 07:38:51"
+        "ultima_fecha": "2026-07-29 07:38:51",
+        "lecturas": {
+            "2026-06-29": 0.5
+        }
     },
     "CONSORCIO ENERGETICO PUNTA CANA MACAO GEN02": {
         "ultimo_horometro": 0.5,
-        "ultima_fecha": "2026-07-29 06:07:42"
+        "ultima_fecha": "2026-07-29 06:07:42",
+        "lecturas": {
+            "2026-06-29": 0.5
+        }
     },
     "CONVATEC GEN01": {
         "ultimo_horometro": 533.35,
-        "ultima_fecha": "2026-09-23 13:09:20"
+        "ultima_fecha": "2026-09-23 13:09:20",
+        "lecturas": {
+            "2026-08-23": 533.35
+        }
     },
     "CONVATEC GEN02": {
         "ultimo_horometro": 611.3,
-        "ultima_fecha": "2026-09-23 13:09:40"
+        "ultima_fecha": "2026-09-23 13:09:40",
+        "lecturas": {
+            "2026-08-23": 611.3
+        }
     },
     "CONVATEC GEN03": {
         "ultimo_horometro": 352.55,
-        "ultima_fecha": "2026-09-23 13:08:58"
+        "ultima_fecha": "2026-09-23 13:08:58",
+        "lecturas": {
+            "2026-08-23": 352.55
+        }
     },
     "CONVATEC GEN04": {
         "ultimo_horometro": 967.15,
-        "ultima_fecha": "2026-09-23 13:09:03"
+        "ultima_fecha": "2026-09-23 13:09:03",
+        "lecturas": {
+            "2026-08-23": 967.15
+        }
     },
     "CORPORATIVO 15 GEN01": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "CORPORATIVO 15 GEN02": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "CORPORATIVO 15 GEN03": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "EPIC VENTURE SRL GEN 1": {
         "ultimo_horometro": 711.3,
-        "ultima_fecha": "2025-03-21 16:29:41"
+        "ultima_fecha": "2025-03-21 16:29:41",
+        "lecturas": {
+            "2025-02-21": 711.3
+        }
     },
     "EPIC VENTURE SRL GEN 2": {
         "ultimo_horometro": 1840.05,
-        "ultima_fecha": "2025-03-27 07:58:01"
+        "ultima_fecha": "2025-03-27 07:58:01",
+        "lecturas": {
+            "2025-02-27": 1840.05
+        }
     },
     "FRAGA INDUSTRIAL GEN01": {
         "ultimo_horometro": 1147.5,
-        "ultima_fecha": "2026-09-23 13:08:54"
+        "ultima_fecha": "2026-09-23 13:08:54",
+        "lecturas": {
+            "2026-08-23": 1147.5
+        }
     },
     "FRAGA INDUSTRIAL GEN02": {
         "ultimo_horometro": 445.3,
-        "ultima_fecha": "2026-09-23 13:09:45"
+        "ultima_fecha": "2026-09-23 13:09:45",
+        "lecturas": {
+            "2026-08-23": 445.3
+        }
     },
     "FRAGA INDUSTRIAL GEN03": {
         "ultimo_horometro": 595.2,
-        "ultima_fecha": "2026-09-23 13:04:21"
+        "ultima_fecha": "2026-09-23 13:04:21",
+        "lecturas": {
+            "2026-08-23": 595.2
+        }
     },
     "FRAGA INDUSTRIAL GEN04": {
         "ultimo_horometro": 559.55,
-        "ultima_fecha": "2026-09-23 13:08:41"
+        "ultima_fecha": "2026-09-23 13:08:41",
+        "lecturas": {
+            "2026-08-23": 559.55
+        }
     },
     "FREDERIC SCHAD": {
         "ultimo_horometro": 92.65,
-        "ultima_fecha": "2026-08-20 10:06:42"
+        "ultima_fecha": "2026-08-20 10:06:42",
+        "lecturas": {
+            "2026-07-20": 92.65
+        }
     },
     "HEMA GEN01": {
         "ultimo_horometro": 141.8,
-        "ultima_fecha": "2026-09-23 13:07:02"
+        "ultima_fecha": "2026-09-23 13:07:02",
+        "lecturas": {
+            "2026-08-23": 141.8
+        }
     },
     "HEMA GEN02": {
         "ultimo_horometro": 147.8,
-        "ultima_fecha": "2026-09-23 13:07:47"
+        "ultima_fecha": "2026-09-23 13:07:47",
+        "lecturas": {
+            "2026-08-23": 147.8
+        }
     },
     "HOSPITAL MEDICAL EXPRESS GEN01": {
         "ultimo_horometro": 318.35,
-        "ultima_fecha": "2026-03-16 09:39:54"
+        "ultima_fecha": "2026-03-16 09:39:54",
+        "lecturas": {
+            "2026-02-16": 318.35
+        }
     },
     "HOSPITAL MEDICAL EXPRESS GEN02": {
         "ultimo_horometro": 169.35,
-        "ultima_fecha": "2026-09-23 13:08:22"
+        "ultima_fecha": "2026-09-23 13:08:22",
+        "lecturas": {
+            "2026-08-23": 169.35
+        }
     },
     "HUMANO SEGUROS GEN02": {
         "ultimo_horometro": 189.3,
-        "ultima_fecha": "2026-09-23 13:07:05"
+        "ultima_fecha": "2026-09-23 13:07:05",
+        "lecturas": {
+            "2026-08-23": 189.3
+        }
     },
     "INDUVECA SA": {
         "ultimo_horometro": 15.05,
-        "ultima_fecha": "2026-09-23 13:08:26"
+        "ultima_fecha": "2026-09-23 13:08:26",
+        "lecturas": {
+            "2026-08-23": 15.05
+        }
     },
     "INVERNANDEZ EIRL GEN01": {
         "ultimo_horometro": 0.0,
-        "ultima_fecha": "NaT"
+        "ultima_fecha": "NaT",
+        "lecturas": {}
     },
     "INVERSIONES AUSTRAL SRL": {
         "ultimo_horometro": 147.55,
-        "ultima_fecha": "2026-09-23 13:08:19"
+        "ultima_fecha": "2026-09-23 13:08:19",
+        "lecturas": {
+            "2026-08-23": 147.55
+        }
     },
     "LAB ROWE SRL": {
         "ultimo_horometro": 245.85,
-        "ultima_fecha": "2026-09-23 13:09:33"
+        "ultima_fecha": "2026-09-23 13:09:33",
+        "lecturas": {
+            "2026-08-23": 245.85
+        }
     },
     "PLAZA LA LIRA II": {
         "ultimo_horometro": 0.6,
-        "ultima_fecha": "2026-09-12 13:41:24"
+        "ultima_fecha": "2026-09-12 13:41:24",
+        "lecturas": {
+            "2026-08-12": 0.6
+        }
     },
     "PRODUCTOS AVON GEN01": {
         "ultimo_horometro": 3492.0,
-        "ultima_fecha": "2026-08-26 11:02:51"
+        "ultima_fecha": "2026-08-26 11:02:51",
+        "lecturas": {
+            "2026-07-26": 3492.0
+        }
     },
     "PRODUCTOS AVON GEN02": {
         "ultimo_horometro": 6965.0,
-        "ultima_fecha": "2026-08-26 13:16:34"
+        "ultima_fecha": "2026-08-26 13:16:34",
+        "lecturas": {
+            "2026-07-26": 6965.0
+        }
     },
     "PRODUCTOS AVON GEN03": {
         "ultimo_horometro": 418.0,
-        "ultima_fecha": "2026-08-26 13:17:12"
+        "ultima_fecha": "2026-08-26 13:17:12",
+        "lecturas": {
+            "2026-07-26": 418.0
+        }
     },
     "PRODUCTOS AVON GEN04": {
         "ultimo_horometro": 2230.0,
-        "ultima_fecha": "2026-08-26 13:17:51"
+        "ultima_fecha": "2026-08-26 13:17:51",
+        "lecturas": {
+            "2026-07-26": 2230.0
+        }
     },
     "PRODUCTOS AVON GEN05": {
         "ultimo_horometro": 4576.0,
-        "ultima_fecha": "2026-08-26 13:18:11"
+        "ultima_fecha": "2026-08-26 13:18:11",
+        "lecturas": {
+            "2026-07-26": 4576.0
+        }
     },
     "PRODUCTOS AVON GEN06": {
         "ultimo_horometro": 9309.0,
-        "ultima_fecha": "2026-08-26 13:18:38"
+        "ultima_fecha": "2026-08-26 13:18:38",
+        "lecturas": {
+            "2026-07-26": 9309.0
+        }
     },
     "SEWN PRODUCTS GEN01": {
         "ultimo_horometro": 40.3,
-        "ultima_fecha": "2025-06-27 11:23:49"
+        "ultima_fecha": "2025-06-27 11:23:49",
+        "lecturas": {
+            "2025-05-27": 40.3
+        }
     },
     "SEWN PRODUCTS GEN02": {
         "ultimo_horometro": 117.15,
-        "ultima_fecha": "2026-09-23 13:08:51"
+        "ultima_fecha": "2026-09-23 13:08:51",
+        "lecturas": {
+            "2026-08-23": 117.15
+        }
     },
     "TOTALENERGIES MARKETING DOMINICANA": {
         "ultimo_horometro": 1840.2,
-        "ultima_fecha": "2025-04-21 15:25:12"
+        "ultima_fecha": "2025-04-21 15:25:12",
+        "lecturas": {
+            "2025-03-21": 1840.2
+        }
     },
     "UTP GEN 01": {
         "ultimo_horometro": 381.6,
-        "ultima_fecha": "2026-07-06 13:08:27"
+        "ultima_fecha": "2026-07-06 13:08:27",
+        "lecturas": {
+            "2026-06-06": 381.6
+        }
     },
     "UTP GEN 02": {
         "ultimo_horometro": 1219.35,
-        "ultima_fecha": "2026-09-23 13:09:22"
+        "ultima_fecha": "2026-09-23 13:09:22",
+        "lecturas": {
+            "2026-08-23": 1219.35
+        }
     },
     "ZONA FRANCA INDUSTRIAL LAS AMERICAS GEN01": {
         "ultimo_horometro": 579.15,
-        "ultima_fecha": "2026-09-23 13:09:09"
+        "ultima_fecha": "2026-09-23 13:09:09",
+        "lecturas": {
+            "2026-08-23": 579.15
+        }
     },
     "ZONA FRANCA INDUSTRIAL LAS AMERICAS GEN02": {
         "ultimo_horometro": 436.75,
-        "ultima_fecha": "2026-09-23 13:09:28"
+        "ultima_fecha": "2026-09-23 13:09:28",
+        "lecturas": {
+            "2026-08-23": 436.75
+        }
     }
 }
