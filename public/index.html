@@ -245,7 +245,7 @@
 
     <script>
         let rawData = [];
-        let trendDataGlobal = {}; // Aquí se almacena la bitácora dinámica
+        let trendDataGlobal = {}; // Bitácora dinámica
         
         let currentFilters = { dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null };
         let searchTerm = '';
@@ -278,13 +278,21 @@
             return null;
         }
 
+        // Función para calcular la "Semana X" del año
+        function getWeekNumber(d) {
+            if (!d || isNaN(d.getTime())) return "Semana --";
+            const date = new Date(d.getTime());
+            date.setUTCDate(date.getUTCDate() + 4 - (date.getUTCDay() || 7));
+            const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
+            const weekNo = Math.ceil((((date - yearStart) / 86400000) + 1) / 7);
+            return "Semana " + weekNo;
+        }
+
         async function cargarDatosDinamicos() {
             try {
-                // Descargar datos operativos
                 const response = await fetch('consolidado_general.json');
                 const jsonData = await response.json();
 
-                // Descargar la bitácora de tendencias generada por Python
                 try {
                     const responseTrend = await fetch('tendencia.json');
                     trendDataGlobal = await responseTrend.json();
@@ -443,7 +451,7 @@
 
             try {
                 renderActiveFilterTags(); 
-                renderTrendChart(); // Ahora se renderiza dinámicamente según el cliente
+                renderTrendChart(); // Llamada al gráfico histórico actualizado
                 renderMapChart(filteredData); 
                 renderDonaChart(filteredData); 
                 renderTechChart(filteredData);
@@ -452,7 +460,7 @@
                 renderTopClientsChart(filteredData);
                 renderTopModelsChart(filteredData); 
             } catch (error) {
-                console.error("Aviso: Error silencioso al renderizar un gráfico de Plotly:", error);
+                console.error("Aviso: Error silencioso al renderizar un gráfico:", error);
             }
             
             renderTableOnly(filteredData);
@@ -473,33 +481,42 @@
             const isDeepFiltered = (currentFilters.modelo || currentFilters.tecnologia || currentFilters.gravedad || currentFilters.estado);
             const trendCard = document.querySelector('.trend-card');
             
-            // Decidir qué clave buscar en tendencia.json
             let clientKey = currentFilters.cliente !== 'TODOS' ? currentFilters.cliente : "GLOBAL";
-            
-            // Buscar los datos en la bitácora
             let chartData = trendDataGlobal[clientKey];
 
             if(trendCard) {
                 if(isDeepFiltered || !chartData) {
                     trendCard.style.opacity = '0.4';
-                    trendCard.title = "La gráfica histórica se muestra a nivel Cliente o Global.";
+                    trendCard.title = "La gráfica histórica ignora filtros de estado o tecnología, solo muestra Cliente o Global.";
                 } else {
                     trendCard.style.opacity = '1';
                     trendCard.title = "";
                 }
             }
 
-            // Si el cliente no tiene historial guardado aún, usamos la vista global de forma opaca
             if (!chartData || chartData.length === 0) {
                 chartData = trendDataGlobal["GLOBAL"] || [];
             }
 
-            const xLabels = chartData.map(d => d.fecha);
-            const textOnline = chartData.map(d => `${d.online} operando`);
-            const textOffline = chartData.map(d => `${d.offline} offline`);
+            // Transformar la data para procesar porcentajes y Semanas
+            const processedData = chartData.map(d => {
+                const total = d.total || (d.online + d.offline);
+                const percOnline = total > 0 ? Math.round((d.online / total) * 100) : 0;
+                const percOffline = total > 0 ? Math.round((d.offline / total) * 100) : 0;
+                
+                let parts = d.fecha.split('-');
+                let dateObj = new Date(parts[0], parts[1] - 1, parts[2]);
+                let weekLabel = getWeekNumber(dateObj);
+                
+                return { ...d, xLabel: weekLabel, total, percOnline, percOffline };
+            });
 
-            const traceOnline = { x: xLabels, y: chartData.map(d => d.online), name: 'Operando', type: 'scatter', mode: 'lines+markers', line: { color: '#10B981', width: 3, shape: 'spline' }, marker: { size: 8 }, text: textOnline, hovertemplate: '%{text}<extra></extra>' };
-            const traceOffline = { x: xLabels, y: chartData.map(d => d.offline), name: 'Offline', type: 'scatter', mode: 'lines+markers', line: { color: '#BC1818', width: 3, shape: 'spline' }, marker: { size: 8 }, text: textOffline, hovertemplate: '%{text}<extra></extra>' };
+            const xLabels = processedData.map(d => d.xLabel);
+            const textOnline = processedData.map(d => `${d.online} equipos (${d.percOnline}%)`);
+            const textOffline = processedData.map(d => `${d.offline} equipos (${d.percOffline}%)`);
+
+            const traceOnline = { x: xLabels, y: processedData.map(d => d.online), name: 'Operando', type: 'scatter', mode: 'lines+markers', line: { color: '#10B981', width: 3, shape: 'spline' }, marker: { size: 8 }, text: textOnline, hovertemplate: '%{text}<extra>Operando</extra>' };
+            const traceOffline = { x: xLabels, y: processedData.map(d => d.offline), name: 'Offline', type: 'scatter', mode: 'lines+markers', line: { color: '#BC1818', width: 3, shape: 'spline' }, marker: { size: 8 }, text: textOffline, hovertemplate: '%{text}<extra>Offline</extra>' };
 
             const layout = { ...getLayoutBase(), height: 320, title: { text: `<b>Evolución Histórica (${clientKey})</b>`, font: {size: 16}, x: 0.5 }, legend: { orientation: 'h', y: -0.2 }, margin: { t: 50, b: 40, l: 40, r: 20 }, xaxis: { showgrid: false, type: 'category' }, yaxis: { title: 'Cantidad', showgrid: true, gridcolor: document.body.classList.contains('dark-mode') ? '#333' : '#E5E7EB' } };
             Plotly.react('chart_trend', [traceOnline, traceOffline], layout, { responsive: true, displayModeBar: false });
