@@ -21,8 +21,6 @@ def guardar_historial(historial):
 def procesar_datos():
     # 1. Leer los datos crudos
     df = pd.read_excel(ARCHIVO_DATOS, engine='odf')
-    
-    # Limpiar nombres de columnas borrando espacios extra
     df.columns = df.columns.str.strip()
     
     historial = cargar_historial()
@@ -30,61 +28,56 @@ def procesar_datos():
 
     # 2. Lógica de "Cursor": Calcular horas operadas
     for index, row in df.iterrows():
-        maquina_id = str(row['Identification'])
+        maquina_id = str(row.get('Identification', ''))
         
-        # Manejo de valores nulos o errores en el horómetro
+        # Manejo seguro del horómetro
         try:
-            horometro_actual = float(row['HorometerValues'])
+            horometro_actual = float(row.get('HorometerValues', 0.0))
             if math.isnan(horometro_actual):
                 horometro_actual = 0.0
         except:
             horometro_actual = 0.0
             
-        fecha_actual = str(row['LastVariable'])
-        
+        fecha_actual = str(row.get('LastVariable', ''))
         horas_operadas = 0.0
         
-        # Comparar con el historial guardado (el cursor)
         if maquina_id in historial:
             horometro_anterior = historial[maquina_id]['ultimo_horometro']
             if horometro_actual > horometro_anterior:
                 horas_operadas = horometro_actual - horometro_anterior
         
-        # Actualizar el cursor
         historial[maquina_id] = {
             'ultimo_horometro': horometro_actual,
             'ultima_fecha': fecha_actual
         }
         
-        # Preparar registro limpio para el frontend
+        # Preparar registro limpio (Ahora con Longitud, Tecnología y Modelo)
         datos_frontend.append({
             'identificacion': maquina_id,
-            'cliente': str(row['Customer']).strip(),
-            'canal': str(row['Channel']).strip(),
-            'latitud': str(row['Latitude']),
+            'cliente': str(row.get('Customer', '')).strip(),
+            'canal': str(row.get('Channel', '')).strip(),
+            'tecnologia': str(row.get('Type', '')).strip(),
+            'modelo': str(row.get('Script', '')).strip(),
+            'latitud': str(row.get('Latitude', '')),
+            'longitud': str(row.get('Longitude', '')),
             'horometro_total': horometro_actual,
             'horas_recientes': horas_operadas,
             'ultima_conexion': fecha_actual
         })
 
-    # Guardar el nuevo cursor
     guardar_historial(historial)
 
-    # 3. Agrupar y exportar JSONs ligeros por cliente
+    # 3. Exportar JSONs
     df_limpio = pd.DataFrame(datos_frontend)
     clientes = df_limpio['cliente'].unique()
     
     for cliente in clientes:
         if pd.isna(cliente) or cliente == 'nan':
             continue
-            
         df_cliente = df_limpio[df_limpio['cliente'] == cliente]
         nombre_archivo = f"{DIRECTORIO_SALIDA}{cliente.replace(' ', '_').replace('/', '_').lower()}.json"
-        
         df_cliente.to_json(nombre_archivo, orient='records', force_ascii=False)
-        print(f"Generado: {nombre_archivo}")
 
-    # Generar un JSON consolidado general
     df_limpio.to_json(f"{DIRECTORIO_SALIDA}consolidado_general.json", orient='records', force_ascii=False)
 
 if __name__ == '__main__':
