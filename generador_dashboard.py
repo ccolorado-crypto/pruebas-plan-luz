@@ -24,9 +24,9 @@ def procesar_datos():
     historial = cargar_historial()
     datos_frontend = []
 
-    # Buscar columnas de coordenadas flexiblemente (Latitud, Longitude, Lng, etc.)
-    col_lat = next((c for c in df.columns if c.lower() in ['latitude', 'latitud', 'lat']), None)
-    col_lon = next((c for c in df.columns if c.lower() in ['longitude', 'longitud', 'lon', 'lng']), None)
+    # Búsqueda ultra flexible de columnas de coordenadas
+    col_lat = next((c for c in df.columns if 'lat' in str(c).lower()), None)
+    col_lon = next((c for c in df.columns if 'lon' in str(c).lower() or 'lng' in str(c).lower()), None)
 
     for index, row in df.iterrows():
         maquina_id = str(row.get('Identification', ''))
@@ -54,8 +54,8 @@ def procesar_datos():
         }
         
         # Extracción segura de coordenadas
-        lat_val = str(row[col_lat]) if col_lat else ''
-        lon_val = str(row[col_lon]) if col_lon else ''
+        lat_val = str(row[col_lat]) if col_lat and pd.notna(row[col_lat]) else ''
+        lon_val = str(row[col_lon]) if col_lon and pd.notna(row[col_lon]) else ''
         
         datos_frontend.append({
             'identificacion': maquina_id,
