@@ -3,8 +3,12 @@ name: Actualizar Dashboard RNDC (ETL)
 on:
   push:
     paths:
-      - 'data/data.ods' # Se ejecuta solo cuando subes un nuevo archivo de datos
-  workflow_dispatch: # Permite ejecutarlo con un botón manual
+      - 'data/data.ods' # Se ejecuta automáticamente solo cuando subes un nuevo Excel
+  workflow_dispatch: # Permite ejecutar el flujo con el botón manual
+
+# Garantiza que el bot tenga permisos para sobrescribir archivos
+permissions:
+  contents: write
 
 jobs:
   procesar-datos:
@@ -12,10 +16,10 @@ jobs:
 
     steps:
       - name: Descargar el repositorio
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Configurar entorno de Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
@@ -31,7 +35,14 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # Agregar todos los JSON del frontend
           git add public/*.json
+          
+          # Agregar los JSON que funcionan como memoria del sistema
           git add data/historial.json
+          git add data/tendencia.json
+          
+          # Guardar y subir
           git commit -m "Automatización: Datos ETL procesados y JSONs actualizados" || echo "No hay cambios para subir"
           git push
