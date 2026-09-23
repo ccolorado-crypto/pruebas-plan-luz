@@ -217,7 +217,7 @@
                             <th>Generador</th>
                             <th>Cliente</th>
                             <th>Modelo / Script</th>
-                            <th>Horómetro</th> <!-- SE AGREGÓ LA COLUMNA -->
+                            <th>Horómetro</th>
                             <th>Estado</th>
                             <th>Última Conexión</th>
                             <th style="text-align: center;">Días Offline</th>
@@ -264,7 +264,7 @@
         let currentPage = 1;
         const rowsPerPage = 20;
 
-        // Función para limpiar coordenadas (soluciona comas en vez de puntos en excel)
+        // Limpieza de coordenadas para mapa
         function parseCoord(val) {
             if (!val || String(val).toLowerCase() === 'nan' || String(val).trim() === '') return null;
             let num = parseFloat(String(val).replace(',', '.'));
@@ -272,24 +272,28 @@
             return num;
         }
 
-        // Función para leer las fechas DD/MM/YY HH:MM del Excel de forma segura
+        // Extracción infalible de fechas (Soporta YYYY-MM-DD y DD/MM/YYYY)
         function parseDateCustom(dateStr) {
-            if (!dateStr || String(dateStr).toLowerCase() === 'nan') return null;
-            let dStr = String(dateStr).split(' ')[0]; // Toma solo la fecha, ignorando la hora
-            let parts = dStr.split('/');
-            if (parts.length === 3) {
-                let d = parseInt(parts[0], 10);
-                let m = parseInt(parts[1], 10) - 1;
-                let y = parseInt(parts[2], 10);
-                if (y < 100) y += 2000;
-                return new Date(y, m, d);
+            if (!dateStr || String(dateStr).toLowerCase() === 'nan' || dateStr === 'NaT') return null;
+            let dStr = String(dateStr).trim().split(' ')[0];
+            
+            if (dStr.includes('-')) {
+                let parts = dStr.split('-');
+                if (parts.length >= 3) {
+                    return new Date(parseInt(parts[0]), parseInt(parts[1]) - 1, parseInt(parts[2]));
+                }
+            }
+            if (dStr.includes('/')) {
+                let parts = dStr.split('/');
+                if (parts.length >= 3) {
+                    let y = parseInt(parts[2]);
+                    if (y < 100) y += 2000;
+                    return new Date(y, parseInt(parts[1]) - 1, parseInt(parts[0]));
+                }
             }
             return null;
         }
 
-        // ==========================================
-        // Carga y cálculo inteligente de datos
-        // ==========================================
         async function cargarDatosDinamicos() {
             try {
                 const response = await fetch('consolidado_general.json');
@@ -302,9 +306,12 @@
                     let gravedadStr = "Conectado";
                     let planStr = "✅ Monitoreo continuo. Equipo estable.";
 
-                    // Matemáticas para calcular los días offline respecto a HOY
                     if (fUltima) {
-                        let diffTime = new Date().getTime() - fUltima.getTime();
+                        let hoy = new Date();
+                        hoy.setHours(0,0,0,0);
+                        fUltima.setHours(0,0,0,0);
+                        
+                        let diffTime = hoy - fUltima;
                         diasOff = Math.floor(diffTime / (1000 * 3600 * 24));
                         if (diasOff < 0) diasOff = 0;
                         
@@ -320,20 +327,24 @@
                         planStr = "Verificar conexión inicial.";
                     }
 
+                    // Limpieza de Horómetro loco
+                    let horo = parseFloat(item.horometro_total) || 0;
+                    let horoFinal = horo > 999999 ? "Error Sensor" : Number(horo).toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1});
+
                     return {
-                        dealer: item.canal || "SIN DEALER",
-                        generador: item.identificacion || "SIN ID",
+                        dealer: item.dealer || item.canal || "SIN DEALER",
+                        generador: item.generador || item.identificacion || "SIN ID",
                         cliente: item.cliente || "SIN CLIENTE",
-                        tecnologia: item.tecnologia || "Desconocida",
-                        modelo: item.modelo || "Desconocido",
+                        tecnologia: item.tecnologia || item.Type || "Desconocida",
+                        modelo: item.modelo || item.Script || "Desconocido",
                         fecha: item.ultima_conexion ? String(item.ultima_conexion).split(' ')[0] : "Sin registro",
                         estado: estadoStr,
                         gravedad: gravedadStr,
                         dias_offline: diasOff,
                         plan_accion: planStr,
                         lat: parseCoord(item.latitud),
-                        lon: parseCoord(item.longitud), 
-                        horometro: parseFloat(item.horometro_total) || 0
+                        lon: parseCoord(item.longitud),
+                        horometro_visual: horoFinal
                     };
                 });
                 
@@ -342,19 +353,15 @@
                 updateDashboard();
 
             } catch (error) {
-                console.error("Error al cargar los datos", error);
+                console.error("Error al cargar los datos desde consolidado_general.json", error);
                 document.getElementById('no_data_message').style.display = 'block';
-                document.getElementById('no_data_message').innerText = 'No se pudo cargar el archivo JSON. Verifica que GitHub Actions terminó su trabajo.';
+                document.getElementById('no_data_message').innerText = 'No se pudo cargar el archivo JSON. Verifica que GitHub Actions haya terminado correctamente.';
             }
         }
 
         window.addEventListener('DOMContentLoaded', () => { 
             cargarDatosDinamicos(); 
         });
-
-        // ======================================================================
-        // CÓDIGO VISUAL DEL DASHBOARD
-        // ======================================================================
 
         function toggleDarkMode() { document.body.classList.toggle('dark-mode'); updateDashboard(); renderTrendChart(); }
         
@@ -459,7 +466,7 @@
                 renderTopClientsChart(filteredData);
                 renderTopModelsChart(filteredData); 
             } catch (error) {
-                console.error("Aviso: Error silencioso al renderizar un gráfico:", error);
+                console.error("Aviso: Error silencioso al renderizar un gráfico de Plotly:", error);
             }
             
             renderTableOnly(filteredData);
@@ -669,6 +676,7 @@
                 
                 if(r.estado !== 'Operando') {
                     if(r.gravedad === '1 a 3 días') gravBadge = '<span class="badge-p2">1 a 3 días</span>';
+                    else if(r.gravedad === '4 a 7 días') gravBadge = '<span class="badge-p2" style="color:#E84C22; background:rgba(232,76,34,0.12)">4 a 7 días</span>';
                     else if(r.gravedad === 'Más de 7 días') gravBadge = '<span class="badge-p1">Más de 7 días</span>';
                     else gravBadge = `<span class="badge-mid">${r.gravedad}</span>`;
                 }
@@ -677,7 +685,7 @@
                     <td class="font-bold">${r.generador}</td>
                     <td class="text-sub">${r.cliente}</td>
                     <td class="text-sub">${r.modelo}</td>
-                    <td class="font-bold">${Number(r.horometro).toLocaleString(undefined, {minimumFractionDigits: 1, maximumFractionDigits: 1})}</td>
+                    <td class="font-bold">${r.horometro_visual}</td>
                     <td>${statusBadge}</td>
                     <td class="text-sub">${r.fecha}</td>
                     <td class="font-bold" style="text-align:center;">${diasStr}</td>
@@ -709,7 +717,7 @@
             const csvRows = [headers.join(',')];
             dataToExport.forEach(r => {
                 const latStr = r.lat !== null ? r.lat : ''; const lonStr = r.lon !== null ? r.lon : '';
-                const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, r.horometro, `"${r.estado}"`, `"${r.fecha}"`, `"${r.gravedad}"`, r.dias_offline, latStr, lonStr, `"${r.plan_accion}"` ];
+                const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, `"${r.horometro_visual}"`, `"${r.estado}"`, `"${r.fecha}"`, `"${r.gravedad}"`, r.dias_offline, latStr, lonStr, `"${r.plan_accion}"` ];
                 csvRows.push(values.join(','));
             });
             const blob = new Blob(["\uFEFF" + csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
