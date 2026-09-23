@@ -69,9 +69,13 @@ def procesar_datos():
         fecha_actual = str(row.get('LastVariable', ''))
         f_ultima = parsear_fecha(fecha_actual)
         
-        # EL NUEVO LIBRO CONTABLE (Historial de lecturas)
+        # --- CORRECCIÓN: Migración de Libro Contable ---
         if maquina_id not in historial:
             historial[maquina_id] = {"lecturas": {}}
+            
+        # Si la máquina existe pero tiene el formato viejo de días pasados, le creamos el nuevo
+        if "lecturas" not in historial[maquina_id]:
+            historial[maquina_id]["lecturas"] = {}
             
         if f_ultima:
             fecha_str = f_ultima.strftime('%Y-%m-%d')
@@ -104,7 +108,7 @@ def procesar_datos():
             'latitud': str(row[col_lat]) if col_lat and pd.notna(row[col_lat]) else '',
             'longitud': str(row[col_lon]) if col_lon and pd.notna(row[col_lon]) else '',
             'horometro_total': horometro_actual,
-            'lecturas_historicas': historial[maquina_id].get("lecturas", {}), # Pasamos la historia al frontend
+            'lecturas_historicas': historial[maquina_id].get("lecturas", {}),
             'ultima_conexion': fecha_actual
         })
 
