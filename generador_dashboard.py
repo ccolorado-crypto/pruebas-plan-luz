@@ -68,13 +68,15 @@ def procesar_datos():
             
         fecha_actual = str(row.get('LastVariable', ''))
         f_ultima = parsear_fecha(fecha_actual)
-        horas_operadas = 0.0
         
-        if maquina_id in historial:
-            if horometro_actual > historial[maquina_id]['ultimo_horometro']:
-                horas_operadas = horometro_actual - historial[maquina_id]['ultimo_horometro']
-        
-        historial[maquina_id] = {'ultimo_horometro': horometro_actual, 'ultima_fecha': fecha_actual}
+        # EL NUEVO LIBRO CONTABLE (Historial de lecturas)
+        if maquina_id not in historial:
+            historial[maquina_id] = {"lecturas": {}}
+            
+        if f_ultima:
+            fecha_str = f_ultima.strftime('%Y-%m-%d')
+            # Guarda la lectura en la fecha específica (o la actualiza si es el mismo día)
+            historial[maquina_id]["lecturas"][fecha_str] = horometro_actual
         
         # Calcular estado para la bitácora
         estado = "Fuera de cobertura"
@@ -102,13 +104,13 @@ def procesar_datos():
             'latitud': str(row[col_lat]) if col_lat and pd.notna(row[col_lat]) else '',
             'longitud': str(row[col_lon]) if col_lon and pd.notna(row[col_lon]) else '',
             'horometro_total': horometro_actual,
-            'horas_recientes': horas_operadas,
+            'lecturas_historicas': historial[maquina_id].get("lecturas", {}), # Pasamos la historia al frontend
             'ultima_conexion': fecha_actual
         })
 
     manejar_json(ARCHIVO_HISTORIAL, 'escribir', historial)
 
-    # 2. Guardar la Bitácora (Agrega un nuevo registro si es un día nuevo, o actualiza si es el mismo día)
+    # 2. Guardar la Bitácora de conectividad
     for clave, conteos in conteo_tendencia.items():
         if clave not in tendencia: tendencia[clave] = []
         registro_existente = next((item for item in tendencia[clave] if item["fecha"] == hoy_str), None)
@@ -118,9 +120,9 @@ def procesar_datos():
             tendencia[clave].append({"fecha": hoy_str, **conteos})
             
     manejar_json(ARCHIVO_TENDENCIA, 'escribir', tendencia)
-    manejar_json(f"{DIRECTORIO_SALIDA}tendencia.json", 'escribir', tendencia) # Lo exporta a Vercel
+    manejar_json(f"{DIRECTORIO_SALIDA}tendencia.json", 'escribir', tendencia)
 
-    # 3. Exportar JSONs individuales por cliente y el general
+    # 3. Exportar JSONs
     df_limpio = pd.DataFrame(datos_frontend)
     for c in df_limpio['cliente'].unique():
         if pd.isna(c) or c == 'nan': continue
