@@ -1,0 +1,39 @@
+name: Actualizar Dashboard
+
+on:
+  workflow_dispatch: # Permite ejecutarlo manualmente con un botón
+
+jobs:
+  generar-dashboard:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Descargar el código
+        uses: actions/checkout@v3
+
+      - name: Configurar Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Ejecutar Script (Generador de Multi-Dashboards)
+        run: python generador_dashboard.py
+
+      - name: Subir cambios a GitHub
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          
+          # LA MAGIA ESTÁ AQUÍ: Le decimos a Git que guarde TODOS los archivos de la carpeta public (Admin + Dealers)
+          git add public/
+          
+          # Guardamos la base de datos de historiales
+          git add data/historial.json
+          
+          git commit -m "Actualizacion de todos los dashboards con nuevos KPIs" || echo "No hay cambios para subir"
+          git push

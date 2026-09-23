@@ -1,0 +1,794 @@
+{
+    "GLOBAL": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 406,
+            "offline": 279,
+            "total": 685
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 409,
+            "offline": 277,
+            "total": 686
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 407,
+            "offline": 278,
+            "total": 685
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 411,
+            "offline": 274,
+            "total": 685
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 382,
+            "offline": 255,
+            "total": 637
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 375,
+            "offline": 244,
+            "total": 619
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 379,
+            "offline": 239,
+            "total": 618
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 382,
+            "offline": 236,
+            "total": 618
+        }
+    ],
+    "CANAL - EL SALVADOR | SV-DYMEL": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 4,
+            "offline": 1,
+            "total": 5
+        }
+    ],
+    "CANAL - REPUBLICA DOMINICANA | DOM - ARGICO DEALER": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 22,
+            "offline": 24,
+            "total": 46
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 21,
+            "offline": 26,
+            "total": 47
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 24,
+            "offline": 23,
+            "total": 47
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 22,
+            "offline": 25,
+            "total": 47
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 23,
+            "offline": 22,
+            "total": 45
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 25,
+            "offline": 20,
+            "total": 45
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 25,
+            "offline": 20,
+            "total": 45
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 26,
+            "offline": 19,
+            "total": 45
+        }
+    ],
+    "CANAL - LAP TECHNOLOGIES | COL - INGENERGIA": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 0,
+            "offline": 8,
+            "total": 8
+        }
+    ],
+    "CANAL - LAP TECHNOLOGIES | SIELETEC": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        }
+    ],
+    "CANAL - LAP TECHNOLOGIES | LAP DP TRIAL UNITS DEALER": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 0,
+            "offline": 2,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 0,
+            "offline": 2,
+            "total": 2
+        }
+    ],
+    "CANAL - CASA INGLESA | COL - CASA INGLESA ESTACIONARIO": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 8,
+            "offline": 0,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 8,
+            "offline": 0,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 6,
+            "offline": 2,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 6,
+            "offline": 2,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 4,
+            "offline": 4,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 4,
+            "offline": 4,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 4,
+            "offline": 4,
+            "total": 8
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 4,
+            "offline": 4,
+            "total": 8
+        }
+    ],
+    "CANAL - EQUITEL CUMANDES ESTACIONARIOS | COL - CUMMINS DE LOS ANDES": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 362,
+            "offline": 215,
+            "total": 577
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 367,
+            "offline": 209,
+            "total": 576
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 363,
+            "offline": 212,
+            "total": 575
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 368,
+            "offline": 207,
+            "total": 575
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 338,
+            "offline": 191,
+            "total": 529
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 331,
+            "offline": 181,
+            "total": 512
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 337,
+            "offline": 174,
+            "total": 511
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 341,
+            "offline": 170,
+            "total": 511
+        }
+    ],
+    "CANAL - LAP TECHNOLOGIES | OPPERAR COLOMBIA SAS ESTACIONARIO": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        }
+    ],
+    "CANAL - LAP TECHNOLOGIES | COL - CONGO FILMS SAS": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 1,
+            "offline": 12,
+            "total": 13
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 0,
+            "offline": 13,
+            "total": 13
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 1,
+            "offline": 12,
+            "total": 13
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 2,
+            "offline": 11,
+            "total": 13
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 4,
+            "offline": 9,
+            "total": 13
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 2,
+            "offline": 11,
+            "total": 13
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 2,
+            "offline": 11,
+            "total": 13
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 0,
+            "offline": 13,
+            "total": 13
+        }
+    ],
+    "CANAL - LAP TECHNOLOGIES | COL - TORRE DE CONTROL": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 6,
+            "offline": 17,
+            "total": 23
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 6,
+            "offline": 18,
+            "total": 24
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 6,
+            "offline": 18,
+            "total": 24
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 6,
+            "offline": 18,
+            "total": 24
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 6,
+            "offline": 18,
+            "total": 24
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 6,
+            "offline": 17,
+            "total": 23
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 5,
+            "offline": 18,
+            "total": 23
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 5,
+            "offline": 18,
+            "total": 23
+        }
+    ],
+    "CANAL - MEXICO | MEX - MEGAMAK": [
+        {
+            "fecha": "2026-08-03",
+            "semana_id": "2026-W32",
+            "semana_label": "Semana 32",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-12",
+            "semana_id": "2026-W33",
+            "semana_label": "Semana 33",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-18",
+            "semana_id": "2026-W34",
+            "semana_label": "Semana 34",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-24",
+            "semana_id": "2026-W35",
+            "semana_label": "Semana 35",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-02",
+            "semana_id": "2026-W36",
+            "semana_label": "Semana 36",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-07",
+            "semana_id": "2026-W37",
+            "semana_label": "Semana 37",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-15",
+            "semana_id": "2026-W38",
+            "semana_label": "Semana 38",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-21",
+            "semana_id": "2026-W39",
+            "semana_label": "Semana 39",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        }
+    ]
+}
