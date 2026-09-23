@@ -53,7 +53,7 @@
         .topbar-sub { font-size: 12px; color: #9CA3AF; margin: 0; margin-top: 2px; }
         
         .topbar-right { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
-        .filter-select { background: #2a2a2a; color: white; border: 1px solid #4B5563; padding: 8px 12px; border-radius: 6px; font-size: 13px; font-family: 'Open Sans'; outline: none; cursor: pointer; max-width: 200px; }
+        .filter-select { background: #2a2a2a; color: white; border: 1px solid #4B5563; padding: 8px 12px; border-radius: 6px; font-size: 13px; font-family: 'Open Sans'; outline: none; cursor: pointer; max-width: 170px; }
         
         .btn-action { padding: 8px 14px; border-radius: 6px; font-size: 12px; font-weight: 600; cursor: pointer; border: none; transition: opacity 0.2s; display: flex; align-items: center; gap: 6px; color: #fff; }
         .btn-action:hover { opacity: 0.85; }
@@ -124,6 +124,9 @@
         </div>
         <div class="topbar-right">
             <button onclick="toggleDarkMode()" class="btn-action btn-dark">🌙 Tema</button>
+            <select id="month_select" class="filter-select" onchange="filterByDropdown('mes', this.value)">
+                <option value="TODOS">-- HISTÓRICO COMPLETO --</option>
+            </select>
             <select id="dealer_select" class="filter-select" onchange="filterByDropdown('dealer', this.value)">
                 <option value="TODOS">-- TODOS LOS DEALERS --</option>
             </select>
@@ -203,7 +206,7 @@
             <div class="table-header">
                 <div>
                     <h2 id="table_title" style="margin:0;font-size:18px;">Detalle de Equipos</h2>
-                    <span class="text-sub">Mostrando resultados filtrados.</span>
+                    <span class="text-sub">El filtro de mes actualiza la columna "Horas Operadas".</span>
                 </div>
                 <div data-html2canvas-ignore="true">
                     <input type="text" id="table_search" class="search-input" placeholder="Buscar por generador..." oninput="onSearchTable(this.value)">
@@ -217,12 +220,12 @@
                             <th>Generador</th>
                             <th>Cliente</th>
                             <th>Modelo / Script</th>
-                            <th>Horómetro</th>
+                            <th>Horómetro Total</th>
+                            <th style="color:var(--artimo-rojo-vivo);">Horas Operadas</th>
                             <th>Estado</th>
                             <th>Última Conexión</th>
                             <th style="text-align: center;">Días Offline</th>
                             <th>Gravedad</th>
-                            <th>Plan de Acción</th>
                         </tr>
                     </thead>
                     <tbody id="table_body"></tbody>
@@ -245,9 +248,9 @@
 
     <script>
         let rawData = [];
-        let trendDataGlobal = {}; // Bitácora dinámica
+        let trendDataGlobal = {}; 
         
-        let currentFilters = { dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null };
+        let currentFilters = { mes: 'TODOS', dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null };
         let searchTerm = '';
         let isHeatmapMode = false;
         let currentPage = 1;
@@ -278,7 +281,6 @@
             return null;
         }
 
-        // Función para calcular la "Semana X" del año
         function getWeekNumber(d) {
             if (!d || isNaN(d.getTime())) return "Semana --";
             const date = new Date(d.getTime());
@@ -286,6 +288,25 @@
             const yearStart = new Date(Date.UTC(date.getUTCFullYear(), 0, 1));
             const weekNo = Math.ceil((((date - yearStart) / 86400000) + 1) / 7);
             return "Semana " + weekNo;
+        }
+
+        // LÓGICA MATEMÁTICA: Restar horómetro inicial del final según el mes seleccionado
+        function calcularHorasOperadas(lecturas, filtroMes) {
+            if (!lecturas || Object.keys(lecturas).length === 0) return "-";
+            
+            let fechas = Object.keys(lecturas).sort(); // Ordenar fechas de antigua a reciente
+            
+            if (filtroMes !== 'TODOS') {
+                fechas = fechas.filter(f => f.startsWith(filtroMes)); 
+            }
+            
+            if (fechas.length === 0) return "-";
+            if (fechas.length === 1) return 0.0; // Solo un registro en el mes, no hay diferencia
+            
+            let hMin = lecturas[fechas[0]];
+            let hMax = lecturas[fechas[fechas.length - 1]];
+            let diff = hMax - hMin;
+            return diff >= 0 ? diff : 0; 
         }
 
         async function cargarDatosDinamicos() {
@@ -297,7 +318,7 @@
                     const responseTrend = await fetch('tendencia.json');
                     trendDataGlobal = await responseTrend.json();
                 } catch(e) {
-                    console.log("No se encontró tendencia.json. Ignorar si es el primer despliegue.");
+                    console.log("No se encontró tendencia.json.");
                 }
                 
                 let maxDate = new Date(0);
@@ -351,7 +372,8 @@
                         plan_accion: planStr,
                         lat: parseCoord(item.latitud),
                         lon: parseCoord(item.longitud),
-                        horometro_visual: horoFinal
+                        horometro_visual: horoFinal,
+                        lecturas: item.lecturas_historicas || {} // El libro contable de la máquina
                     };
                 });
                 
@@ -380,9 +402,23 @@
         function truncateLabel(str, maxLen = 22) { if (!str) return ''; return str.length > maxLen ? str.substring(0, maxLen - 2) + '..' : str; }
 
         function populateDropdowns() {
+            const monthSelect = document.getElementById('month_select');
             const dealerSelect = document.getElementById('dealer_select');
             const clientSelect = document.getElementById('client_select');
             
+            // Llenar meses dinámicamente desde el historial
+            let monthSet = new Set();
+            rawData.forEach(d => {
+                if(d.lecturas) { Object.keys(d.lecturas).forEach(f => monthSet.add(f.substring(0, 7))); }
+            });
+            let uniqueMonths = [...monthSet].sort().reverse();
+            
+            monthSelect.innerHTML = '<option value="TODOS">-- HISTÓRICO COMPLETO --</option>';
+            uniqueMonths.forEach(m => {
+                const opt = document.createElement('option'); opt.value = m; opt.textContent = "Mes: " + m;
+                if(currentFilters.mes === m) opt.selected = true; monthSelect.appendChild(opt);
+            });
+
             dealerSelect.innerHTML = '<option value="TODOS">-- TODOS LOS DEALERS --</option>';
             clientSelect.innerHTML = '<option value="TODOS">-- TODOS LOS CLIENTES --</option>';
 
@@ -400,16 +436,14 @@
                 if(currentFilters.cliente === c) opt.selected = true; clientSelect.appendChild(opt);
             });
             
-            if (uniqueDealers.length <= 1) {
-                dealerSelect.style.display = 'none';
-            }
+            if (uniqueDealers.length <= 1) { dealerSelect.style.display = 'none'; }
         }
 
         function filterByDropdown(key, val) { currentFilters[key] = val; if(key === 'dealer') currentFilters.cliente = 'TODOS'; populateDropdowns(); updateDashboard(); }
-        function applyQuickWins() { currentFilters = { dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: '1 a 3 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
-        function applyDangerSLA() { currentFilters = { dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: 'Más de 7 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
-        function clearFilter(key) { if(key === 'dealer' || key === 'cliente') currentFilters[key] = 'TODOS'; else currentFilters[key] = null; populateDropdowns(); updateDashboard(); }
-        function clearAllFilters() { currentFilters = { dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null }; document.getElementById('table_search').value = ''; searchTerm = ''; populateDropdowns(); updateDashboard(); }
+        function applyQuickWins() { currentFilters = { mes: currentFilters.mes, dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: '1 a 3 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
+        function applyDangerSLA() { currentFilters = { mes: currentFilters.mes, dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: 'Más de 7 días' }; populateDropdowns(); document.getElementById('table_search').value = ''; searchTerm = ''; updateDashboard(); document.getElementById('table_title').scrollIntoView({ behavior: 'smooth' }); }
+        function clearFilter(key) { if(key === 'dealer' || key === 'cliente' || key === 'mes') currentFilters[key] = 'TODOS'; else currentFilters[key] = null; populateDropdowns(); updateDashboard(); }
+        function clearAllFilters() { currentFilters = { mes: 'TODOS', dealer: 'TODOS', cliente: 'TODOS', modelo: null, estado: null, tecnologia: null, gravedad: null }; document.getElementById('table_search').value = ''; searchTerm = ''; populateDropdowns(); updateDashboard(); }
         function onSearchTable(val) { searchTerm = val.toLowerCase().trim(); currentPage = 1; renderTableOnly(); }
         function toggleHeatmap() { isHeatmapMode = !isHeatmapMode; updateDashboard(); }
         function closeModal() { document.getElementById('info_modal').style.display = 'none'; }
@@ -419,6 +453,7 @@
             if (event.target == modal) { modal.style.display = 'none'; }
         }
 
+        // El filtro de Mes NO elimina máquinas, solo afecta el cálculo de horas operadas
         function getFilteredData() {
             return rawData.filter(d => 
                 (currentFilters.dealer === 'TODOS' || d.dealer === currentFilters.dealer) &&
@@ -451,7 +486,7 @@
 
             try {
                 renderActiveFilterTags(); 
-                renderTrendChart(); // Llamada al gráfico histórico actualizado
+                renderTrendChart(); 
                 renderMapChart(filteredData); 
                 renderDonaChart(filteredData); 
                 renderTechChart(filteredData);
@@ -487,7 +522,7 @@
             if(trendCard) {
                 if(isDeepFiltered || !chartData) {
                     trendCard.style.opacity = '0.4';
-                    trendCard.title = "La gráfica histórica ignora filtros de estado o tecnología, solo muestra Cliente o Global.";
+                    trendCard.title = "La gráfica histórica se muestra a nivel Cliente o Global.";
                 } else {
                     trendCard.style.opacity = '1';
                     trendCard.title = "";
@@ -498,7 +533,6 @@
                 chartData = trendDataGlobal["GLOBAL"] || [];
             }
 
-            // Transformar la data para procesar porcentajes y Semanas
             const processedData = chartData.map(d => {
                 const total = d.total || (d.online + d.offline);
                 const percOnline = total > 0 ? Math.round((d.online / total) * 100) : 0;
@@ -531,13 +565,9 @@
             
             if (isHeatmapMode) {
                 traces.push({
-                    type: 'densitymapbox',
-                    lat: validData.map(d => d.lat),
-                    lon: validData.map(d => d.lon),
+                    type: 'densitymapbox', lat: validData.map(d => d.lat), lon: validData.map(d => d.lon),
                     z: validData.map(d => d.estado === 'Operando' ? 1 : (d.dias_offline > 0 ? d.dias_offline : 5)),
-                    radius: 20,
-                    colorscale: 'Hot',
-                    hoverinfo: 'skip'
+                    radius: 20, colorscale: 'Hot', hoverinfo: 'skip'
                 });
             } else {
                 const colorMap = { 'Conectado': '#10B981', '1 a 3 días': '#F59E0B', '4 a 7 días': '#E84C22', 'Más de 7 días': '#BC1818', 'Sin registro previo': '#5A5A59' };
@@ -546,31 +576,20 @@
                     const groupData = validData.filter(d => d.gravedad === g);
                     if (groupData.length > 0) {
                         traces.push({ 
-                            type: 'scattermapbox', 
-                            lat: groupData.map(d => d.lat), 
-                            lon: groupData.map(d => d.lon), 
-                            mode: 'markers', 
-                            marker: { size: 10, color: colorMap[g] || '#5A5A59' }, 
-                            name: g, 
-                            customdata: groupData.map(d => d.generador), 
-                            text: groupData.map(d => `Cliente: ${d.cliente}<br><i>Clic para detalles</i>`), 
-                            hovertemplate: '<b>Generador: %{customdata}</b><br>%{text}<extra></extra>' 
+                            type: 'scattermapbox', lat: groupData.map(d => d.lat), lon: groupData.map(d => d.lon), mode: 'markers', 
+                            marker: { size: 10, color: colorMap[g] || '#5A5A59' }, name: g, customdata: groupData.map(d => d.generador), 
+                            text: groupData.map(d => `Cliente: ${d.cliente}<br><i>Clic para detalles</i>`), hovertemplate: '<b>Generador: %{customdata}</b><br>%{text}<extra></extra>' 
                         });
                     }
                 });
             }
 
-            if (traces.length === 0) {
-                traces.push({ type: 'scattermapbox', lat: [], lon: [], mode: 'markers' });
-            }
-
+            if (traces.length === 0) traces.push({ type: 'scattermapbox', lat: [], lon: [], mode: 'markers' });
             Plotly.react('chart_map', traces, layout, { responsive: true, displayModeBar: false });
             
             if (!isHeatmapMode) {
                 const elMap = document.getElementById('chart_map');
-                if (elMap && typeof elMap.removeAllListeners === 'function') {
-                    elMap.removeAllListeners('plotly_click');
-                }
+                if (elMap && typeof elMap.removeAllListeners === 'function') elMap.removeAllListeners('plotly_click');
                 if (elMap) {
                     elMap.on('plotly_click', d => { 
                         if (!d || !d.points || d.points.length === 0) return;
@@ -587,7 +606,6 @@
                                 </div>
                             `;
                             document.getElementById('info_modal').style.display = 'flex';
-                            
                             document.getElementById('table_search').value = clickedGen; 
                             onSearchTable(clickedGen); 
                         }
@@ -705,16 +723,21 @@
                     else if(r.gravedad === 'Más de 7 días') gravBadge = '<span class="badge-p1">Más de 7 días</span>';
                     else gravBadge = `<span class="badge-mid">${r.gravedad}</span>`;
                 }
+
+                // Cálculo de horas según el filtro de mes
+                let horasCalc = calcularHorasOperadas(r.lecturas, currentFilters.mes);
+                let horasVisual = horasCalc === "-" ? "-" : Number(horasCalc).toLocaleString('es-CO', {minimumFractionDigits: 1, maximumFractionDigits: 1}) + ' h';
+
                 tableHTML += `<tr>
                     <td class="text-sub">${r.dealer}</td>
                     <td class="font-bold">${r.generador}</td>
                     <td class="text-sub">${r.cliente}</td>
                     <td class="text-sub">${r.modelo}</td>
                     <td class="font-bold">${r.horometro_visual}</td>
+                    <td class="font-bold" style="color:var(--artimo-rojo-vivo); font-size:14px;">${horasVisual}</td>
                     <td>${statusBadge}</td>
                     <td class="text-sub">${r.fecha}</td>
                     <td class="font-bold" style="text-align:center;">${diasStr}</td>
-                    <td>${gravBadge}</td>
                     <td><strong style="font-size:12px;">${r.plan_accion}</strong></td>
                 </tr>`;
             });
@@ -724,13 +747,10 @@
             
             const btnPrev = document.getElementById('btn_prev');
             const btnNext = document.getElementById('btn_next');
-            
             btnPrev.disabled = currentPage === 1;
             btnNext.disabled = currentPage === totalPages;
-            
             btnPrev.style.opacity = currentPage === 1 ? '0.5' : '1';
             btnPrev.style.cursor = currentPage === 1 ? 'not-allowed' : 'pointer';
-            
             btnNext.style.opacity = currentPage === totalPages ? '0.5' : '1';
             btnNext.style.cursor = currentPage === totalPages ? 'not-allowed' : 'pointer';
         }
@@ -738,11 +758,11 @@
         function exportToCSV() {
             const dataToExport = getFilteredData().filter(d => d.generador.toLowerCase().includes(searchTerm));
             if (dataToExport.length === 0) return alert("No hay datos para exportar.");
-            const headers = ["Dealer", "Generador", "Cliente", "Tecnologia", "Modelo_Script", "Horometro", "Estado", "Ultima_Conexion", "Severidad", "Dias_Desconectado", "Latitud", "Longitud", "Plan_de_Accion"];
+            const headers = ["Dealer", "Generador", "Cliente", "Tecnologia", "Modelo", "Horometro_Total", "Horas_Operadas", "Estado", "Ultima_Conexion", "Plan_de_Accion"];
             const csvRows = [headers.join(',')];
             dataToExport.forEach(r => {
-                const latStr = r.lat !== null ? r.lat : ''; const lonStr = r.lon !== null ? r.lon : '';
-                const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, `"${r.horometro_visual}"`, `"${r.estado}"`, `"${r.fecha}"`, `"${r.gravedad}"`, r.dias_offline, latStr, lonStr, `"${r.plan_accion}"` ];
+                let horasCalc = calcularHorasOperadas(r.lecturas, currentFilters.mes);
+                const values = [ `"${r.dealer}"`, `"${r.generador}"`, `"${r.cliente}"`, `"${r.tecnologia}"`, `"${r.modelo}"`, `"${r.horometro_visual}"`, `"${horasCalc}"`, `"${r.estado}"`, `"${r.fecha}"`, `"${r.plan_accion}"` ];
                 csvRows.push(values.join(','));
             });
             const blob = new Blob(["\uFEFF" + csvRows.join('\n')], { type: 'text/csv;charset=utf-8;' });
