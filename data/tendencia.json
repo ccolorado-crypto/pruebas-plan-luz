@@ -5,11 +5,23 @@
             "online": 427,
             "offline": 270,
             "total": 697
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 416,
+            "offline": 285,
+            "total": 701
         }
     ],
     "CASA INGLESA - RENTAL": [
         {
             "fecha": "2026-08-23",
+            "online": 4,
+            "offline": 4,
+            "total": 8
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 4,
             "offline": 4,
             "total": 8
@@ -21,11 +33,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "PV. SERVICES CAPELLA SOLAR": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -37,11 +61,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "ACEIS S.A.": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -53,11 +89,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "AGENCIA DE CARGA AVIATUR S.A": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -69,11 +117,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "AGRODEX INTERNATIONAL S.A.S": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -85,6 +145,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "ALIANZA FIDUCIARIA SA FIDEICOMISOS (PA)": [
@@ -93,11 +159,23 @@
             "online": 31,
             "offline": 28,
             "total": 59
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 32,
+            "offline": 27,
+            "total": 59
         }
     ],
     "ALTO TESORO ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -109,11 +187,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "B BRAUN SURGICAL S.A.S": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -125,11 +215,23 @@
             "online": 25,
             "offline": 1,
             "total": 26
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 25,
+            "offline": 1,
+            "total": 26
         }
     ],
     "BLUE TOWER PROPIEDAD HORIZONTAL": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -141,11 +243,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "BOG HOTEL OPERADORA SAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -157,11 +271,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CENTRO COMERCIAL AVES MARIA ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -173,11 +299,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CENTRO COMERCIAL PASEO DE LA CASTELLANA CARTAGENA": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -189,11 +327,23 @@
             "online": 3,
             "offline": 0,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
         }
     ],
     "CENTRO COMERCIAL SAN DIEGO": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -205,11 +355,23 @@
             "online": 10,
             "offline": 2,
             "total": 12
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 10,
+            "offline": 2,
+            "total": 12
         }
     ],
     "CENTRO EMPRESARIAL CIUDAD DEL RIO": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -221,11 +383,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CENTRO EMPRESARIAL POTOSI": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -237,11 +411,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "CERAMICA SAN LORENZO INDUSTRIAL DE COLOMBIA S.A": [
         {
             "fecha": "2026-08-23",
+            "online": 4,
+            "offline": 2,
+            "total": 6
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 4,
             "offline": 2,
             "total": 6
@@ -253,11 +439,23 @@
             "online": 6,
             "offline": 0,
             "total": 6
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 6,
+            "offline": 0,
+            "total": 6
         }
     ],
     "CLINICA DE LA COSTA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 2,
+            "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 2,
             "total": 3
@@ -269,11 +467,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CLINICA MARLY CHIA": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -285,11 +495,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CLINICA VIDA PLENA": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -301,11 +523,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "COMERCIAL ALLAN S A S": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -317,11 +551,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "COMPAÑIA HOTELERA CARTAGENA DE INDIAS S.A.": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -333,6 +579,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "COMPLEJO COMERCIAL ZONA 2": [
@@ -341,11 +593,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "COMPLEJO PORTO AZUL": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 2,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 2,
             "total": 2
@@ -357,11 +621,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CONJUNTO CONTINENTAL BOGOTA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -373,11 +649,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CONJUNTO RESIDENCIAL CATALEJO ALFA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -389,11 +677,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CONJUNTO RESIDENCIAL LUCCA PH": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -405,11 +705,23 @@
             "online": 2,
             "offline": 1,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 1,
+            "total": 3
         }
     ],
     "CONTENTO BPS SA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -421,11 +733,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CORPORACION SALUD UN": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 2,
+            "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 2,
             "total": 3
@@ -437,11 +761,23 @@
             "online": 9,
             "offline": 2,
             "total": 11
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 9,
+            "offline": 2,
+            "total": 11
         }
     ],
     "CREMHELADO": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -453,6 +789,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "DATACENTER ZETTA": [
@@ -461,11 +803,23 @@
             "online": 2,
             "offline": 1,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
         }
     ],
     "DELIPAVO LTDA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -477,11 +831,23 @@
             "online": 0,
             "offline": 6,
             "total": 6
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 6,
+            "total": 6
         }
     ],
     "DIPLOMAT WYNDHAM BOGOTA": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -493,6 +859,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "DISICO S.A.": [
@@ -501,11 +873,23 @@
             "online": 13,
             "offline": 3,
             "total": 16
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 12,
+            "offline": 4,
+            "total": 16
         }
     ],
     "DISPAPELES SAS": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -517,11 +901,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO ALTOS DE KARON": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -533,11 +929,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO AVANT GARDE PH": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -549,11 +957,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO BANCO DE OCCIDENTE": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -565,11 +985,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO BBVA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -581,11 +1013,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO BOGOTA CORPORATE CENTER - UNE - MARSH": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 1,
+            "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 1,
             "total": 3
@@ -597,11 +1041,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO CALLE 120 - PROPIEDAD HORIZONTAL": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -613,11 +1069,23 @@
             "online": 4,
             "offline": 0,
             "total": 4
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 1,
+            "total": 4
         }
     ],
     "EDIFICIO CENTRO EMPRESARIAL PARALELO 26 PH": [
         {
             "fecha": "2026-08-23",
+            "online": 3,
+            "offline": 0,
+            "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 3,
             "offline": 0,
             "total": 3
@@ -629,11 +1097,23 @@
             "online": 3,
             "offline": 0,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
         }
     ],
     "EDIFICIO CITY MÉDICA - PROPIEDAD HORIZONTAL": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -645,11 +1125,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO CLINICA MEDELLIN EL POBLADO PH ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -661,11 +1153,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "EDIFICIO ECOTOWER 93 PROPIEDAD HORIZONTAL": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -677,11 +1181,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO GRANAHORRAR": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -693,11 +1209,23 @@
             "online": 3,
             "offline": 1,
             "total": 4
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 1,
+            "total": 4
         }
     ],
     "EDIFICIO LAS VILLAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -709,11 +1237,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "EDIFICIO MIXTO MEDICAL PH": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -725,11 +1265,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO MORROS EPIC": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -741,6 +1293,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO PALMA REAL PROPIEDAD HORIZONTAL": [
@@ -749,11 +1307,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO PORTA 100 PH": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -765,11 +1335,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "EDIFICIO PORVENIR ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -781,11 +1363,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO QBO PH": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -797,11 +1391,23 @@
             "online": 1,
             "offline": 2,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 2,
+            "total": 3
         }
     ],
     "EDIFICIO TERPEL PROPIEDAD HORIZONTAL": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -813,11 +1419,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "EDIFICIO TORRE CONCASA PH": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -829,11 +1447,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO WORLD BUSINESS CENTER PH": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -845,11 +1475,23 @@
             "online": 1,
             "offline": 1,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
         }
     ],
     "FALABELLA DE COLOMBIA S A": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -861,11 +1503,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "FRIGORIFICO METROPOLITANO SAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -877,11 +1531,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "FUNDACION HOSPITAL INFANTIL NAPOLEON FRANCO": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -893,11 +1559,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "FUNDACION POLICLINICA DE CIENAGA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -909,11 +1587,23 @@
             "online": 8,
             "offline": 5,
             "total": 13
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 8,
+            "offline": 5,
+            "total": 13
         }
     ],
     "FUNDACION WWB COLOMBIA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -925,11 +1615,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "GENCELL PHARMA": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -941,11 +1643,23 @@
             "online": 1,
             "offline": 2,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 2,
+            "total": 3
         }
     ],
     "GIROS Y FINANZAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -957,11 +1671,23 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "HOSPITAL UNIVERSIDAD DEL NORTE": [
         {
             "fecha": "2026-08-23",
+            "online": 3,
+            "offline": 0,
+            "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 3,
             "offline": 0,
             "total": 3
@@ -973,11 +1699,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "HOTEL ALOFT": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -989,11 +1727,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "HOTEL CHARLEE": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1005,11 +1755,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "HOTEL DANN CARLTON BOGOTA": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1021,11 +1783,23 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "HOTEL SABANETA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1037,11 +1811,23 @@
             "online": 13,
             "offline": 8,
             "total": 21
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 13,
+            "offline": 8,
+            "total": 21
         }
     ],
     "HOTELES OXO": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1053,11 +1839,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "ICOLTRANS SAS - ENERGIA": [
         {
             "fecha": "2026-08-23",
+            "online": 3,
+            "offline": 1,
+            "total": 4
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 3,
             "offline": 1,
             "total": 4
@@ -1069,11 +1867,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "IMPLANTES Y SISTEMAS ORTOPEDICOS SA": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1085,11 +1895,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "INGRAM MICRO SAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1101,11 +1923,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "LA RECETTA SOLUCIONES GASTRONOMICAS INTEGRADAS SA": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1117,11 +1951,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "LABORATORIO CLINICO BERNARDO ESPINOSA": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1133,11 +1979,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "LAYCOM SAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1149,6 +2007,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "MAQUITE": [
@@ -1156,6 +2020,12 @@
             "fecha": "2026-08-23",
             "online": 1,
             "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
             "total": 1
         }
     ],
@@ -1165,11 +2035,23 @@
             "online": 6,
             "offline": 3,
             "total": 9
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 5,
+            "offline": 4,
+            "total": 9
         }
     ],
     "MILLENIUM CENTRO COMERCIAL Y RESIDENCIAL": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1181,11 +2063,23 @@
             "online": 12,
             "offline": 0,
             "total": 12
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 12,
+            "total": 12
         }
     ],
     "MTS CONSULTORÍA + GESTIÓN S.A.S": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1197,11 +2091,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "NATIONAL CLINICS CENTENARIO S.A.S": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1213,11 +2119,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "NOVASALUD CARIBE IPS S.A": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1229,11 +2147,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "PALMS AVENUE": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1245,11 +2175,23 @@
             "online": 4,
             "offline": 0,
             "total": 4
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 4,
+            "offline": 0,
+            "total": 4
         }
     ],
     "PARQUE EMPRESARIAL PH": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1261,11 +2203,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "PERFECT BODY": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1277,11 +2231,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "PLAZA MAYOR CONVENCIONES Y EXPOSICIONES S.A": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1293,11 +2259,23 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "POSTOBON SA - ESTACIONARIO": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1309,11 +2287,23 @@
             "online": 1,
             "offline": 1,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
         }
     ],
     "PRIMAX COLOMBIA S.A": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1325,11 +2315,23 @@
             "online": 3,
             "offline": 0,
             "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
         }
     ],
     "RUTA N ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1341,11 +2343,23 @@
             "online": 5,
             "offline": 0,
             "total": 5
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 5,
+            "offline": 0,
+            "total": 5
         }
     ],
     "SALUD Y SERVICIOS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1357,11 +2371,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "SERVIENTREGA S A DIRECCION GENERAL": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -1373,11 +2399,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "SOCIEDAD NACIONAL DE LA CRUZ ROJA COLOMBIANA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1389,6 +2427,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "SODIMAC COLOMBIA S A": [
@@ -1397,11 +2441,23 @@
             "online": 18,
             "offline": 17,
             "total": 35
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 19,
+            "offline": 16,
+            "total": 35
         }
     ],
     "SQUARE APARTAMENTOS ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1413,11 +2469,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "STEPAN COLOMBIA SAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1429,11 +2497,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "SURTIGAS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -1445,11 +2525,23 @@
             "online": 1,
             "offline": 1,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
         }
     ],
     "TELEPERFORMANCE": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1461,11 +2553,23 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "TERRACINA PLAZA PH ACEIS": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1477,11 +2581,23 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "TORRE EMPRESARIAL DAVIVIENDA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1493,11 +2609,23 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "UNIVERSIDAD DEL NORTE": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 9,
+            "total": 11
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 9,
             "total": 11
@@ -1509,6 +2637,12 @@
             "online": 8,
             "offline": 4,
             "total": 12
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 7,
+            "offline": 5,
+            "total": 12
         }
     ],
     "UNIVERSIDAD EAFIT": [
@@ -1517,11 +2651,23 @@
             "online": 10,
             "offline": 0,
             "total": 10
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 8,
+            "offline": 2,
+            "total": 10
         }
     ],
     "UNIVERSIDAD LA GRAN COLOMBIA": [
         {
             "fecha": "2026-08-23",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1533,11 +2679,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "VENTAS Y SERVICIOS SA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1549,11 +2707,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "YAZAKI CIEMEL SA": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1565,6 +2735,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CONGO FILMS": [
@@ -1573,11 +2749,23 @@
             "online": 0,
             "offline": 13,
             "total": 13
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 11,
+            "total": 13
         }
     ],
     "INGENERGIA": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 3,
+            "total": 3
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 3,
             "total": 3
@@ -1589,11 +2777,23 @@
             "online": 0,
             "offline": 5,
             "total": 5
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 5,
+            "total": 5
         }
     ],
     "COMISIONAMIENTO ENERGÍA": [
         {
             "fecha": "2026-08-23",
+            "online": 5,
+            "offline": 18,
+            "total": 23
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 5,
             "offline": 18,
             "total": 23
@@ -1605,11 +2805,23 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 3,
+            "total": 3
         }
     ],
     "OPPERAR COLOMBIA SAS EST": [
         {
             "fecha": "2026-08-23",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1621,11 +2833,23 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CORPORATIVO SCHNELLECKE": [
         {
             "fecha": "2026-08-23",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1637,6 +2861,12 @@
             "online": 64,
             "offline": 59,
             "total": 123
+        },
+        {
+            "fecha": "2026-08-28",
+            "online": 67,
+            "offline": 59,
+            "total": 126
         }
     ]
 }
