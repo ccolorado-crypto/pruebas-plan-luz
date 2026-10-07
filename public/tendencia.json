@@ -11,6 +11,12 @@
             "online": 416,
             "offline": 285,
             "total": 701
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 397,
+            "offline": 301,
+            "total": 698
         }
     ],
     "CASA INGLESA - RENTAL": [
@@ -25,6 +31,12 @@
             "online": 4,
             "offline": 4,
             "total": 8
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 8,
+            "offline": 0,
+            "total": 8
         }
     ],
     "BANCO AMERICA CENTRAL": [
@@ -36,6 +48,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -53,6 +71,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "TSK COMPANY": [
@@ -64,6 +88,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -81,6 +111,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "AECSA SA": [
@@ -92,6 +128,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -109,6 +151,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "AGRO AVICOLA SAN MARINO SA": [
@@ -120,6 +168,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -137,6 +191,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "AGRUPACION ALTOS DE BELLAVISTA": [
@@ -148,6 +208,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -165,6 +231,12 @@
             "online": 32,
             "offline": 27,
             "total": 59
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 33,
+            "offline": 26,
+            "total": 59
         }
     ],
     "ALTO TESORO ACEIS": [
@@ -176,6 +248,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -193,6 +271,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "B BRAUN SURGICAL S.A.S": [
@@ -204,6 +288,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -221,6 +311,12 @@
             "online": 25,
             "offline": 1,
             "total": 26
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 25,
+            "offline": 1,
+            "total": 26
         }
     ],
     "BLUE TOWER PROPIEDAD HORIZONTAL": [
@@ -232,6 +328,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -249,6 +351,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "BOG HOTEL OPERADORA SAS": [
@@ -260,6 +368,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -277,6 +391,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CENTRO COMERCIAL AVES MARIA ACEIS": [
@@ -288,6 +408,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -305,6 +431,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CENTRO COMERCIAL PASEO DE LA CASTELLANA CARTAGENA": [
@@ -316,6 +448,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -333,6 +471,12 @@
             "online": 3,
             "offline": 0,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 3,
+            "offline": 0,
+            "total": 3
         }
     ],
     "CENTRO COMERCIAL SAN DIEGO": [
@@ -347,6 +491,12 @@
             "online": 1,
             "offline": 1,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "CENTRO COMERCIAL SANTAFE PH": [
@@ -358,6 +508,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 10,
+            "offline": 2,
+            "total": 12
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 10,
             "offline": 2,
             "total": 12
@@ -375,6 +531,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CENTRO EMPRESARIAL DANN FINANCIERA HOTEL DANN CARLTON PH": [
@@ -386,6 +548,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -403,6 +571,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CENTRO LOGISTICO DE OCCIDENTE - PROPIEDAD HORIZONTAL": [
@@ -414,6 +588,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -431,6 +611,12 @@
             "online": 4,
             "offline": 2,
             "total": 6
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 4,
+            "offline": 2,
+            "total": 6
         }
     ],
     "CIMENTO S.A.S": [
@@ -445,6 +631,12 @@
             "online": 6,
             "offline": 0,
             "total": 6
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 3,
+            "offline": 3,
+            "total": 6
         }
     ],
     "CLINICA DE LA COSTA": [
@@ -456,6 +648,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 2,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 2,
             "total": 3
@@ -473,6 +671,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CLINICA MARLY CHIA": [
@@ -484,6 +688,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -501,6 +711,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CLINICA VIDA PLENA": [
@@ -512,6 +728,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -529,6 +751,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "COMERCIAL ALLAN S A S": [
@@ -540,6 +768,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -557,6 +791,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "COMPAÑIA HOTELERA CARTAGENA DE INDIAS S.A.": [
@@ -568,6 +808,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -585,6 +831,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "COMPLEJO COMERCIAL ZONA 2": [
@@ -596,6 +848,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -613,6 +871,12 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "COMWARE S A": [
@@ -624,6 +888,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -641,6 +911,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CONJUNTO INMOBILIARIO SAOPAULO": [
@@ -655,6 +931,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CONJUNTO RESIDENCIAL CATALEJO ALFA": [
@@ -666,6 +948,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -683,6 +971,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "CONJUNTO RESIDENCIAL LUCCA PH": [
@@ -697,6 +991,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CONSORCIO VIAL ANDINO": [
@@ -708,6 +1008,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 1,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 1,
             "total": 3
@@ -725,6 +1031,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "COPROPIEDAD ZONA FRANCA PERMANENTE PARQUE CENTRAL PH": [
@@ -736,6 +1048,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -753,6 +1071,12 @@
             "online": 1,
             "offline": 2,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 2,
+            "total": 3
         }
     ],
     "COVIANDINA TERCER TERCIO": [
@@ -764,6 +1088,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 9,
+            "offline": 2,
+            "total": 11
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 9,
             "offline": 2,
             "total": 11
@@ -781,6 +1111,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "D1 SAS": [
@@ -792,6 +1128,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -809,6 +1151,12 @@
             "online": 3,
             "offline": 0,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 3,
+            "offline": 0,
+            "total": 3
         }
     ],
     "DELIPAVO LTDA": [
@@ -823,6 +1171,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "DESARROLLADORA CC FONTANAR S.A.S": [
@@ -834,6 +1188,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 6,
+            "total": 6
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 6,
             "total": 6
@@ -851,6 +1211,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "DIRECCIÓN EJECUTIVA SECCIONAL DE ADMINISTRACIÓN JUDICIAL IBAGUÉ": [
@@ -862,6 +1228,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -879,6 +1251,12 @@
             "online": 12,
             "offline": 4,
             "total": 16
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 12,
+            "offline": 4,
+            "total": 16
         }
     ],
     "DISPAPELES SAS": [
@@ -890,6 +1268,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -907,6 +1291,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO ALTOS DE KARON": [
@@ -918,6 +1308,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -935,6 +1331,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO AVANT GARDE PH": [
@@ -946,6 +1348,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -963,6 +1371,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO BANCO DE OCCIDENTE": [
@@ -977,6 +1391,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "EDIFICIO BANCOLOMBIA LA PLAYA": [
@@ -988,6 +1408,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1005,6 +1431,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO BLUE TOWER KPMG PEAT MARWICK PH": [
@@ -1016,6 +1448,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1033,6 +1471,12 @@
             "online": 2,
             "offline": 1,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 3,
+            "total": 3
         }
     ],
     "EDIFICIO C75-PROPIEDAD HORIZONTAL": [
@@ -1044,6 +1488,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1061,6 +1511,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO CENTRO COMERCIAL Y DE NEGOCIOS TORRE CENTRAL": [
@@ -1072,6 +1528,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 1,
+            "total": 4
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 3,
             "offline": 1,
             "total": 4
@@ -1089,6 +1551,12 @@
             "online": 3,
             "offline": 0,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 3,
+            "total": 3
         }
     ],
     "EDIFICIO CITY BUSINESS PRIMERA ETAPA PH": [
@@ -1100,6 +1568,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 3,
             "offline": 0,
             "total": 3
@@ -1117,6 +1591,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO CLINICA COA CONSULTORIOS DEL SUR PH": [
@@ -1128,6 +1608,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1145,6 +1631,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "EDIFICIO CORFINSURA": [
@@ -1159,6 +1651,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "EDIFICIO ECOTOWER 93 PROPIEDAD HORIZONTAL": [
@@ -1170,6 +1668,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1187,6 +1691,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO GRANAHORRAR": [
@@ -1200,6 +1710,12 @@
             "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
             "total": 1
         }
     ],
@@ -1215,6 +1731,12 @@
             "online": 3,
             "offline": 1,
             "total": 4
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 4,
+            "total": 4
         }
     ],
     "EDIFICIO LAS VILLAS": [
@@ -1226,6 +1748,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1243,6 +1771,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "EDIFICIO MIXTO MEDICAL PH": [
@@ -1254,6 +1788,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1271,6 +1811,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO MORROS EPIC": [
@@ -1282,6 +1828,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1299,6 +1851,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO PALMA REAL PROPIEDAD HORIZONTAL": [
@@ -1310,6 +1868,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1327,6 +1891,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO PORTO 100 - PROPIEDAD HORIZONTAL": [
@@ -1338,6 +1908,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1355,6 +1931,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "EDIFICIO PROYECTO PARQUE 86": [
@@ -1366,6 +1948,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1383,6 +1971,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO TELEPORT BUSINESS PARK PH": [
@@ -1394,6 +1988,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 2,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 2,
             "total": 3
@@ -1411,6 +2011,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "EDIFICIO TORRE ALMAGRAN": [
@@ -1422,6 +2028,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1439,6 +2051,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "EDIFICIO TORRE INTERMEDICA ACEIS": [
@@ -1452,6 +2070,12 @@
             "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
             "total": 1
         }
     ],
@@ -1467,6 +2091,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "EMPRESA DE ENERGIA DEL PACIFICO S.A. ESP": [
@@ -1478,6 +2108,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -1495,6 +2131,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "FONDO DE INVERSION COLECTIVA INMOBILIARIO INMOVAL": [
@@ -1506,6 +2148,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1523,6 +2171,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "FUNDACION CLINICA DEL NORTE": [
@@ -1534,6 +2188,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1551,6 +2211,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "FUNDACION HOSPITAL INFANTIL UNIVERSITARIO DE SAN JOSE": [
@@ -1562,6 +2228,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1579,6 +2251,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "FUNDACION SANTA FE DE BOGOTA": [
@@ -1593,6 +2271,12 @@
             "online": 8,
             "offline": 5,
             "total": 13
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 7,
+            "offline": 6,
+            "total": 13
         }
     ],
     "FUNDACION WWB COLOMBIA": [
@@ -1604,6 +2288,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1621,6 +2311,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "GENCELL PHARMA": [
@@ -1632,6 +2328,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1649,6 +2351,12 @@
             "online": 1,
             "offline": 2,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 2,
+            "total": 3
         }
     ],
     "GIROS Y FINANZAS": [
@@ -1660,6 +2368,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1677,6 +2391,12 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "HOSPITAL UNIVERSIDAD DEL NORTE": [
@@ -1688,6 +2408,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 3,
             "offline": 0,
             "total": 3
@@ -1705,6 +2431,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "HOTEL ALOFT": [
@@ -1716,6 +2448,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1733,6 +2471,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "HOTEL CHARLEE": [
@@ -1744,6 +2488,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1761,6 +2511,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "HOTEL DANN CARLTON BOGOTA": [
@@ -1772,6 +2528,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -1789,6 +2551,12 @@
             "online": 0,
             "offline": 2,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 2,
+            "total": 2
         }
     ],
     "HOTEL SABANETA": [
@@ -1800,6 +2568,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1817,6 +2591,12 @@
             "online": 13,
             "offline": 8,
             "total": 21
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 12,
+            "offline": 9,
+            "total": 21
         }
     ],
     "HOTELES OXO": [
@@ -1828,6 +2608,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1845,6 +2631,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "ICOLTRANS SAS - ENERGIA": [
@@ -1856,6 +2648,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 1,
+            "total": 4
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 3,
             "offline": 1,
             "total": 4
@@ -1873,6 +2671,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "IMPLANTES Y SISTEMAS ORTOPEDICOS SA": [
@@ -1884,6 +2688,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1901,6 +2711,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "INGRAM MICRO SAS": [
@@ -1912,6 +2728,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -1929,6 +2751,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "LA RECETTA SOLUCIONES GASTRONOMICAS INTEGRADAS SA": [
@@ -1940,6 +2768,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1957,6 +2791,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "LABORATORIO CLINICO BERNARDO ESPINOSA": [
@@ -1968,6 +2808,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -1985,6 +2831,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "LAYCOM SAS": [
@@ -1996,6 +2848,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2013,6 +2871,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "MAQUITE": [
@@ -2026,6 +2890,12 @@
             "fecha": "2026-08-28",
             "online": 0,
             "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
             "total": 1
         }
     ],
@@ -2041,6 +2911,12 @@
             "online": 5,
             "offline": 4,
             "total": 9
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 6,
+            "offline": 3,
+            "total": 9
         }
     ],
     "MILLENIUM CENTRO COMERCIAL Y RESIDENCIAL": [
@@ -2052,6 +2928,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -2069,6 +2951,12 @@
             "online": 0,
             "offline": 12,
             "total": 12
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 12,
+            "total": 12
         }
     ],
     "MTS CONSULTORÍA + GESTIÓN S.A.S": [
@@ -2080,6 +2968,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -2097,6 +2991,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "NATIONAL CLINICS CENTENARIO S.A.S": [
@@ -2108,6 +3008,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2125,6 +3031,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "NOVASALUD CARIBE IPS S.A": [
@@ -2136,6 +3048,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -2153,6 +3071,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "PALMS AVENUE": [
@@ -2164,6 +3088,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2181,6 +3111,12 @@
             "online": 4,
             "offline": 0,
             "total": 4
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 4,
+            "offline": 0,
+            "total": 4
         }
     ],
     "PARQUE EMPRESARIAL PH": [
@@ -2195,6 +3131,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "PDC VINOS Y LICORES SAS": [
@@ -2206,6 +3148,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2223,6 +3171,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "PLATINUM SUPERIOR": [
@@ -2236,6 +3190,12 @@
             "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
             "total": 1
         }
     ],
@@ -2251,6 +3211,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 1,
+            "total": 2
         }
     ],
     "POLLOS JA S.A": [
@@ -2262,6 +3228,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 2,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 2,
             "total": 2
@@ -2279,6 +3251,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "PRICESMART DE COLOMBIA": [
@@ -2290,6 +3268,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -2307,6 +3291,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "PROYECTO OPTIMUS COMPLEJO EMPRESARIAL Y HOTELEROS PH": [
@@ -2318,6 +3308,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 3,
+            "offline": 0,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 3,
             "offline": 0,
             "total": 3
@@ -2335,6 +3331,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "SALITRE PLAZA CENTRO COMERCIAL PH": [
@@ -2346,6 +3348,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 5,
+            "offline": 0,
+            "total": 5
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 5,
             "offline": 0,
             "total": 5
@@ -2363,6 +3371,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "SEMPERTEX DE COLOMBIA": [
@@ -2374,6 +3388,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -2391,6 +3411,12 @@
             "online": 1,
             "offline": 1,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 1,
+            "total": 2
         }
     ],
     "SOCIEDAD MEDICA SANTA MARTA": [
@@ -2402,6 +3428,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -2419,6 +3451,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "SOCIEDAD PORTUARIA AGUA DULCE": [
@@ -2430,6 +3468,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 1,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 1,
             "total": 1
@@ -2447,6 +3491,12 @@
             "online": 19,
             "offline": 16,
             "total": 35
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 18,
+            "offline": 17,
+            "total": 35
         }
     ],
     "SQUARE APARTAMENTOS ACEIS": [
@@ -2460,6 +3510,12 @@
             "fecha": "2026-08-28",
             "online": 1,
             "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
             "total": 1
         }
     ],
@@ -2475,6 +3531,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "STEPAN COLOMBIA SAS": [
@@ -2486,6 +3548,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2503,6 +3571,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "SURTIGAS": [
@@ -2514,6 +3588,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 1,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 1,
             "total": 2
@@ -2531,6 +3611,12 @@
             "online": 1,
             "offline": 1,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 1,
+            "total": 2
         }
     ],
     "TELEPERFORMANCE": [
@@ -2542,6 +3628,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -2559,6 +3651,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "TERRACINA PLAZA PH ACEIS": [
@@ -2570,6 +3668,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2587,6 +3691,12 @@
             "online": 2,
             "offline": 0,
             "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 0,
+            "total": 2
         }
     ],
     "TORRE EMPRESARIAL DAVIVIENDA": [
@@ -2601,6 +3711,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "UIC BARCELONA DE INDIAS": [
@@ -2612,6 +3728,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 2,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 2,
             "total": 2
@@ -2629,6 +3751,12 @@
             "online": 2,
             "offline": 9,
             "total": 11
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 2,
+            "offline": 9,
+            "total": 11
         }
     ],
     "UNIVERSIDAD DEL VALLE": [
@@ -2642,6 +3770,12 @@
             "fecha": "2026-08-28",
             "online": 7,
             "offline": 5,
+            "total": 12
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 8,
+            "offline": 4,
             "total": 12
         }
     ],
@@ -2657,6 +3791,12 @@
             "online": 8,
             "offline": 2,
             "total": 10
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 10,
+            "offline": 0,
+            "total": 10
         }
     ],
     "UNIVERSIDAD LA GRAN COLOMBIA": [
@@ -2668,6 +3808,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 0,
+            "total": 2
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 0,
             "total": 2
@@ -2685,6 +3831,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "VENTAS Y SERVICIOS SA": [
@@ -2696,6 +3848,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2713,6 +3871,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "YAZAKI CIEMEL SA": [
@@ -2724,6 +3888,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2741,6 +3911,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "CONGO FILMS": [
@@ -2752,6 +3928,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 2,
+            "offline": 11,
+            "total": 13
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 2,
             "offline": 11,
             "total": 13
@@ -2769,6 +3951,12 @@
             "online": 0,
             "offline": 3,
             "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 3,
+            "total": 3
         }
     ],
     "TECNOGLASS S.A.": [
@@ -2780,6 +3968,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 5,
+            "total": 5
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 5,
             "total": 5
@@ -2797,6 +3991,12 @@
             "online": 5,
             "offline": 18,
             "total": 23
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 6,
+            "offline": 17,
+            "total": 23
         }
     ],
     "LAP DP TRIAL UNITS": [
@@ -2808,6 +4008,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 0,
+            "offline": 3,
+            "total": 3
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 0,
             "offline": 3,
             "total": 3
@@ -2825,6 +4031,12 @@
             "online": 1,
             "offline": 0,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 1,
+            "offline": 0,
+            "total": 1
         }
     ],
     "SERVICIOS INTEGRALES ELÉCTRICOS Y TECNOLÓGICOS SAS": [
@@ -2836,6 +4048,12 @@
         },
         {
             "fecha": "2026-08-28",
+            "online": 1,
+            "offline": 0,
+            "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
             "online": 1,
             "offline": 0,
             "total": 1
@@ -2853,6 +4071,12 @@
             "online": 0,
             "offline": 1,
             "total": 1
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 0,
+            "offline": 1,
+            "total": 1
         }
     ],
     "ARGICO SAS": [
@@ -2867,6 +4091,12 @@
             "online": 67,
             "offline": 59,
             "total": 126
+        },
+        {
+            "fecha": "2026-09-06",
+            "online": 70,
+            "offline": 53,
+            "total": 123
         }
     ]
 }
